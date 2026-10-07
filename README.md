@@ -1,6 +1,6 @@
 # Knowledge RPG
 
-**Website:** https://metur100.github.io/islam-apps/en/knowledge-rpg/ · **Privacy policy:** https://metur100.github.io/islam-apps/en/knowledge-rpg/privacy/
+**Website:** https://metur100.github.io/Islam.Apps.Landing/en/knowledge-rpg/ · **Privacy policy:** https://metur100.github.io/Islam.Apps.Landing/en/knowledge-rpg/privacy/
 
 An Islamic learning RPG in which the hero grows only through real learning: lessons, practice, tests, review and challenges. Knowledge is the hero's strength.
 
