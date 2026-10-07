@@ -10,10 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.knowledgerpg.app"
+      "bundleIdentifier": "com.certidevelopment.knowledgerpg"
     },
     "android": {
-      "package": "com.knowledgerpg.app",
+      "package": "com.certidevelopment.knowledgerpg",
       "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#14173A",
@@ -55,7 +55,8 @@
         }
       ],
       "expo-status-bar",
-      "./plugins/withStableAndroidBuild"
+      "./plugins/withStableAndroidBuild",
+      "./plugins/withReleaseSigning"
     ],
     "experiments": {
       "typedRoutes": true
