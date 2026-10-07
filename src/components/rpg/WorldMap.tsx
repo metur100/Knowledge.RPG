@@ -72,7 +72,7 @@ export function WorldMap({ progress, onSelect }: WorldMapProps) {
                   feedback.tap();
                   onSelect(area.id);
                 }}
-                style={[styles.node, { left: left - 60, top: top - NODE / 2 }]}
+                style={[styles.node, { left: left - 70, top: top - NODE / 2 }]}
               >
                 <View style={[styles.circle, { backgroundColor: unlocked ? theme.accent : colors.locked }, p?.mastered && styles.mastered]}>
                   <Icon name={unlocked ? theme.icon : 'lock'} size={28} color={colors.textOnDark} />
@@ -98,7 +98,7 @@ export function WorldMap({ progress, onSelect }: WorldMapProps) {
 
 const styles = StyleSheet.create({
   root: { height: MAP_HEIGHT, borderRadius: radius.xl, overflow: 'hidden' },
-  node: { position: 'absolute', width: 120, alignItems: 'center', gap: spacing.xs },
+  node: { position: 'absolute', width: 140, alignItems: 'center', gap: spacing.xs },
   circle: {
     width: NODE,
     height: NODE,
@@ -109,5 +109,5 @@ const styles = StyleSheet.create({
     borderColor: 'rgba(255,255,255,0.85)',
   },
   mastered: { borderColor: colors.gold, borderWidth: 4 },
-  label: { backgroundColor: 'rgba(255,255,255,0.92)', borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 2, maxWidth: 116 },
+  label: { backgroundColor: 'rgba(255,255,255,0.92)', borderRadius: radius.sm, paddingHorizontal: 6, paddingVertical: 2, maxWidth: 138 },
 });

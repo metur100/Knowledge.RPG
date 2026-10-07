@@ -137,7 +137,7 @@ function UnitFlow({ unit }: { unit: Unit }) {
             </AppText>
           ) : null}
           {results.some((r) => !r) ? (
-            <Button label={t('home.review')} variant="secondary" icon="refresh" onPress={() => router.replace('/review')} />
+            <Button label={t('master.review')} variant="secondary" icon="refresh" onPress={() => router.replace('/review')} />
           ) : null}
           {next ? (
             <Button

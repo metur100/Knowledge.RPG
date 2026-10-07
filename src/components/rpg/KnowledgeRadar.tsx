@@ -8,9 +8,9 @@ import type { AreaProgress } from '@/hooks/useProgress';
 import { useI18n } from '@/hooks/useI18n';
 import { areaThemes, colors, fonts, spacing } from '@/theme';
 
-const SIZE = 260;
+const SIZE = 300;
 const CENTER = SIZE / 2;
-const RADIUS = 92;
+const RADIUS = 84;
 
 function point(index: number, count: number, value: number) {
   const angle = (Math.PI * 2 * index) / count - Math.PI / 2;
@@ -48,20 +48,23 @@ export function KnowledgeRadar({ areas }: { areas: AreaProgress[] }) {
           return <Circle key={a.id} cx={p.x} cy={p.y} r={4} fill={areaThemes[a.id].accent} />;
         })}
         {areas.map((a, i) => {
-          const p = point(i, count, 1.2);
-          return (
+          const p = point(i, count, 1.3);
+          // Long stat names wrap onto two lines so they stay inside the chart.
+          const words = l(getArea(a.id)?.statName).split(' ');
+          const lines = words.length > 1 ? [words.slice(0, -1).join(' '), words[words.length - 1]] : words;
+          return lines.map((line, row) => (
             <SvgText
-              key={`label-${a.id}`}
+              key={`label-${a.id}-${row}`}
               x={p.x}
-              y={p.y + 4}
+              y={p.y + 4 + (row - (lines.length - 1) / 2) * 13}
               fontSize={11}
               fontFamily={fonts.bold}
               fill={colors.textMuted}
               textAnchor="middle"
             >
-              {l(getArea(a.id)?.statName)}
+              {line}
             </SvgText>
-          );
+          ));
         })}
       </Svg>
     </View>
