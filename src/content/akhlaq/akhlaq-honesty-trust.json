@@ -1,0 +1,113 @@
+{
+  "id": "akhlaq-honesty-trust",
+  "areaId": "akhlaq",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Honesty and Trust", "de": "Ehrlichkeit und Vertrauen", "bs": "Iskrenost i povjerenje" },
+  "description": { "en": "Sidq and amanah in daily life.", "de": "Sidq und Amana im Alltag.", "bs": "Sidk i emanet u svakodnevici." },
+  "lesson": [
+    {
+      "heading": { "en": "Sidq – truthfulness", "de": "Sidq – Wahrhaftigkeit", "bs": "Sidk – iskrenost" },
+      "body": {
+        "en": "The Prophet ﷺ taught that truthfulness leads to goodness, and goodness leads to Paradise. Allah tells the believers to be with those who are truthful.",
+        "de": "Der Prophet ﷺ lehrte, dass Wahrhaftigkeit zum Guten führt und das Gute ins Paradies. Allah fordert die Gläubigen auf, mit den Wahrhaftigen zu sein.",
+        "bs": "Poslanik ﷺ je poučio da iskrenost vodi dobru, a dobro vodi u Džennet. Allah naređuje vjernicima da budu s iskrenima."
+      },
+      "arabic": "صِدْق",
+      "transliteration": "ṣidq"
+    },
+    {
+      "heading": { "en": "Amanah – trustworthiness", "de": "Amana – Vertrauenswürdigkeit", "bs": "Emanet – povjerljivost" },
+      "body": {
+        "en": "An amanah is something entrusted to you: a borrowed item, a secret, a promise or a task. Allah commands us to return trusts to their owners and to keep our promises.",
+        "de": "Eine Amana ist etwas, das dir anvertraut wurde: ein geliehener Gegenstand, ein Geheimnis, ein Versprechen oder eine Aufgabe. Allah gebietet uns, Anvertrautes zurückzugeben und Versprechen zu halten.",
+        "bs": "Emanet je nešto što ti je povjereno: posuđena stvar, tajna, obećanje ili zadatak. Allah nam naređuje da emanete vraćamo vlasnicima i da ispunjavamo obećanja."
+      },
+      "arabic": "أَمَانَة",
+      "transliteration": "amānah"
+    }
+  ],
+  "practiceId": "akhlaq-honesty-trust-p",
+  "testIds": ["akhlaq-honesty-trust-1", "akhlaq-honesty-trust-2", "akhlaq-honesty-trust-3", "akhlaq-honesty-trust-4"],
+  "explanation": {
+    "en": "Honesty and trustworthiness build trust between people – the Prophet ﷺ was known as Al-Amin long before prophethood.",
+    "de": "Ehrlichkeit und Vertrauenswürdigkeit schaffen Vertrauen zwischen Menschen – der Prophet ﷺ war schon lange vor dem Prophetentum als Al-Amin bekannt.",
+    "bs": "Iskrenost i povjerljivost grade povjerenje među ljudima – Poslanik ﷺ je bio poznat kao El-Emin davno prije poslanstva."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "9:119; 4:58; 17:34" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "6094" },
+    { "sourceName": "Sahih Muslim", "sourceReference": "2607" }
+  ],
+  "questions": [
+    {
+      "id": "akhlaq-honesty-trust-p",
+      "type": "multipleChoice",
+      "areaId": "akhlaq",
+      "topic": "amanah",
+      "prompt": { "en": "Which of these is an amanah?", "de": "Was davon ist eine Amana?", "bs": "Šta je od ovoga emanet?" },
+      "options": [
+        { "id": "a", "text": { "en": "A book you borrowed", "de": "Ein geliehenes Buch", "bs": "Posuđena knjiga" } },
+        { "id": "b", "text": { "en": "A cloud in the sky", "de": "Eine Wolke am Himmel", "bs": "Oblak na nebu" } },
+        { "id": "c", "text": { "en": "A song on the radio", "de": "Ein Lied im Radio", "bs": "Pjesma na radiju" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Borrowed things are trusts that must be returned.", "de": "Geliehenes ist anvertraut und muss zurückgegeben werden.", "bs": "Posuđene stvari su emanet koji se mora vratiti." }
+    },
+    {
+      "id": "akhlaq-honesty-trust-1",
+      "type": "scenario",
+      "areaId": "akhlaq",
+      "topic": "sidq",
+      "prompt": { "en": "You accidentally break your mum's favourite cup. Nobody saw it. What do you do?", "de": "Du zerbrichst aus Versehen die Lieblingstasse deiner Mutter. Niemand hat es gesehen. Was tust du?", "bs": "Slučajno razbiješ maminu omiljenu šoljicu. Niko nije vidio. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Hide the pieces", "de": "Die Scherben verstecken", "bs": "Sakriti komadiće" }, "feedback": { "en": "Hiding it is not honest.", "de": "Verstecken ist nicht ehrlich.", "bs": "Skrivanje nije iskreno." } },
+        { "id": "b", "text": { "en": "Tell her the truth and say sorry", "de": "Die Wahrheit sagen und mich entschuldigen", "bs": "Reći istinu i izviniti se" }, "feedback": { "en": "Brave and honest – that is sidq.", "de": "Mutig und ehrlich – das ist Sidq.", "bs": "Hrabro i iskreno – to je sidk." } },
+        { "id": "c", "text": { "en": "Blame my little sister", "de": "Meiner Schwester die Schuld geben", "bs": "Okriviti sestru" }, "feedback": { "en": "That adds a second wrong.", "de": "Das ist ein zweites Unrecht.", "bs": "To je druga nepravda." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": { "en": "Truthfulness leads to goodness, as the Prophet ﷺ taught.", "de": "Wahrhaftigkeit führt zum Guten, wie der Prophet ﷺ lehrte.", "bs": "Iskrenost vodi dobru, kako je poučio Poslanik ﷺ." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6094" }]
+    },
+    {
+      "id": "akhlaq-honesty-trust-2",
+      "type": "scenario",
+      "areaId": "akhlaq",
+      "topic": "amanah",
+      "prompt": { "en": "You find a wallet with money on the playground. What do you do?", "de": "Du findest auf dem Schulhof ein Portemonnaie mit Geld. Was tust du?", "bs": "Na igralištu pronađeš novčanik s novcem. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Keep the money", "de": "Das Geld behalten", "bs": "Zadržati novac" }, "feedback": { "en": "It belongs to someone else.", "de": "Es gehört jemand anderem.", "bs": "Pripada nekom drugom." } },
+        { "id": "b", "text": { "en": "Give it to a teacher so it reaches its owner", "de": "Es einer Lehrkraft geben, damit es zum Besitzer kommt", "bs": "Dati ga učitelju da stigne do vlasnika" }, "feedback": { "en": "You returned the amanah.", "de": "Du hast die Amana zurückgegeben.", "bs": "Vratio si emanet." } },
+        { "id": "c", "text": { "en": "Leave it lying there", "de": "Es liegen lassen", "bs": "Ostaviti ga" }, "feedback": { "en": "It is better to help it get back.", "de": "Besser, du hilfst, dass es zurückkommt.", "bs": "Bolje je pomoći da se vrati." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": { "en": "Allah commands us to return trusts to their owners (4:58).", "de": "Allah gebietet, Anvertrautes den Besitzern zurückzugeben (4:58).", "bs": "Allah naređuje da se emaneti vrate vlasnicima (4:58)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "4:58" }]
+    },
+    {
+      "id": "akhlaq-honesty-trust-3",
+      "type": "fillBlank",
+      "areaId": "akhlaq",
+      "topic": "sidq",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Truthfulness leads to ___, and that leads to Paradise.", "de": "Wahrhaftigkeit führt zum ___, und das führt ins Paradies.", "bs": "Iskrenost vodi ___, a to vodi u Džennet." },
+      "options": [
+        { "id": "a", "text": { "en": "goodness", "de": "Guten", "bs": "dobru" } },
+        { "id": "b", "text": { "en": "wealth", "de": "Reichtum", "bs": "bogatstvu" } },
+        { "id": "c", "text": { "en": "fame", "de": "Ruhm", "bs": "slavi" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Reported in Sahih al-Bukhari and Sahih Muslim.", "de": "Überliefert in Sahih al-Bukhari und Sahih Muslim.", "bs": "Preneseno u Sahihu el-Buhari i Sahihu Muslim." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6094" }, { "sourceName": "Sahih Muslim", "sourceReference": "2607" }]
+    },
+    {
+      "id": "akhlaq-honesty-trust-4",
+      "type": "trueFalse",
+      "areaId": "akhlaq",
+      "topic": "amanah",
+      "prompt": { "en": "A secret a friend tells you is also an amanah.", "de": "Ein Geheimnis, das dir ein Freund erzählt, ist auch eine Amana.", "bs": "Tajna koju ti prijatelj povjeri također je emanet." },
+      "correct": true,
+      "explanation": { "en": "Yes – keeping secrets is part of trustworthiness.", "de": "Ja – Geheimnisse zu bewahren gehört zur Vertrauenswürdigkeit.", "bs": "Da – čuvanje tajni dio je povjerljivosti." }
+    }
+  ]
+}

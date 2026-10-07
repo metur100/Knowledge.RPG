@@ -1,0 +1,112 @@
+{
+  "id": "arabic-words",
+  "areaId": "arabic",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Words of Islam", "de": "Wörter des Islam", "bs": "Riječi islama" },
+  "description": { "en": "Everyday Islamic words and phrases.", "de": "Islamische Wörter und Ausdrücke für jeden Tag.", "bs": "Svakodnevne islamske riječi i izrazi." },
+  "lesson": [
+    {
+      "heading": { "en": "Words", "de": "Wörter", "bs": "Riječi" },
+      "body": {
+        "en": "سَلَام salam – peace · كِتَاب kitab – book · نُور nur – light · عِلْم 'ilm – knowledge · صَبْر sabr – patience · رَحْمَة rahmah – mercy · مَسْجِد masjid – place of prostration (mosque).",
+        "de": "سَلَام Salam – Frieden · كِتَاب Kitab – Buch · نُور Nur – Licht · عِلْم 'Ilm – Wissen · صَبْر Sabr – Geduld · رَحْمَة Rahma – Barmherzigkeit · مَسْجِد Masdschid – Ort der Niederwerfung (Moschee).",
+        "bs": "سَلَام selam – mir · كِتَاب kitab – knjiga · نُور nur – svjetlo · عِلْم ilm – znanje · صَبْر sabr – strpljenje · رَحْمَة rahma – milost · مَسْجِد mesdžid – mjesto sedžde (džamija)."
+      }
+    },
+    {
+      "heading": { "en": "Phrases", "de": "Ausdrücke", "bs": "Izrazi" },
+      "body": {
+        "en": "Bismillah – in the name of Allah (before eating or starting something). Alhamdulillah – all praise is for Allah. Subhanallah – glory be to Allah. Allahu Akbar – Allah is the Greatest. As-salamu alaykum – peace be upon you.",
+        "de": "Bismillah – im Namen Allahs (vor dem Essen oder wenn man etwas beginnt). Alhamdulillah – alles Lob gebührt Allah. Subhanallah – gepriesen sei Allah. Allahu Akbar – Allah ist größer. As-salamu alaikum – Friede sei mit euch.",
+        "bs": "Bismillah – u ime Allaha (prije jela ili početka nečega). Elhamdulillah – hvala Allahu. Subhanallah – slavljen neka je Allah. Allahu ekber – Allah je najveći. Es-selamu alejkum – mir s vama."
+      },
+      "arabic": "بِسْمِ اللّٰه",
+      "transliteration": "bismillāh"
+    }
+  ],
+  "practiceId": "arabic-words-p",
+  "testIds": ["arabic-words-1", "arabic-words-2", "arabic-words-3", "arabic-words-4"],
+  "explanation": {
+    "en": "These words appear in prayer, in the Quran and in daily life – knowing their meaning makes them come alive.",
+    "de": "Diese Wörter kommen im Gebet, im Koran und im Alltag vor – ihre Bedeutung zu kennen macht sie lebendig.",
+    "bs": "Ove riječi se javljaju u namazu, Kur'anu i svakodnevici – poznavanje njihovog značenja oživljava ih."
+  },
+  "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5376" }],
+  "questions": [
+    {
+      "id": "arabic-words-p",
+      "type": "memory",
+      "areaId": "arabic",
+      "topic": "words",
+      "prompt": { "en": "Find the pairs: Arabic word and meaning.", "de": "Finde die Paare: arabisches Wort und Bedeutung.", "bs": "Pronađi parove: arapska riječ i značenje." },
+      "pairs": [
+        { "id": "salam", "left": { "en": "سَلَام", "de": "سَلَام", "bs": "سَلَام" }, "right": { "en": "Peace", "de": "Frieden", "bs": "Mir" } },
+        { "id": "nur", "left": { "en": "نُور", "de": "نُور", "bs": "نُور" }, "right": { "en": "Light", "de": "Licht", "bs": "Svjetlo" } },
+        { "id": "kitab", "left": { "en": "كِتَاب", "de": "كِتَاب", "bs": "كِتَاب" }, "right": { "en": "Book", "de": "Buch", "bs": "Knjiga" } }
+      ],
+      "explanation": { "en": "Salam – peace, Nur – light, Kitab – book.", "de": "Salam – Frieden, Nur – Licht, Kitab – Buch.", "bs": "Selam – mir, nur – svjetlo, kitab – knjiga." }
+    },
+    {
+      "id": "arabic-words-1",
+      "type": "matching",
+      "areaId": "arabic",
+      "topic": "words",
+      "prompt": { "en": "Match each word with its meaning.", "de": "Ordne jedem Wort seine Bedeutung zu.", "bs": "Spoji svaku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "ilm", "left": { "en": "عِلْم", "de": "عِلْم", "bs": "عِلْم" }, "right": { "en": "Knowledge", "de": "Wissen", "bs": "Znanje" } },
+        { "id": "sabr", "left": { "en": "صَبْر", "de": "صَبْر", "bs": "صَبْر" }, "right": { "en": "Patience", "de": "Geduld", "bs": "Strpljenje" } },
+        { "id": "rahmah", "left": { "en": "رَحْمَة", "de": "رَحْمَة", "bs": "رَحْمَة" }, "right": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" } }
+      ],
+      "explanation": { "en": "'Ilm – knowledge, Sabr – patience, Rahmah – mercy.", "de": "'Ilm – Wissen, Sabr – Geduld, Rahma – Barmherzigkeit.", "bs": "Ilm – znanje, sabr – strpljenje, rahma – milost." }
+    },
+    {
+      "id": "arabic-words-2",
+      "type": "multipleChoice",
+      "areaId": "arabic",
+      "topic": "phrases",
+      "prompt": { "en": "What do we say before eating?", "de": "Was sagen wir vor dem Essen?", "bs": "Šta kažemo prije jela?" },
+      "options": [
+        { "id": "a", "text": { "en": "Bismillah", "de": "Bismillah", "bs": "Bismillah" } },
+        { "id": "b", "text": { "en": "Subhanallah", "de": "Subhanallah", "bs": "Subhanallah" } },
+        { "id": "c", "text": { "en": "As-salamu alaykum", "de": "As-salamu alaikum", "bs": "Es-selamu alejkum" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Bismillah – in the name of Allah.", "de": "Bismillah – im Namen Allahs.", "bs": "Bismillah – u ime Allaha." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5376" }]
+    },
+    {
+      "id": "arabic-words-3",
+      "type": "fillBlank",
+      "areaId": "arabic",
+      "topic": "words",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "The word \"masjid\" comes from \"sujud\" and means place of ___.", "de": "Das Wort „Masdschid“ kommt von „Sudschud“ und bedeutet Ort der ___.", "bs": "Riječ „mesdžid“ dolazi od „sedžda“ i znači mjesto ___." },
+      "options": [
+        { "id": "a", "text": { "en": "prostration", "de": "Niederwerfung", "bs": "sedžde" } },
+        { "id": "b", "text": { "en": "trade", "de": "Handels", "bs": "trgovine" } },
+        { "id": "c", "text": { "en": "sleep", "de": "Schlafs", "bs": "spavanja" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "A masjid is a place of prostration.", "de": "Eine Moschee ist ein Ort der Niederwerfung.", "bs": "Mesdžid je mjesto sedžde." }
+    },
+    {
+      "id": "arabic-words-4",
+      "type": "categorize",
+      "areaId": "arabic",
+      "topic": "phrases",
+      "prompt": { "en": "When do we say it?", "de": "Wann sagen wir es?", "bs": "Kada to kažemo?" },
+      "categories": [
+        { "id": "start", "label": { "en": "When starting something", "de": "Wenn wir etwas beginnen", "bs": "Kada nešto počinjemo" } },
+        { "id": "thanks", "label": { "en": "When thankful", "de": "Wenn wir dankbar sind", "bs": "Kada smo zahvalni" } },
+        { "id": "greet", "label": { "en": "When greeting", "de": "Zur Begrüßung", "bs": "Kada pozdravljamo" } }
+      ],
+      "items": [
+        { "id": "bismillah", "text": { "en": "Bismillah", "de": "Bismillah", "bs": "Bismillah" }, "categoryId": "start" },
+        { "id": "alhamdulillah", "text": { "en": "Alhamdulillah", "de": "Alhamdulillah", "bs": "Elhamdulillah" }, "categoryId": "thanks" },
+        { "id": "salam", "text": { "en": "As-salamu alaykum", "de": "As-salamu alaikum", "bs": "Es-selamu alejkum" }, "categoryId": "greet" }
+      ],
+      "explanation": { "en": "Bismillah to start, Alhamdulillah to thank, As-salamu alaykum to greet.", "de": "Bismillah zum Beginnen, Alhamdulillah zum Danken, As-salamu alaikum zum Grüßen.", "bs": "Bismillah za početak, Elhamdulillah za zahvalu, Es-selamu alejkum za pozdrav." }
+    }
+  ]
+}

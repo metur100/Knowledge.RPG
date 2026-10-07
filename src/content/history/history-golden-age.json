@@ -1,0 +1,113 @@
+{
+  "id": "history-golden-age",
+  "areaId": "history",
+  "order": 3,
+  "difficulty": 3,
+  "title": { "en": "A Golden Age of Learning", "de": "Ein goldenes Zeitalter des Lernens", "bs": "Zlatno doba učenja" },
+  "description": { "en": "Scholars of science and places of learning.", "de": "Gelehrte der Wissenschaft und Orte des Lernens.", "bs": "Učenjaci nauke i mjesta učenja." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Encouraged by the Quran's call to seek knowledge, Muslim scholars made great contributions to science. In Baghdad, the House of Wisdom (Bayt al-Hikma) became a centre of translation and research.",
+        "de": "Ermutigt durch den Aufruf des Korans, Wissen zu suchen, leisteten muslimische Gelehrte große Beiträge zur Wissenschaft. In Bagdad wurde das Haus der Weisheit (Bait al-Hikma) zu einem Zentrum der Übersetzung und Forschung.",
+        "bs": "Podstaknuti kur'anskim pozivom na traženje znanja, muslimanski učenjaci dali su veliki doprinos nauci. U Bagdadu je Kuća mudrosti (Bejtul-hikme) postala središte prevođenja i istraživanja."
+      }
+    },
+    {
+      "heading": { "en": "Famous scholars", "de": "Berühmte Gelehrte", "bs": "Poznati učenjaci" },
+      "body": {
+        "en": "Al-Khwarizmi wrote a book on al-jabr – the origin of the word \"algebra\" – and the word \"algorithm\" comes from his name. Ibn Sina wrote the Canon of Medicine, used for centuries. Ibn al-Haytham studied light and vision in his Book of Optics. Fatima al-Fihri founded al-Qarawiyyin in Fez, one of the oldest places of learning still active today.",
+        "de": "Al-Chwarizmi schrieb ein Buch über al-dschabr – den Ursprung des Wortes „Algebra“ –, und das Wort „Algorithmus“ kommt von seinem Namen. Ibn Sina schrieb den Kanon der Medizin, der jahrhundertelang benutzt wurde. Ibn al-Haitham erforschte Licht und Sehen in seinem Buch der Optik. Fatima al-Fihri gründete al-Qarawiyyin in Fès, eine der ältesten noch aktiven Lehrstätten.",
+        "bs": "El-Havarizmi je napisao knjigu o el-džebru – odakle potiče riječ „algebra“ –, a riječ „algoritam“ dolazi od njegovog imena. Ibn Sina je napisao Kanon medicine, korišten stoljećima. Ibn el-Hejsem je proučavao svjetlost i vid u Knjizi o optici. Fatima el-Fihri osnovala je el-Karavijjin u Fesu, jedno od najstarijih mjesta učenja koje i danas radi."
+      }
+    },
+    {
+      "heading": { "en": "Closer to home", "de": "Näher an der Heimat", "bs": "Bliže kući" },
+      "body": {
+        "en": "In Sarajevo, the Gazi Husrev-beg Mosque and its library and madrasa were founded in the 16th century and remain centres of learning today.",
+        "de": "In Sarajevo wurden die Gazi-Husrev-beg-Moschee mit ihrer Bibliothek und Medresse im 16. Jahrhundert gegründet und sind bis heute Orte des Lernens.",
+        "bs": "U Sarajevu su Gazi Husrev-begova džamija s bibliotekom i medresom osnovane u 16. stoljeću i do danas su središta učenja."
+      }
+    }
+  ],
+  "practiceId": "history-golden-age-p",
+  "testIds": ["history-golden-age-1", "history-golden-age-2", "history-golden-age-3", "history-golden-age-4"],
+  "explanation": {
+    "en": "Seeking knowledge is part of Islam – Muslim scholars helped build mathematics, medicine and science that the whole world uses.",
+    "de": "Wissen zu suchen gehört zum Islam – muslimische Gelehrte halfen, Mathematik, Medizin und Wissenschaft aufzubauen, die die ganze Welt nutzt.",
+    "bs": "Traženje znanja dio je islama – muslimanski učenjaci pomogli su izgraditi matematiku, medicinu i nauku koju koristi cijeli svijet."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "20:114; 96:1–5" },
+    { "sourceName": "Al-Khwarizmi, Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala", "sourceReference": "—" },
+    { "sourceName": "Ibn Sina, Al-Qanun fi al-Tibb", "sourceReference": "—" },
+    { "sourceName": "Ibn al-Haytham, Kitab al-Manazir", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "history-golden-age-p",
+      "type": "imageChoice",
+      "areaId": "history",
+      "topic": "golden-age",
+      "prompt": { "en": "What best represents the House of Wisdom?", "de": "Was steht am besten für das Haus der Weisheit?", "bs": "Šta najbolje predstavlja Kuću mudrosti?" },
+      "options": [
+        { "id": "book", "element": "book", "label": { "en": "Books and learning", "de": "Bücher und Lernen", "bs": "Knjige i učenje" } },
+        { "id": "ark", "element": "ark", "label": { "en": "A ship", "de": "Ein Schiff", "bs": "Lađa" } },
+        { "id": "fire", "element": "fire", "label": { "en": "A fire", "de": "Ein Feuer", "bs": "Vatra" } }
+      ],
+      "correctOptionId": "book",
+      "explanation": { "en": "It was a centre of translation and research in Baghdad.", "de": "Es war ein Zentrum der Übersetzung und Forschung in Bagdad.", "bs": "Bila je središte prevođenja i istraživanja u Bagdadu." }
+    },
+    {
+      "id": "history-golden-age-1",
+      "type": "matching",
+      "areaId": "history",
+      "topic": "golden-age",
+      "prompt": { "en": "Match each scholar with their field.", "de": "Ordne jedem Gelehrten sein Gebiet zu.", "bs": "Spoji svakog učenjaka s njegovim područjem." },
+      "pairs": [
+        { "id": "khwarizmi", "left": { "en": "Al-Khwarizmi", "de": "Al-Chwarizmi", "bs": "El-Havarizmi" }, "right": { "en": "Algebra", "de": "Algebra", "bs": "Algebra" } },
+        { "id": "ibnsina", "left": { "en": "Ibn Sina", "de": "Ibn Sina", "bs": "Ibn Sina" }, "right": { "en": "Medicine", "de": "Medizin", "bs": "Medicina" } },
+        { "id": "haytham", "left": { "en": "Ibn al-Haytham", "de": "Ibn al-Haitham", "bs": "Ibn el-Hejsem" }, "right": { "en": "Optics (light)", "de": "Optik (Licht)", "bs": "Optika (svjetlost)" } }
+      ],
+      "explanation": { "en": "Al-Khwarizmi – algebra, Ibn Sina – medicine, Ibn al-Haytham – optics.", "de": "Al-Chwarizmi – Algebra, Ibn Sina – Medizin, Ibn al-Haitham – Optik.", "bs": "El-Havarizmi – algebra, Ibn Sina – medicina, Ibn el-Hejsem – optika." }
+    },
+    {
+      "id": "history-golden-age-2",
+      "type": "multipleChoice",
+      "areaId": "history",
+      "topic": "golden-age",
+      "prompt": { "en": "In which city was the House of Wisdom?", "de": "In welcher Stadt war das Haus der Weisheit?", "bs": "U kojem gradu je bila Kuća mudrosti?" },
+      "options": [
+        { "id": "a", "text": { "en": "Baghdad", "de": "Bagdad", "bs": "Bagdad" } },
+        { "id": "b", "text": { "en": "Fez", "de": "Fès", "bs": "Fes" } },
+        { "id": "c", "text": { "en": "Sarajevo", "de": "Sarajevo", "bs": "Sarajevo" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Baghdad, the Abbasid capital.", "de": "Bagdad, die abbasidische Hauptstadt.", "bs": "Bagdad, abasidska prijestolnica." }
+    },
+    {
+      "id": "history-golden-age-3",
+      "type": "fillBlank",
+      "areaId": "history",
+      "topic": "golden-age",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Fatima al-Fihri founded al-Qarawiyyin in the city of ___.", "de": "Fatima al-Fihri gründete al-Qarawiyyin in der Stadt ___.", "bs": "Fatima el-Fihri osnovala je el-Karavijjin u gradu ___." },
+      "options": [
+        { "id": "a", "text": { "en": "Fez", "de": "Fès", "bs": "Fes" } },
+        { "id": "b", "text": { "en": "Damascus", "de": "Damaskus", "bs": "Damask" } },
+        { "id": "c", "text": { "en": "Cordoba", "de": "Córdoba", "bs": "Kordoba" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Al-Qarawiyyin in Fez, Morocco, is among the oldest places of learning still active.", "de": "Al-Qarawiyyin in Fès, Marokko, gehört zu den ältesten noch aktiven Lehrstätten.", "bs": "El-Karavijjin u Fesu, Maroko, među najstarijim je mjestima učenja koja još rade." }
+    },
+    {
+      "id": "history-golden-age-4",
+      "type": "trueFalse",
+      "areaId": "history",
+      "topic": "golden-age",
+      "prompt": { "en": "The word \"algebra\" comes from the title of al-Khwarizmi's book (al-jabr).", "de": "Das Wort „Algebra“ stammt vom Titel des Buches von al-Chwarizmi (al-dschabr).", "bs": "Riječ „algebra“ dolazi iz naslova El-Havarizmijeve knjige (el-džebr)." },
+      "correct": true,
+      "explanation": { "en": "Yes – and \"algorithm\" comes from his name.", "de": "Ja – und „Algorithmus“ kommt von seinem Namen.", "bs": "Da – a „algoritam“ dolazi od njegovog imena." }
+    }
+  ]
+}

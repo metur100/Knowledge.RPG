@@ -1,0 +1,112 @@
+{
+  "id": "quran-etiquette",
+  "areaId": "quran",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Honouring the Quran", "de": "Den Koran ehren", "bs": "Poštovanje Kur'ana" },
+  "description": { "en": "Etiquette and short surahs we recite often.", "de": "Umgang mit dem Koran und kurze Suren, die wir oft rezitieren.", "bs": "Adab prema Kur'anu i kratke sure koje često učimo." },
+  "lesson": [
+    {
+      "heading": { "en": "Etiquette", "de": "Umgang", "bs": "Adab" },
+      "body": {
+        "en": "We keep the Mushaf in a clean place, begin reciting by seeking refuge in Allah from Shaytan, listen quietly when the Quran is recited and recite slowly and beautifully. Many scholars say wudu is required before touching the Mushaf.",
+        "de": "Wir bewahren den Mushaf an einem sauberen Ort auf, beginnen die Rezitation mit der Zufluchtnahme bei Allah vor Schaitan, hören still zu, wenn der Koran rezitiert wird, und rezitieren langsam und schön. Viele Gelehrte sagen, dass vor dem Berühren des Mushaf Wudu nötig ist.",
+        "bs": "Mushaf čuvamo na čistom mjestu, učenje počinjemo traženjem utočišta kod Allaha od šejtana, šutke slušamo kada se uči Kur'an i učimo polahko i lijepo. Mnogi učenjaci kažu da je za dodirivanje mushafa potreban abdest."
+      }
+    },
+    {
+      "heading": { "en": "Short surahs", "de": "Kurze Suren", "bs": "Kratke sure" },
+      "body": {
+        "en": "Al-Fatiha is recited in every rak'ah of prayer. The Prophet ﷺ said Al-Ikhlas is equal to a third of the Quran, and he used to recite Al-Ikhlas, Al-Falaq and An-Nas before sleeping.",
+        "de": "Al-Fatiha wird in jeder Rak'a des Gebets rezitiert. Der Prophet ﷺ sagte, Al-Ichlas gleiche einem Drittel des Korans, und er rezitierte vor dem Schlafen Al-Ichlas, Al-Falaq und An-Nas.",
+        "bs": "El-Fatiha se uči u svakom rekatu namaza. Poslanik ﷺ je rekao da je El-Ihlas ravan trećini Kur'ana, a prije spavanja je učio El-Ihlas, El-Felek i En-Nas."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "Scholars differ on whether wudu is required for touching the Mushaf and on reciting from memory without wudu.",
+    "de": "Gelehrte sind sich uneinig, ob Wudu zum Berühren des Mushaf Pflicht ist und ob man ohne Wudu auswendig rezitieren darf.",
+    "bs": "Učenjaci se razilaze je li abdest obavezan za dodirivanje mushafa i o učenju napamet bez abdesta."
+  },
+  "practiceId": "quran-etiquette-p",
+  "testIds": ["quran-etiquette-1", "quran-etiquette-2", "quran-etiquette-3", "quran-etiquette-4"],
+  "explanation": {
+    "en": "Respect for the Quran shows in how we handle it, listen to it and recite it.",
+    "de": "Respekt vor dem Koran zeigt sich darin, wie wir mit ihm umgehen, ihm zuhören und ihn rezitieren.",
+    "bs": "Poštovanje prema Kur'anu vidi se u tome kako s njim postupamo, slušamo ga i učimo."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "16:98; 7:204; 73:4" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "756; 5013; 5017" }
+  ],
+  "questions": [
+    {
+      "id": "quran-etiquette-p",
+      "type": "trueFalse",
+      "areaId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": { "en": "When the Quran is recited, we should listen quietly.", "de": "Wenn der Koran rezitiert wird, sollen wir still zuhören.", "bs": "Kada se uči Kur'an, trebamo šutke slušati." },
+      "correct": true,
+      "explanation": { "en": "Quran 7:204 tells us to listen and pay attention.", "de": "Koran 7:204 fordert uns auf zuzuhören und aufmerksam zu sein.", "bs": "Kur'an 7:204 nam naređuje da slušamo i pažljivo pratimo." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "7:204" }]
+    },
+    {
+      "id": "quran-etiquette-1",
+      "type": "scenario",
+      "areaId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": { "en": "Your little brother wants to put the Mushaf on the floor to play. What do you do?", "de": "Dein kleiner Bruder will den Mushaf zum Spielen auf den Boden legen. Was tust du?", "bs": "Mlađi brat želi staviti mushaf na pod da bi se igrao. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Gently explain and put it on a clean shelf", "de": "Sanft erklären und ihn auf ein sauberes Regal stellen", "bs": "Nježno objasniti i staviti ga na čistu policu" }, "feedback": { "en": "Respectful and kind.", "de": "Respektvoll und freundlich.", "bs": "S poštovanjem i ljubazno." } },
+        { "id": "b", "text": { "en": "Shout at him", "de": "Ihn anschreien", "bs": "Vikati na njega" }, "feedback": { "en": "Kindness teaches better than shouting.", "de": "Freundlichkeit lehrt besser als Schreien.", "bs": "Ljubaznost uči bolje od vikanja." } },
+        { "id": "c", "text": { "en": "Ignore it", "de": "Es ignorieren", "bs": "Ignorisati" }, "feedback": { "en": "The Mushaf deserves respect.", "de": "Der Mushaf verdient Respekt.", "bs": "Mushaf zaslužuje poštovanje." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "We keep the Mushaf in a clean place and teach with gentleness.", "de": "Wir bewahren den Mushaf sauber auf und lehren mit Sanftheit.", "bs": "Mushaf čuvamo na čistom i poučavamo blagošću." }
+    },
+    {
+      "id": "quran-etiquette-2",
+      "type": "multipleChoice",
+      "areaId": "quran",
+      "topic": "quran-etiquette",
+      "prompt": { "en": "How do we begin reciting the Quran?", "de": "Wie beginnen wir die Koranrezitation?", "bs": "Kako počinjemo učiti Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "By seeking refuge in Allah from Shaytan", "de": "Mit der Zufluchtnahme bei Allah vor Schaitan", "bs": "Traženjem utočišta kod Allaha od šejtana" } },
+        { "id": "b", "text": { "en": "By clapping", "de": "Mit Klatschen", "bs": "Pljeskanjem" } },
+        { "id": "c", "text": { "en": "With no preparation at all", "de": "Ganz ohne Vorbereitung", "bs": "Bez ikakve pripreme" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Quran 16:98 teaches the isti'adha before reciting.", "de": "Koran 16:98 lehrt die Isti'adha vor der Rezitation.", "bs": "Kur'an 16:98 uči istiazu prije učenja." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "16:98" }]
+    },
+    {
+      "id": "quran-etiquette-3",
+      "type": "matching",
+      "areaId": "quran",
+      "topic": "short-surahs",
+      "prompt": { "en": "Match each surah with what we know about it.", "de": "Ordne jeder Sure zu, was wir über sie wissen.", "bs": "Spoji svaku suru s onim što znamo o njoj." },
+      "pairs": [
+        { "id": "fatiha", "left": { "en": "Al-Fatiha", "de": "Al-Fatiha", "bs": "El-Fatiha" }, "right": { "en": "In every rak'ah", "de": "In jeder Rak'a", "bs": "U svakom rekatu" } },
+        { "id": "ikhlas", "left": { "en": "Al-Ikhlas", "de": "Al-Ichlas", "bs": "El-Ihlas" }, "right": { "en": "A third of the Quran", "de": "Ein Drittel des Korans", "bs": "Trećina Kur'ana" } },
+        { "id": "kawthar", "left": { "en": "Al-Kawthar", "de": "Al-Kauthar", "bs": "El-Kevser" }, "right": { "en": "Three ayahs", "de": "Drei Verse", "bs": "Tri ajeta" } }
+      ],
+      "explanation": { "en": "Al-Fatiha is in every rak'ah, Al-Ikhlas equals a third of the Quran, Al-Kawthar has three ayahs.", "de": "Al-Fatiha ist in jeder Rak'a, Al-Ichlas gleicht einem Drittel des Korans, Al-Kauthar hat drei Verse.", "bs": "El-Fatiha je u svakom rekatu, El-Ihlas je ravan trećini Kur'ana, El-Kevser ima tri ajeta." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "756; 5013" }]
+    },
+    {
+      "id": "quran-etiquette-4",
+      "type": "multipleChoice",
+      "areaId": "quran",
+      "topic": "short-surahs",
+      "prompt": { "en": "When did the Prophet ﷺ regularly recite Al-Ikhlas, Al-Falaq and An-Nas?", "de": "Wann rezitierte der Prophet ﷺ regelmäßig Al-Ichlas, Al-Falaq und An-Nas?", "bs": "Kada je Poslanik ﷺ redovno učio El-Ihlas, El-Felek i En-Nas?" },
+      "options": [
+        { "id": "a", "text": { "en": "Before going to sleep", "de": "Vor dem Schlafengehen", "bs": "Prije spavanja" } },
+        { "id": "b", "text": { "en": "Only on Eid", "de": "Nur am Eid", "bs": "Samo na Bajram" } },
+        { "id": "c", "text": { "en": "Never", "de": "Nie", "bs": "Nikad" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "He ﷺ recited them every night before sleeping.", "de": "Er ﷺ rezitierte sie jede Nacht vor dem Schlafen.", "bs": "Učio ih je svake noći prije spavanja." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "5017" }]
+    }
+  ]
+}

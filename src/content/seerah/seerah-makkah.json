@@ -1,0 +1,129 @@
+{
+  "id": "seerah-makkah",
+  "areaId": "seerah",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Revelation and the Makkan Years", "de": "Offenbarung und die mekkanischen Jahre", "bs": "Objava i mekanske godine" },
+  "description": { "en": "The first revelation, the first Muslims and years of patience.", "de": "Die erste Offenbarung, die ersten Muslime und Jahre der Geduld.", "bs": "Prva objava, prvi muslimani i godine strpljenja." },
+  "lesson": [
+    {
+      "heading": { "en": "The first revelation", "de": "Die erste Offenbarung", "bs": "Prva objava" },
+      "body": {
+        "en": "At about the age of forty, while reflecting in the cave of Hira, the Prophet ﷺ received the first revelation from the angel Jibril, beginning with \"Iqra\" – Read! Khadijah comforted and supported him.",
+        "de": "Mit etwa vierzig Jahren empfing der Prophet ﷺ, als er in der Höhle Hira nachdachte, die erste Offenbarung durch den Engel Dschibril, beginnend mit „Iqra“ – Lies! Khadidscha tröstete und unterstützte ihn.",
+        "bs": "S oko četrdeset godina, dok je razmišljao u pećini Hira, Poslanik ﷺ je od meleka Džibrila primio prvu objavu, koja počinje riječju „Ikre'“ – Čitaj! Hadidža ga je tješila i podržavala."
+      }
+    },
+    {
+      "heading": { "en": "The first Muslims", "de": "Die ersten Muslime", "bs": "Prvi muslimani" },
+      "body": {
+        "en": "Among the first to accept Islam were his wife Khadijah, his friend Abu Bakr, his young cousin Ali and Zayd ibn Harithah. When the call became public, many leaders of Makkah opposed it.",
+        "de": "Zu den Ersten, die den Islam annahmen, gehörten seine Frau Khadidscha, sein Freund Abu Bakr, sein junger Cousin Ali und Zaid ibn Haritha. Als der Aufruf öffentlich wurde, stellten sich viele Anführer Mekkas dagegen.",
+        "bs": "Među prvima koji su prihvatili islam bili su njegova supruga Hadidža, prijatelj Ebu Bekr, mladi amidžić Alija i Zejd ibn Harisa. Kada je poziv postao javan, mnoge mekanske glavešine su mu se suprotstavile."
+      }
+    },
+    {
+      "heading": { "en": "Patience under pressure", "de": "Geduld unter Druck", "bs": "Strpljenje pod pritiskom" },
+      "body": {
+        "en": "Weaker Muslims were persecuted. Bilal, an enslaved man, was tortured in the heat but kept saying \"Ahad, Ahad\" – One, One. A group of Muslims migrated to Abyssinia, where the Christian king (the Najashi) gave them protection.",
+        "de": "Schwächere Muslime wurden verfolgt. Bilal, ein versklavter Mann, wurde in der Hitze gequält, sagte aber immer wieder „Ahad, Ahad“ – Einer, Einer. Eine Gruppe von Muslimen wanderte nach Abessinien aus, wo der christliche König (der Nadschaschi) ihnen Schutz gewährte.",
+        "bs": "Slabiji muslimani bili su progonjeni. Bilal, porobljeni čovjek, mučen je na vrućini, ali je stalno ponavljao „Ehad, Ehad“ – Jedan, Jedan. Grupa muslimana preselila je u Abesiniju, gdje im je kršćanski kralj (Nedžaši) pružio zaštitu."
+      }
+    }
+  ],
+  "practiceId": "seerah-makkah-p",
+  "testIds": ["seerah-makkah-1", "seerah-makkah-2", "seerah-makkah-3", "seerah-makkah-4"],
+  "explanation": {
+    "en": "The Makkan years show faith, loyalty and patience in hard times – and that justice can be found even far from home.",
+    "de": "Die mekkanischen Jahre zeigen Glauben, Treue und Geduld in schweren Zeiten – und dass man Gerechtigkeit sogar fern der Heimat finden kann.",
+    "bs": "Mekanske godine pokazuju vjeru, odanost i strpljenje u teškim vremenima – i da se pravda može naći i daleko od kuće."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "96:1–5; 111" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "3" },
+    { "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "seerah-makkah-p",
+      "type": "imageChoice",
+      "areaId": "seerah",
+      "topic": "seerah-makkah",
+      "prompt": { "en": "Where did the first revelation come?", "de": "Wo kam die erste Offenbarung?", "bs": "Gdje je došla prva objava?" },
+      "options": [
+        { "id": "cave", "element": "cave", "label": { "en": "Cave of Hira", "de": "Höhle Hira", "bs": "Pećina Hira" } },
+        { "id": "ark", "element": "ark", "label": { "en": "On a ship", "de": "Auf einem Schiff", "bs": "Na lađi" } },
+        { "id": "garden", "element": "garden", "label": { "en": "In a garden", "de": "In einem Garten", "bs": "U bašči" } }
+      ],
+      "correctOptionId": "cave",
+      "explanation": { "en": "In the cave of Hira on a mountain near Makkah.", "de": "In der Höhle Hira auf einem Berg bei Mekka.", "bs": "U pećini Hira na brdu kod Mekke." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "3" }]
+    },
+    {
+      "id": "seerah-makkah-1",
+      "type": "multipleChoice",
+      "areaId": "seerah",
+      "topic": "seerah-makkah",
+      "prompt": { "en": "What was the first word of the revelation?", "de": "Was war das erste Wort der Offenbarung?", "bs": "Koja je prva riječ objave?" },
+      "options": [
+        { "id": "a", "text": { "en": "Iqra – Read!", "de": "Iqra – Lies!", "bs": "Ikre' – Čitaj!" } },
+        { "id": "b", "text": { "en": "Salam – Peace", "de": "Salam – Frieden", "bs": "Selam – mir" } },
+        { "id": "c", "text": { "en": "Sabr – Patience", "de": "Sabr – Geduld", "bs": "Sabur – strpljenje" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Al-Alaq begins with \"Iqra\".", "de": "Sure Al-Alaq beginnt mit „Iqra“.", "bs": "Sura El-Alek počinje riječju „Ikre'“." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "96:1" }]
+    },
+    {
+      "id": "seerah-makkah-2",
+      "type": "categorize",
+      "areaId": "seerah",
+      "topic": "seerah-makkah",
+      "prompt": { "en": "Sort the people: early Muslims or opponents in Makkah?", "de": "Sortiere die Personen: frühe Muslime oder Gegner in Mekka?", "bs": "Razvrstaj osobe: prvi muslimani ili protivnici u Mekki?" },
+      "categories": [
+        { "id": "muslim", "label": { "en": "Early Muslims", "de": "Frühe Muslime", "bs": "Prvi muslimani" } },
+        { "id": "opponent", "label": { "en": "Opponents", "de": "Gegner", "bs": "Protivnici" } }
+      ],
+      "items": [
+        { "id": "khadijah", "text": { "en": "Khadijah", "de": "Khadidscha", "bs": "Hadidža" }, "categoryId": "muslim" },
+        { "id": "abubakr", "text": { "en": "Abu Bakr", "de": "Abu Bakr", "bs": "Ebu Bekr" }, "categoryId": "muslim" },
+        { "id": "bilal", "text": { "en": "Bilal", "de": "Bilal", "bs": "Bilal" }, "categoryId": "muslim" },
+        { "id": "abulahab", "text": { "en": "Abu Lahab", "de": "Abu Lahab", "bs": "Ebu Leheb" }, "categoryId": "opponent" },
+        { "id": "abujahl", "text": { "en": "Abu Jahl", "de": "Abu Dschahl", "bs": "Ebu Džehl" }, "categoryId": "opponent" }
+      ],
+      "explanation": { "en": "Khadijah, Abu Bakr and Bilal were early Muslims; Abu Lahab (named in Surah 111) and Abu Jahl opposed the message.", "de": "Khadidscha, Abu Bakr und Bilal waren frühe Muslime; Abu Lahab (in Sure 111 genannt) und Abu Dschahl bekämpften die Botschaft.", "bs": "Hadidža, Ebu Bekr i Bilal bili su prvi muslimani; Ebu Leheb (spomenut u suri 111) i Ebu Džehl suprotstavljali su se poruci." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "111" }, { "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    },
+    {
+      "id": "seerah-makkah-3",
+      "type": "fillBlank",
+      "areaId": "seerah",
+      "topic": "seerah-makkah",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "While being tortured, Bilal kept saying \"___\" – One.", "de": "Während er gequält wurde, sagte Bilal immer wieder „___“ – Einer.", "bs": "Dok su ga mučili, Bilal je stalno ponavljao „___“ – Jedan." },
+      "options": [
+        { "id": "a", "text": { "en": "Ahad", "de": "Ahad", "bs": "Ehad" } },
+        { "id": "b", "text": { "en": "Salam", "de": "Salam", "bs": "Selam" } },
+        { "id": "c", "text": { "en": "Iqra", "de": "Iqra", "bs": "Ikre'" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "\"Ahad\" – he affirmed that Allah is One, even under torture.", "de": "„Ahad“ – er bezeugte selbst unter Folter, dass Allah Einer ist.", "bs": "„Ehad“ – i pod mučenjem je potvrđivao da je Allah Jedan." },
+      "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    },
+    {
+      "id": "seerah-makkah-4",
+      "type": "multipleChoice",
+      "areaId": "seerah",
+      "topic": "seerah-makkah",
+      "prompt": { "en": "Where did a group of Muslims migrate to find protection?", "de": "Wohin wanderte eine Gruppe von Muslimen aus, um Schutz zu finden?", "bs": "Kamo je grupa muslimana preselila tražeći zaštitu?" },
+      "options": [
+        { "id": "a", "text": { "en": "Abyssinia", "de": "Abessinien", "bs": "Abesinija" } },
+        { "id": "b", "text": { "en": "Persia", "de": "Persien", "bs": "Perzija" } },
+        { "id": "c", "text": { "en": "Rome", "de": "Rom", "bs": "Rim" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The just king of Abyssinia, the Najashi, protected them.", "de": "Der gerechte König von Abessinien, der Nadschaschi, beschützte sie.", "bs": "Pravedni kralj Abesinije, Nedžaši, pružio im je zaštitu." },
+      "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    }
+  ]
+}

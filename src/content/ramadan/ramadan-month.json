@@ -1,0 +1,114 @@
+{
+  "id": "ramadan-month",
+  "areaId": "ramadan",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "The Blessed Month", "de": "Der gesegnete Monat", "bs": "Blagoslovljeni mjesec" },
+  "description": { "en": "What Ramadan is and why we fast.", "de": "Was Ramadan ist und warum wir fasten.", "bs": "Šta je ramazan i zašto postimo." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Ramadan is the ninth month of the Islamic calendar, which follows the moon. In this month the Quran was sent down as guidance. Fasting in Ramadan is one of the five pillars of Islam. Allah says fasting was prescribed so that we may become mindful of Him (taqwa).",
+        "de": "Ramadan ist der neunte Monat des islamischen Kalenders, der dem Mond folgt. In diesem Monat wurde der Koran als Rechtleitung herabgesandt. Das Fasten im Ramadan ist eine der fünf Säulen des Islam. Allah sagt, das Fasten wurde vorgeschrieben, damit wir gottesbewusst werden (Taqwa).",
+        "bs": "Ramazan je deveti mjesec islamskog kalendara, koji prati mjesec. U ovom mjesecu objavljen je Kur'an kao uputa. Post u ramazanu jedan je od pet temelja islama. Allah kaže da je post propisan kako bismo postali bogobojazni (takva)."
+      },
+      "arabic": "رَمَضَان",
+      "transliteration": "ramaḍān"
+    },
+    {
+      "heading": { "en": "Fasting safely", "de": "Sicher fasten", "bs": "Sigurno postiti" },
+      "body": {
+        "en": "Fasting means no food or drink from dawn until sunset. It is an obligation for adults who are able; children are not obliged before puberty and may practise only with their family's guidance. The ill and travellers are excused – Allah wants ease, not hardship.",
+        "de": "Fasten bedeutet, von der Morgendämmerung bis Sonnenuntergang nichts zu essen und zu trinken. Es ist Pflicht für Erwachsene, die es können; Kinder sind vor der Pubertät nicht verpflichtet und üben nur unter Anleitung ihrer Familie. Kranke und Reisende sind befreit – Allah will Erleichterung, nicht Erschwernis.",
+        "bs": "Post znači ne jesti i ne piti od zore do zalaska sunca. Obaveza je za odrasle koji mogu; djeca nisu obavezna prije puberteta i vježbaju samo uz vodstvo porodice. Bolesni i putnici su oslobođeni – Allah želi olakšanje, a ne poteškoću."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "Communities begin Ramadan differently – by local moon sighting, calculation or following another country.",
+    "de": "Gemeinden beginnen den Ramadan unterschiedlich – durch lokale Mondsichtung, Berechnung oder indem sie einem anderen Land folgen.",
+    "bs": "Zajednice počinju ramazan različito – lokalnim viđenjem mlađaka, proračunom ili slijedeći drugu zemlju."
+  },
+  "practiceId": "ramadan-month-p",
+  "testIds": ["ramadan-month-1", "ramadan-month-2", "ramadan-month-3", "ramadan-month-4"],
+  "explanation": {
+    "en": "Ramadan is the month of the Quran and of fasting – a time to grow in taqwa, in a way that is safe for everyone.",
+    "de": "Ramadan ist der Monat des Korans und des Fastens – eine Zeit, um in Taqwa zu wachsen, auf eine Weise, die für alle sicher ist.",
+    "bs": "Ramazan je mjesec Kur'ana i posta – vrijeme rasta u takvaluku, na način koji je siguran za sve."
+  },
+  "sources": [{ "sourceName": "Quran", "sourceReference": "2:183–187" }, { "sourceName": "Sahih al-Bukhari", "sourceReference": "8" }],
+  "questions": [
+    {
+      "id": "ramadan-month-p",
+      "type": "multipleChoice",
+      "areaId": "ramadan",
+      "topic": "ramadan-basics",
+      "prompt": { "en": "Ramadan is which month of the Islamic calendar?", "de": "Der wievielte Monat des islamischen Kalenders ist Ramadan?", "bs": "Koji je ramazan mjesec islamskog kalendara?" },
+      "options": [
+        { "id": "a", "text": { "en": "The ninth", "de": "Der neunte", "bs": "Deveti" } },
+        { "id": "b", "text": { "en": "The first", "de": "Der erste", "bs": "Prvi" } },
+        { "id": "c", "text": { "en": "The twelfth", "de": "Der zwölfte", "bs": "Dvanaesti" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Ramadan is the ninth month.", "de": "Ramadan ist der neunte Monat.", "bs": "Ramazan je deveti mjesec." }
+    },
+    {
+      "id": "ramadan-month-1",
+      "type": "fillBlank",
+      "areaId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "Complete the meaning of the verse.", "de": "Vervollständige die Bedeutung des Verses.", "bs": "Dopuni značenje ajeta." },
+      "sentence": { "en": "Fasting was prescribed so that you may attain ___.", "de": "Das Fasten wurde vorgeschrieben, damit ihr ___ erlangt.", "bs": "Post je propisan da biste postigli ___." },
+      "options": [
+        { "id": "a", "text": { "en": "taqwa", "de": "Taqwa", "bs": "takvaluk" } },
+        { "id": "b", "text": { "en": "wealth", "de": "Reichtum", "bs": "bogatstvo" } },
+        { "id": "c", "text": { "en": "fame", "de": "Ruhm", "bs": "slavu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Quran 2:183 – so that you may be mindful of Allah.", "de": "Koran 2:183 – damit ihr gottesbewusst werdet.", "bs": "Kur'an 2:183 – da biste se Allaha bojali." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:183" }]
+    },
+    {
+      "id": "ramadan-month-2",
+      "type": "scenario",
+      "areaId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "You are practising fasting and start to feel dizzy. What do you do?", "de": "Du übst das Fasten und dir wird schwindlig. Was tust du?", "bs": "Vježbaš post i počne ti se vrtjeti u glavi. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Keep going no matter what", "de": "Durchhalten, egal was passiert", "bs": "Izdržati po svaku cijenu" }, "feedback": { "en": "Your health comes first.", "de": "Deine Gesundheit geht vor.", "bs": "Zdravlje je na prvom mjestu." } },
+        { "id": "b", "text": { "en": "Tell a parent or adult right away", "de": "Sofort einem Erwachsenen Bescheid sagen", "bs": "Odmah reći roditelju ili odrasloj osobi" }, "feedback": { "en": "Exactly right.", "de": "Genau richtig.", "bs": "Upravo tako." } },
+        { "id": "c", "text": { "en": "Hide it", "de": "Es verstecken", "bs": "Sakriti to" }, "feedback": { "en": "Adults need to know so they can help.", "de": "Erwachsene müssen es wissen, um zu helfen.", "bs": "Odrasli trebaju znati da bi pomogli." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": { "en": "Allah wants ease for you, not hardship (2:185).", "de": "Allah will es euch leicht machen, nicht schwer (2:185).", "bs": "Allah želi olakšanje, a ne poteškoću (2:185)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:185" }]
+    },
+    {
+      "id": "ramadan-month-3",
+      "type": "trueFalse",
+      "areaId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "Young children who have not reached puberty are obliged to fast every day of Ramadan.", "de": "Kleine Kinder vor der Pubertät müssen jeden Tag im Ramadan fasten.", "bs": "Mala djeca prije puberteta obavezna su postiti svaki dan ramazana." },
+      "correct": false,
+      "explanation": { "en": "Not quite – fasting becomes obligatory after puberty.", "de": "Nicht ganz – das Fasten wird nach der Pubertät Pflicht.", "bs": "Nije tačno – post postaje obavezan nakon puberteta." }
+    },
+    {
+      "id": "ramadan-month-4",
+      "type": "categorize",
+      "areaId": "ramadan",
+      "topic": "fasting",
+      "prompt": { "en": "Who is excused from fasting according to the Quran?", "de": "Wer ist laut Koran vom Fasten befreit?", "bs": "Ko je prema Kur'anu oslobođen posta?" },
+      "categories": [
+        { "id": "excused", "label": { "en": "Excused", "de": "Befreit", "bs": "Oslobođen" } },
+        { "id": "fasts", "label": { "en": "Fasts (if able)", "de": "Fastet (wenn möglich)", "bs": "Posti (ako može)" } }
+      ],
+      "items": [
+        { "id": "ill", "text": { "en": "Someone who is ill", "de": "Jemand, der krank ist", "bs": "Bolesna osoba" }, "categoryId": "excused" },
+        { "id": "traveller", "text": { "en": "A traveller", "de": "Ein Reisender", "bs": "Putnik" }, "categoryId": "excused" },
+        { "id": "adult", "text": { "en": "A healthy adult at home", "de": "Ein gesunder Erwachsener zu Hause", "bs": "Zdrava odrasla osoba kod kuće" }, "categoryId": "fasts" }
+      ],
+      "explanation": { "en": "Quran 2:184–185 excuses the ill and travellers; they make up the days later if they can.", "de": "Koran 2:184–185 befreit Kranke und Reisende; sie holen die Tage später nach, wenn sie können.", "bs": "Kur'an 2:184–185 oslobađa bolesne i putnike; oni naknade dane kasnije ako mogu." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:184–185" }]
+    }
+  ]
+}

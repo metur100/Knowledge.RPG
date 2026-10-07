@@ -1,0 +1,116 @@
+{
+  "id": "akhlaq-sabr-shukr",
+  "areaId": "akhlaq",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "Patience and Gratitude", "de": "Geduld und Dankbarkeit", "bs": "Strpljenje i zahvalnost" },
+  "description": { "en": "Sabr in hard times, shukr in good times.", "de": "Sabr in schweren Zeiten, Schukr in guten Zeiten.", "bs": "Sabur u teškim, šukr u dobrim vremenima." },
+  "lesson": [
+    {
+      "heading": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" },
+      "body": {
+        "en": "Sabr means patience: not giving up, controlling anger and continuing to do good when things are difficult. The Quran says Allah is with the patient, and praises those who restrain their anger and pardon people.",
+        "de": "Sabr bedeutet Geduld: nicht aufgeben, Wut beherrschen und weiter Gutes tun, wenn es schwierig ist. Der Koran sagt, dass Allah mit den Geduldigen ist, und lobt die, die ihren Zorn zurückhalten und den Menschen verzeihen.",
+        "bs": "Sabur znači strpljenje: ne odustati, obuzdati ljutnju i nastaviti činiti dobro kada je teško. Kur'an kaže da je Allah sa strpljivima i hvali one koji suzbijaju srdžbu i ljudima opraštaju."
+      },
+      "arabic": "صَبْر",
+      "transliteration": "ṣabr"
+    },
+    {
+      "heading": { "en": "Shukr", "de": "Schukr", "bs": "Šukr" },
+      "body": {
+        "en": "Shukr means gratitude: thanking Allah with our words (\"Alhamdulillah\"), our hearts and by using His gifts well – and thanking people too. Allah says: if you are grateful, I will surely increase you.",
+        "de": "Schukr bedeutet Dankbarkeit: Allah danken mit Worten („Alhamdulillah“), mit dem Herzen und indem wir Seine Gaben gut nutzen – und auch den Menschen danken. Allah sagt: Wenn ihr dankbar seid, werde Ich euch gewiss mehr geben.",
+        "bs": "Šukr znači zahvalnost: zahvaljivati Allahu riječima („Elhamdulillah“), srcem i dobrim korištenjem Njegovih darova – i zahvaljivati ljudima. Allah kaže: ako budete zahvalni, sigurno ću vam još više dati."
+      },
+      "arabic": "شُكْر",
+      "transliteration": "shukr"
+    }
+  ],
+  "practiceId": "akhlaq-sabr-shukr-p",
+  "testIds": ["akhlaq-sabr-shukr-1", "akhlaq-sabr-shukr-2", "akhlaq-sabr-shukr-3", "akhlaq-sabr-shukr-4"],
+  "explanation": {
+    "en": "A believer is patient when things are hard and grateful when things are good – both bring a person closer to Allah.",
+    "de": "Ein Gläubiger ist geduldig, wenn es schwer ist, und dankbar, wenn es gut ist – beides bringt den Menschen Allah näher.",
+    "bs": "Vjernik je strpljiv kada je teško i zahvalan kada je dobro – oboje čovjeka približava Allahu."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "2:153; 3:134" },
+    { "sourceName": "Quran", "sourceReference": "14:7" }
+  ],
+  "questions": [
+    {
+      "id": "akhlaq-sabr-shukr-p",
+      "type": "trueFalse",
+      "areaId": "akhlaq",
+      "topic": "shukr",
+      "prompt": { "en": "Saying \"Alhamdulillah\" is a way of thanking Allah.", "de": "„Alhamdulillah“ zu sagen ist eine Art, Allah zu danken.", "bs": "Izgovaranje „Elhamdulillah“ je način zahvaljivanja Allahu." },
+      "correct": true,
+      "explanation": { "en": "\"Alhamdulillah\" means \"all praise is for Allah\".", "de": "„Alhamdulillah“ bedeutet „alles Lob gebührt Allah“.", "bs": "„Elhamdulillah“ znači „sva hvala pripada Allahu“." }
+    },
+    {
+      "id": "akhlaq-sabr-shukr-1",
+      "type": "scenario",
+      "areaId": "akhlaq",
+      "topic": "sabr",
+      "prompt": { "en": "Your friend takes your toy without asking. What should you do?", "de": "Dein Freund nimmt dein Spielzeug, ohne zu fragen. Was solltest du tun?", "bs": "Prijatelj ti uzme igračku bez pitanja. Šta trebaš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Hit him", "de": "Ihn schlagen", "bs": "Udariti ga" }, "feedback": { "en": "Hitting makes things worse.", "de": "Schlagen macht alles schlimmer.", "bs": "Udaranje pogoršava stvari." } },
+        { "id": "b", "text": { "en": "Shout at him", "de": "Ihn anschreien", "bs": "Vikati na njega" }, "feedback": { "en": "Shouting usually leads to a bigger fight.", "de": "Schreien führt meist zu größerem Streit.", "bs": "Vikanje obično vodi većoj svađi." } },
+        { "id": "c", "text": { "en": "Talk calmly and solve the problem", "de": "Ruhig reden und das Problem lösen", "bs": "Mirno razgovarati i riješiti problem" }, "feedback": { "en": "That is sabr and good character.", "de": "Das ist Sabr und guter Charakter.", "bs": "To je sabur i lijep ahlak." } }
+      ],
+      "correctOptionId": "c",
+      "explanation": { "en": "The Quran praises those who restrain their anger and pardon people (3:134).", "de": "Der Koran lobt die, die ihren Zorn zurückhalten und verzeihen (3:134).", "bs": "Kur'an hvali one koji suzbijaju srdžbu i opraštaju (3:134)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "3:134" }]
+    },
+    {
+      "id": "akhlaq-sabr-shukr-2",
+      "type": "fillBlank",
+      "areaId": "akhlaq",
+      "topic": "sabr",
+      "prompt": { "en": "Complete the meaning of the verse.", "de": "Vervollständige die Bedeutung des Verses.", "bs": "Dopuni značenje ajeta." },
+      "sentence": { "en": "Indeed, Allah is with the ___.", "de": "Allah ist mit den ___.", "bs": "Allah je, zaista, sa ___." },
+      "options": [
+        { "id": "a", "text": { "en": "patient", "de": "Geduldigen", "bs": "strpljivima" } },
+        { "id": "b", "text": { "en": "loudest", "de": "Lautesten", "bs": "najglasnijima" } },
+        { "id": "c", "text": { "en": "richest", "de": "Reichsten", "bs": "najbogatijima" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Al-Baqarah 2:153.", "de": "Sure Al-Baqara 2:153.", "bs": "Sura El-Bekare 2:153." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:153" }]
+    },
+    {
+      "id": "akhlaq-sabr-shukr-3",
+      "type": "categorize",
+      "areaId": "akhlaq",
+      "topic": "sabr",
+      "prompt": { "en": "Sort the actions: sabr or shukr?", "de": "Sortiere die Handlungen: Sabr oder Schukr?", "bs": "Razvrstaj postupke: sabur ili šukr?" },
+      "categories": [
+        { "id": "sabr", "label": { "en": "Sabr (patience)", "de": "Sabr (Geduld)", "bs": "Sabur (strpljenje)" } },
+        { "id": "shukr", "label": { "en": "Shukr (gratitude)", "de": "Schukr (Dankbarkeit)", "bs": "Šukr (zahvalnost)" } }
+      ],
+      "items": [
+        { "id": "calm", "text": { "en": "Staying calm when you lose a game", "de": "Ruhig bleiben, wenn du ein Spiel verlierst", "bs": "Ostati miran kad izgubiš igru" }, "categoryId": "sabr" },
+        { "id": "retry", "text": { "en": "Trying again after a hard test", "de": "Nach einem schweren Test weitermachen", "bs": "Pokušati ponovo nakon teškog testa" }, "categoryId": "sabr" },
+        { "id": "thanks", "text": { "en": "Thanking your mum for dinner", "de": "Deiner Mutter fürs Essen danken", "bs": "Zahvaliti mami na večeri" }, "categoryId": "shukr" },
+        { "id": "hamd", "text": { "en": "Saying Alhamdulillah for good health", "de": "Alhamdulillah für Gesundheit sagen", "bs": "Reći Elhamdulillah za zdravlje" }, "categoryId": "shukr" }
+      ],
+      "explanation": { "en": "Staying calm and trying again are sabr; thanking people and Allah is shukr.", "de": "Ruhig bleiben und es erneut versuchen ist Sabr; Menschen und Allah danken ist Schukr.", "bs": "Ostati miran i pokušati ponovo je sabur; zahvaljivati ljudima i Allahu je šukr." }
+    },
+    {
+      "id": "akhlaq-sabr-shukr-4",
+      "type": "multipleChoice",
+      "areaId": "akhlaq",
+      "topic": "shukr",
+      "prompt": { "en": "What does Allah promise to those who are grateful?", "de": "Was verspricht Allah den Dankbaren?", "bs": "Šta Allah obećava zahvalnima?" },
+      "options": [
+        { "id": "a", "text": { "en": "To give them more", "de": "Ihnen mehr zu geben", "bs": "Da će im dati više" } },
+        { "id": "b", "text": { "en": "Nothing", "de": "Nichts", "bs": "Ništa" } },
+        { "id": "c", "text": { "en": "To make them famous", "de": "Sie berühmt zu machen", "bs": "Da će ih učiniti slavnima" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "\"If you are grateful, I will surely increase you\" – 14:7.", "de": "„Wenn ihr dankbar seid, werde Ich euch gewiss mehr geben“ – 14:7.", "bs": "„Ako budete zahvalni, sigurno ću vam još više dati“ – 14:7." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "14:7" }]
+    }
+  ]
+}

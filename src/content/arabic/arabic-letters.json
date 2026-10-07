@@ -1,0 +1,102 @@
+{
+  "id": "arabic-letters",
+  "areaId": "arabic",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "The Arabic Letters", "de": "Die arabischen Buchstaben", "bs": "Arapski harfovi" },
+  "description": { "en": "28 letters, written from right to left.", "de": "28 Buchstaben, von rechts nach links.", "bs": "28 harfova, zdesna nalijevo." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Arabic, the language of the Quran, has 28 letters and is written from right to left. Most letters join the next letter, so their shape changes a little inside a word. Many letters differ only by their dots: ب (ba) has one dot below, ت (ta) two dots above, ث (tha) three dots above.",
+        "de": "Arabisch, die Sprache des Korans, hat 28 Buchstaben und wird von rechts nach links geschrieben. Die meisten Buchstaben werden mit dem nächsten verbunden, deshalb ändert sich ihre Form im Wort etwas. Viele Buchstaben unterscheiden sich nur durch Punkte: ب (Ba) hat einen Punkt unten, ت (Ta) zwei Punkte oben, ث (Tha) drei Punkte oben.",
+        "bs": "Arapski, jezik Kur'ana, ima 28 harfova i piše se zdesna nalijevo. Većina harfova se spaja sa sljedećim, pa im se oblik u riječi malo mijenja. Mnogi harfovi razlikuju se samo po tačkama: ب (be) ima jednu tačku ispod, ت (te) dvije iznad, ث (se) tri iznad."
+      },
+      "arabic": "ا ب ت ث",
+      "transliteration": "alif, bāʾ, tāʾ, thāʾ"
+    },
+    {
+      "heading": { "en": "Learn with a teacher", "de": "Mit einer Lehrkraft lernen", "bs": "Uči s učiteljem" },
+      "body": {
+        "en": "Some Arabic sounds do not exist in English, German or Bosnian. This app is a beginning – correct pronunciation is best learned from a qualified teacher.",
+        "de": "Manche arabischen Laute gibt es im Deutschen, Englischen oder Bosnischen nicht. Diese App ist ein Anfang – die richtige Aussprache lernt man am besten bei einer qualifizierten Lehrkraft.",
+        "bs": "Neki arapski glasovi ne postoje u bosanskom, njemačkom ili engleskom. Ova aplikacija je početak – pravilan izgovor najbolje se uči od kvalifikovanog učitelja."
+      }
+    }
+  ],
+  "practiceId": "arabic-letters-p",
+  "testIds": ["arabic-letters-1", "arabic-letters-2", "arabic-letters-3", "arabic-letters-4"],
+  "explanation": {
+    "en": "Recognising the letters is the first step towards reading the Quran in Arabic.",
+    "de": "Die Buchstaben zu erkennen ist der erste Schritt, um den Koran auf Arabisch zu lesen.",
+    "bs": "Prepoznavanje harfova prvi je korak ka učenju Kur'ana na arapskom."
+  },
+  "sources": [{ "sourceName": "Quran", "sourceReference": "12:2" }],
+  "questions": [
+    {
+      "id": "arabic-letters-p",
+      "type": "trueFalse",
+      "areaId": "arabic",
+      "topic": "alphabet",
+      "prompt": { "en": "Arabic is written from right to left.", "de": "Arabisch wird von rechts nach links geschrieben.", "bs": "Arapski se piše zdesna nalijevo." },
+      "correct": true,
+      "explanation": { "en": "Yes – reading starts on the right.", "de": "Ja – man beginnt rechts.", "bs": "Da – čitanje počinje s desne strane." }
+    },
+    {
+      "id": "arabic-letters-1",
+      "type": "multipleChoice",
+      "areaId": "arabic",
+      "topic": "alphabet",
+      "prompt": { "en": "How many letters does the Arabic alphabet have?", "de": "Wie viele Buchstaben hat das arabische Alphabet?", "bs": "Koliko harfova ima arapsko pismo?" },
+      "options": [
+        { "id": "a", "text": { "en": "28", "de": "28", "bs": "28" } },
+        { "id": "b", "text": { "en": "26", "de": "26", "bs": "26" } },
+        { "id": "c", "text": { "en": "30", "de": "30", "bs": "30" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "28 letters.", "de": "28 Buchstaben.", "bs": "28 harfova." }
+    },
+    {
+      "id": "arabic-letters-2",
+      "type": "matching",
+      "areaId": "arabic",
+      "topic": "alphabet",
+      "prompt": { "en": "Match each letter with its name.", "de": "Ordne jedem Buchstaben seinen Namen zu.", "bs": "Spoji svaki harf s njegovim imenom." },
+      "pairs": [
+        { "id": "alif", "left": { "en": "ا", "de": "ا", "bs": "ا" }, "right": { "en": "Alif", "de": "Alif", "bs": "Elif" } },
+        { "id": "ba", "left": { "en": "ب", "de": "ب", "bs": "ب" }, "right": { "en": "Ba", "de": "Ba", "bs": "Be" } },
+        { "id": "jim", "left": { "en": "ج", "de": "ج", "bs": "ج" }, "right": { "en": "Jim", "de": "Dschim", "bs": "Džim" } },
+        { "id": "mim", "left": { "en": "م", "de": "م", "bs": "م" }, "right": { "en": "Mim", "de": "Mim", "bs": "Mim" } }
+      ],
+      "explanation": { "en": "ا Alif, ب Ba, ج Jim, م Mim.", "de": "ا Alif, ب Ba, ج Dschim, م Mim.", "bs": "ا Elif, ب Be, ج Džim, م Mim." }
+    },
+    {
+      "id": "arabic-letters-3",
+      "type": "multipleChoice",
+      "areaId": "arabic",
+      "topic": "alphabet",
+      "prompt": { "en": "Which letter has one dot below?", "de": "Welcher Buchstabe hat einen Punkt unten?", "bs": "Koji harf ima jednu tačku ispod?" },
+      "options": [
+        { "id": "a", "text": { "en": "ب", "de": "ب", "bs": "ب" } },
+        { "id": "b", "text": { "en": "ت", "de": "ت", "bs": "ت" } },
+        { "id": "c", "text": { "en": "ث", "de": "ث", "bs": "ث" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "ب has one dot below; ت two above; ث three above.", "de": "ب hat einen Punkt unten; ت zwei oben; ث drei oben.", "bs": "ب ima jednu tačku ispod; ت dvije iznad; ث tri iznad." }
+    },
+    {
+      "id": "arabic-letters-4",
+      "type": "ordering",
+      "areaId": "arabic",
+      "topic": "alphabet",
+      "prompt": { "en": "Put the first letters of the alphabet in order.", "de": "Bringe die ersten Buchstaben des Alphabets in Reihenfolge.", "bs": "Poredaj prve harfove pisma." },
+      "items": [
+        { "id": "alif", "text": { "en": "ا Alif", "de": "ا Alif", "bs": "ا Elif" } },
+        { "id": "ba", "text": { "en": "ب Ba", "de": "ب Ba", "bs": "ب Be" } },
+        { "id": "ta", "text": { "en": "ت Ta", "de": "ت Ta", "bs": "ت Te" } },
+        { "id": "tha", "text": { "en": "ث Tha", "de": "ث Tha", "bs": "ث Se" } }
+      ],
+      "explanation": { "en": "Alif, Ba, Ta, Tha.", "de": "Alif, Ba, Ta, Tha.", "bs": "Elif, be, te, se." }
+    }
+  ]
+}

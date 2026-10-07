@@ -1,0 +1,118 @@
+{
+  "id": "quran-revelation",
+  "areaId": "quran",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "The Revealed Book", "de": "Das offenbarte Buch", "bs": "Objavljena Knjiga" },
+  "description": { "en": "What the Quran is and how it was revealed.", "de": "Was der Koran ist und wie er offenbart wurde.", "bs": "Šta je Kur'an i kako je objavljen." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Muslims believe the Quran is the word of Allah, brought by the angel Jibril to Prophet Muhammad ﷺ in the Arabic language. The word \"Quran\" means \"recitation\".",
+        "de": "Muslime glauben, dass der Koran das Wort Allahs ist, das der Engel Dschibril dem Propheten Muhammad ﷺ in arabischer Sprache brachte. Das Wort „Quran“ bedeutet „Rezitation“.",
+        "bs": "Muslimani vjeruju da je Kur'an Allahov govor koji je melek Džibril donio Poslaniku Muhammedu ﷺ na arapskom jeziku. Riječ „Kur'an“ znači „učenje, kazivanje“."
+      },
+      "arabic": "الْقُرْآن",
+      "transliteration": "al-qurʾān"
+    },
+    {
+      "heading": { "en": "Revealed step by step", "de": "Schritt für Schritt offenbart", "bs": "Objavljivan postepeno" },
+      "body": {
+        "en": "The first verses (Surah Al-Alaq, \"Read!\") came in the cave of Hira in the month of Ramadan. After that, the Quran was revealed bit by bit over about 23 years.",
+        "de": "Die ersten Verse (Sure Al-Alaq, „Lies!“) kamen in der Höhle Hira im Monat Ramadan. Danach wurde der Koran Stück für Stück über etwa 23 Jahre offenbart.",
+        "bs": "Prvi ajeti (sura El-Alek, „Čitaj!“) objavljeni su u pećini Hira u mjesecu ramazanu. Nakon toga Kur'an je objavljivan dio po dio tokom oko 23 godine."
+      }
+    },
+    {
+      "heading": { "en": "Gathered and preserved", "de": "Gesammelt und bewahrt", "bs": "Sakupljen i sačuvan" },
+      "body": {
+        "en": "The companions memorised and wrote down the verses. Under the caliph Abu Bakr they were gathered into one collection, and under Uthman copies were made and sent to different lands.",
+        "de": "Die Gefährten lernten die Verse auswendig und schrieben sie auf. Unter dem Kalifen Abu Bakr wurden sie in einer Sammlung zusammengetragen, und unter Uthman wurden Abschriften angefertigt und in verschiedene Länder geschickt.",
+        "bs": "Ashabi su pamtili i zapisivali ajete. Za vrijeme halife Ebu Bekra sakupljeni su u jednu zbirku, a za vrijeme Osmana prepisani su primjerci i poslani u razne krajeve."
+      }
+    }
+  ],
+  "practiceId": "quran-revelation-p",
+  "testIds": ["quran-revelation-1", "quran-revelation-2", "quran-revelation-3", "quran-revelation-4"],
+  "explanation": {
+    "en": "The Quran is the central source of Islam: revealed gradually, memorised by many and carefully preserved in writing.",
+    "de": "Der Koran ist die zentrale Quelle des Islam: schrittweise offenbart, von vielen auswendig gelernt und sorgfältig schriftlich bewahrt.",
+    "bs": "Kur'an je središnji izvor islama: objavljivan postepeno, zapamćen od mnogih i brižljivo sačuvan u pisanom obliku."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "2:185; 12:2; 96:1–5" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "3; 4986; 4987" }
+  ],
+  "questions": [
+    {
+      "id": "quran-revelation-p",
+      "type": "trueFalse",
+      "areaId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "The Quran was revealed in Arabic.", "de": "Der Koran wurde auf Arabisch offenbart.", "bs": "Kur'an je objavljen na arapskom." },
+      "correct": true,
+      "explanation": { "en": "Yes – translations help us understand its meaning.", "de": "Ja – Übersetzungen helfen uns, seine Bedeutung zu verstehen.", "bs": "Da – prijevodi nam pomažu razumjeti njegovo značenje." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:2" }]
+    },
+    {
+      "id": "quran-revelation-1",
+      "type": "multipleChoice",
+      "areaId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "Through which angel was the Quran revealed?", "de": "Durch welchen Engel wurde der Koran offenbart?", "bs": "Preko kojeg meleka je objavljen Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "Jibril", "de": "Dschibril", "bs": "Džibril" } },
+        { "id": "b", "text": { "en": "Mika'il", "de": "Mika'il", "bs": "Mikail" } },
+        { "id": "c", "text": { "en": "Israfil", "de": "Israfil", "bs": "Israfil" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The angel Jibril brought the revelation.", "de": "Der Engel Dschibril brachte die Offenbarung.", "bs": "Melek Džibril je donosio objavu." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:97; 26:193–194" }]
+    },
+    {
+      "id": "quran-revelation-2",
+      "type": "fillBlank",
+      "areaId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "The Quran was revealed over about ___ years.", "de": "Der Koran wurde über etwa ___ Jahre offenbart.", "bs": "Kur'an je objavljivan oko ___ godina." },
+      "options": [
+        { "id": "a", "text": { "en": "23", "de": "23", "bs": "23" } },
+        { "id": "b", "text": { "en": "3", "de": "3", "bs": "3" } },
+        { "id": "c", "text": { "en": "100", "de": "100", "bs": "100" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "From the first revelation in Hira until shortly before the Prophet's ﷺ death – about 23 years.", "de": "Von der ersten Offenbarung in Hira bis kurz vor dem Tod des Propheten ﷺ – etwa 23 Jahre.", "bs": "Od prve objave u Hiri do pred Poslanikovu ﷺ smrt – oko 23 godine." }
+    },
+    {
+      "id": "quran-revelation-3",
+      "type": "multipleChoice",
+      "areaId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "In which month did the revelation begin?", "de": "In welchem Monat begann die Offenbarung?", "bs": "U kojem mjesecu je počela objava?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ramadan", "de": "Ramadan", "bs": "Ramazan" } },
+        { "id": "b", "text": { "en": "Muharram", "de": "Muharram", "bs": "Muharrem" } },
+        { "id": "c", "text": { "en": "Shawwal", "de": "Schawwal", "bs": "Ševval" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Quran 2:185: Ramadan is the month in which the Quran was sent down.", "de": "Koran 2:185: Ramadan ist der Monat, in dem der Koran herabgesandt wurde.", "bs": "Kur'an 2:185: ramazan je mjesec u kojem je objavljen Kur'an." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:185" }]
+    },
+    {
+      "id": "quran-revelation-4",
+      "type": "ordering",
+      "areaId": "quran",
+      "topic": "quran-basics",
+      "prompt": { "en": "Put these events in order.", "de": "Bringe diese Ereignisse in die richtige Reihenfolge.", "bs": "Poredaj ove događaje." },
+      "items": [
+        { "id": "hira", "text": { "en": "First verses in the cave of Hira", "de": "Erste Verse in der Höhle Hira", "bs": "Prvi ajeti u pećini Hira" } },
+        { "id": "years", "text": { "en": "Revelation over about 23 years", "de": "Offenbarung über etwa 23 Jahre", "bs": "Objava tokom oko 23 godine" } },
+        { "id": "abubakr", "text": { "en": "Gathered under Abu Bakr", "de": "Gesammelt unter Abu Bakr", "bs": "Sakupljen za Ebu Bekra" } },
+        { "id": "uthman", "text": { "en": "Copies sent out under Uthman", "de": "Abschriften unter Uthman verschickt", "bs": "Primjerci poslani za Osmana" } }
+      ],
+      "explanation": { "en": "Hira, 23 years of revelation, collection under Abu Bakr, copies under Uthman.", "de": "Hira, 23 Jahre Offenbarung, Sammlung unter Abu Bakr, Abschriften unter Uthman.", "bs": "Hira, 23 godine objave, sakupljanje za Ebu Bekra, primjerci za Osmana." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "4986; 4987" }]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "ramadan-days-nights",
+  "areaId": "ramadan",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Days and Nights of Ramadan", "de": "Tage und Nächte des Ramadan", "bs": "Ramazanski dani i noći" },
+  "description": { "en": "Suhoor, iftar, Taraweeh and Laylat al-Qadr.", "de": "Suhur, Iftar, Tarawih und Laylat al-Qadr.", "bs": "Sehur, iftar, teravija i Lejletul-kadr." },
+  "lesson": [
+    {
+      "heading": { "en": "Suhoor and iftar", "de": "Suhur und Iftar", "bs": "Sehur i iftar" },
+      "body": {
+        "en": "The Prophet ﷺ said: take suhoor (the meal before dawn), for in suhoor there is blessing. He used to break his fast at sunset (iftar) with fresh dates, or dry dates, or a few sips of water.",
+        "de": "Der Prophet ﷺ sagte: Nehmt den Suhur (die Mahlzeit vor der Dämmerung) ein, denn im Suhur liegt Segen. Er brach sein Fasten bei Sonnenuntergang (Iftar) mit frischen oder getrockneten Datteln oder ein paar Schlucken Wasser.",
+        "bs": "Poslanik ﷺ je rekao: ručajte sehur (obrok prije zore), jer u sehuru je bereket. Iftario je o zalasku sunca svježim ili suhim hurmama, ili s nekoliko gutljaja vode."
+      }
+    },
+    {
+      "heading": { "en": "The nights", "de": "Die Nächte", "bs": "Noći" },
+      "body": {
+        "en": "Taraweeh is the special night prayer of Ramadan after Isha. Laylat al-Qadr is better than a thousand months; the Prophet ﷺ told us to seek it in the odd nights of the last ten nights.",
+        "de": "Tarawih ist das besondere Nachtgebet des Ramadan nach Ischa. Laylat al-Qadr ist besser als tausend Monate; der Prophet ﷺ sagte, wir sollen sie in den ungeraden Nächten der letzten zehn Nächte suchen.",
+        "bs": "Teravija je poseban noćni namaz ramazana nakon jacije. Lejletul-kadr je bolja od hiljadu mjeseci; Poslanik ﷺ je rekao da je tražimo u neparnim noćima posljednjih deset noći."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "Communities pray Taraweeh with different numbers of rak'ahs (for example 8 or 20), both based on scholarly evidence.",
+    "de": "Gemeinden beten Tarawih mit unterschiedlich vielen Rak'as (zum Beispiel 8 oder 20), beides auf gelehrte Belege gestützt.",
+    "bs": "Zajednice klanjaju teraviju s različitim brojem rekata (npr. 8 ili 20), oboje na osnovu učenjačkih dokaza."
+  },
+  "practiceId": "ramadan-days-nights-p",
+  "testIds": ["ramadan-days-nights-1", "ramadan-days-nights-2", "ramadan-days-nights-3", "ramadan-days-nights-4"],
+  "explanation": {
+    "en": "Ramadan has a rhythm: blessed meals, days of fasting and nights of prayer – with Laylat al-Qadr as its high point.",
+    "de": "Ramadan hat einen Rhythmus: gesegnete Mahlzeiten, Fastentage und Gebetsnächte – mit Laylat al-Qadr als Höhepunkt.",
+    "bs": "Ramazan ima svoj ritam: blagoslovljeni obroci, dani posta i noći namaza – s Lejletul-kadrom kao vrhuncem."
+  },
+  "sources": [
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "1923; 37; 2017" },
+    { "sourceName": "Sunan Abi Dawud", "sourceReference": "2356" },
+    { "sourceName": "Quran", "sourceReference": "97" }
+  ],
+  "questions": [
+    {
+      "id": "ramadan-days-nights-p",
+      "type": "imageChoice",
+      "areaId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "With what did the Prophet ﷺ usually break his fast?", "de": "Womit brach der Prophet ﷺ gewöhnlich sein Fasten?", "bs": "Čime je Poslanik ﷺ obično iftario?" },
+      "options": [
+        { "id": "dates", "element": "dates", "label": { "en": "Dates", "de": "Datteln", "bs": "Hurme" } },
+        { "id": "grain", "element": "grain", "label": { "en": "Wheat", "de": "Weizen", "bs": "Pšenica" } },
+        { "id": "basket", "element": "basket", "label": { "en": "Fruit basket", "de": "Obstkorb", "bs": "Korpa voća" } }
+      ],
+      "correctOptionId": "dates",
+      "explanation": { "en": "Fresh or dry dates, or water if there were none.", "de": "Frische oder getrocknete Datteln, oder Wasser, wenn keine da waren.", "bs": "Svježe ili suhe hurme, ili vodom ako ih nije bilo." },
+      "sources": [{ "sourceName": "Sunan Abi Dawud", "sourceReference": "2356" }]
+    },
+    {
+      "id": "ramadan-days-nights-1",
+      "type": "ordering",
+      "areaId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "Put a fasting day in order.", "de": "Bringe einen Fastentag in die richtige Reihenfolge.", "bs": "Poredaj jedan dan posta." },
+      "items": [
+        { "id": "suhoor", "text": { "en": "Suhoor before dawn", "de": "Suhur vor der Dämmerung", "bs": "Sehur prije zore" } },
+        { "id": "fajr", "text": { "en": "Fajr – the fast begins", "de": "Fadschr – das Fasten beginnt", "bs": "Sabah – post počinje" } },
+        { "id": "iftar", "text": { "en": "Iftar at sunset", "de": "Iftar bei Sonnenuntergang", "bs": "Iftar o zalasku" } },
+        { "id": "taraweeh", "text": { "en": "Isha and Taraweeh", "de": "Ischa und Tarawih", "bs": "Jacija i teravija" } }
+      ],
+      "explanation": { "en": "Suhoor, Fajr, iftar at Maghrib, then Isha and Taraweeh.", "de": "Suhur, Fadschr, Iftar zu Maghrib, dann Ischa und Tarawih.", "bs": "Sehur, sabah, iftar u akšam, zatim jacija i teravija." }
+    },
+    {
+      "id": "ramadan-days-nights-2",
+      "type": "multipleChoice",
+      "areaId": "ramadan",
+      "topic": "ramadan-nights",
+      "prompt": { "en": "Laylat al-Qadr is better than…", "de": "Laylat al-Qadr ist besser als…", "bs": "Lejletul-kadr je bolja od…" },
+      "options": [
+        { "id": "a", "text": { "en": "a thousand months", "de": "tausend Monate", "bs": "hiljadu mjeseci" } },
+        { "id": "b", "text": { "en": "ten days", "de": "zehn Tage", "bs": "deset dana" } },
+        { "id": "c", "text": { "en": "one week", "de": "eine Woche", "bs": "jedne sedmice" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Al-Qadr 97:3.", "de": "Sure Al-Qadr 97:3.", "bs": "Sura El-Kadr 97:3." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "97:3" }]
+    },
+    {
+      "id": "ramadan-days-nights-3",
+      "type": "matching",
+      "areaId": "ramadan",
+      "topic": "suhoor-iftar",
+      "prompt": { "en": "Match each word with its meaning.", "de": "Ordne jedem Wort seine Bedeutung zu.", "bs": "Spoji svaku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "suhoor", "left": { "en": "Suhoor", "de": "Suhur", "bs": "Sehur" }, "right": { "en": "Meal before dawn", "de": "Mahlzeit vor der Dämmerung", "bs": "Obrok prije zore" } },
+        { "id": "iftar", "left": { "en": "Iftar", "de": "Iftar", "bs": "Iftar" }, "right": { "en": "Meal at sunset", "de": "Mahlzeit bei Sonnenuntergang", "bs": "Obrok o zalasku" } },
+        { "id": "taraweeh", "left": { "en": "Taraweeh", "de": "Tarawih", "bs": "Teravija" }, "right": { "en": "Night prayer", "de": "Nachtgebet", "bs": "Noćni namaz" } }
+      ],
+      "explanation": { "en": "Suhoor before dawn, iftar at sunset, Taraweeh at night.", "de": "Suhur vor der Dämmerung, Iftar bei Sonnenuntergang, Tarawih in der Nacht.", "bs": "Sehur prije zore, iftar o zalasku, teravija noću." }
+    },
+    {
+      "id": "ramadan-days-nights-4",
+      "type": "trueFalse",
+      "areaId": "ramadan",
+      "topic": "ramadan-nights",
+      "prompt": { "en": "The Prophet ﷺ told us to seek Laylat al-Qadr in the odd nights of the last ten nights.", "de": "Der Prophet ﷺ sagte, wir sollen Laylat al-Qadr in den ungeraden Nächten der letzten zehn Nächte suchen.", "bs": "Poslanik ﷺ je rekao da Lejletul-kadr tražimo u neparnim noćima posljednjih deset noći." },
+      "correct": true,
+      "explanation": { "en": "Reported in Sahih al-Bukhari.", "de": "Überliefert in Sahih al-Bukhari.", "bs": "Preneseno u Sahihu el-Buhari." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "2017" }]
+    }
+  ]
+}

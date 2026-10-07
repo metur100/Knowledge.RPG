@@ -1,0 +1,116 @@
+{
+  "id": "salah-times",
+  "areaId": "salah",
+  "order": 2,
+  "difficulty": 1,
+  "title": { "en": "The Five Daily Prayers", "de": "Die fünf täglichen Gebete", "bs": "Pet dnevnih namaza" },
+  "description": { "en": "Names, times and obligatory rak'ahs.", "de": "Namen, Zeiten und Pflicht-Rak'as.", "bs": "Nazivi, vremena i farz rekati." },
+  "lesson": [
+    {
+      "body": {
+        "en": "The Quran says that prayer is prescribed for the believers at fixed times. The five daily prayers and their obligatory (fard) rak'ahs are: Fajr at dawn – 2, Dhuhr after midday – 4, Asr in the afternoon – 4, Maghrib just after sunset – 3, and Isha at night – 4. Altogether 17 rak'ahs.",
+        "de": "Der Koran sagt, dass das Gebet den Gläubigen zu festgesetzten Zeiten vorgeschrieben ist. Die fünf täglichen Gebete und ihre Pflicht-Rak'as: Fadschr in der Morgendämmerung – 2, Dhuhr nach dem Mittag – 4, Asr am Nachmittag – 4, Maghrib kurz nach Sonnenuntergang – 3 und Ischa in der Nacht – 4. Zusammen 17 Rak'as.",
+        "bs": "Kur'an kaže da je namaz vjernicima propisan u određeno vrijeme. Pet dnevnih namaza i njihovi farz rekati: sabah u zoru – 2, podne poslije podneva – 4, ikindija poslijepodne – 4, akšam odmah nakon zalaska sunca – 3 i jacija noću – 4. Ukupno 17 rekata."
+      }
+    },
+    {
+      "heading": { "en": "Prayer timetables", "de": "Gebetskalender", "bs": "Vaktije" },
+      "body": {
+        "en": "Prayer times change every day with the sun. Communities publish timetables so everyone knows when each prayer begins.",
+        "de": "Die Gebetszeiten ändern sich jeden Tag mit der Sonne. Gemeinden veröffentlichen Kalender, damit alle wissen, wann jedes Gebet beginnt.",
+        "bs": "Vremena namaza mijenjaju se svaki dan sa suncem. Zajednice objavljuju vaktije kako bi svi znali kada nastupa svaki namaz."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "Scholars and organisations calculate some prayer times differently (for example the start of Asr). Follow the timetable of your local community.",
+    "de": "Gelehrte und Organisationen berechnen manche Gebetszeiten unterschiedlich (zum Beispiel den Beginn von Asr). Folge dem Kalender deiner Gemeinde.",
+    "bs": "Učenjaci i organizacije neka vremena namaza računaju različito (npr. početak ikindije). Slijedi vaktiju svoje zajednice."
+  },
+  "practiceId": "salah-times-p",
+  "testIds": ["salah-times-1", "salah-times-2", "salah-times-3", "salah-times-4"],
+  "explanation": {
+    "en": "Knowing the five prayers, their order and their rak'ahs is the foundation for praying them correctly.",
+    "de": "Die fünf Gebete, ihre Reihenfolge und ihre Rak'as zu kennen, ist die Grundlage, um sie richtig zu verrichten.",
+    "bs": "Poznavanje pet namaza, njihovog redoslijeda i rekata temelj je ispravnog klanjanja."
+  },
+  "sources": [{ "sourceName": "Quran", "sourceReference": "4:103" }],
+  "questions": [
+    {
+      "id": "salah-times-p",
+      "type": "memory",
+      "areaId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "Practice: match each prayer with its time.", "de": "Übung: Ordne jedem Gebet seine Zeit zu.", "bs": "Vježba: spoji svaki namaz s njegovim vremenom." },
+      "pairs": [
+        { "id": "fajr", "left": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" }, "right": { "en": "Dawn", "de": "Morgendämmerung", "bs": "Zora" } },
+        { "id": "dhuhr", "left": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" }, "right": { "en": "After midday", "de": "Nach dem Mittag", "bs": "Poslije podneva" } },
+        { "id": "maghrib", "left": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" }, "right": { "en": "After sunset", "de": "Nach Sonnenuntergang", "bs": "Nakon zalaska" } }
+      ],
+      "explanation": { "en": "Each prayer has its own time of day.", "de": "Jedes Gebet hat seine eigene Tageszeit.", "bs": "Svaki namaz ima svoje vrijeme." }
+    },
+    {
+      "id": "salah-times-1",
+      "type": "ordering",
+      "areaId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "Put the five prayers in order, starting in the morning.", "de": "Bringe die fünf Gebete in die richtige Reihenfolge, beginnend am Morgen.", "bs": "Poredaj pet namaza počevši od jutra." },
+      "items": [
+        { "id": "fajr", "text": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" } },
+        { "id": "dhuhr", "text": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" } },
+        { "id": "asr", "text": { "en": "Asr", "de": "Asr", "bs": "Ikindija" } },
+        { "id": "maghrib", "text": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" } },
+        { "id": "isha", "text": { "en": "Isha", "de": "Ischa", "bs": "Jacija" } }
+      ],
+      "explanation": { "en": "Fajr, Dhuhr, Asr, Maghrib, Isha.", "de": "Fadschr, Dhuhr, Asr, Maghrib, Ischa.", "bs": "Sabah, podne, ikindija, akšam, jacija." }
+    },
+    {
+      "id": "salah-times-2",
+      "type": "matching",
+      "areaId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "Match each prayer with its obligatory rak'ahs.", "de": "Ordne jedem Gebet seine Pflicht-Rak'as zu.", "bs": "Spoji svaki namaz s farz rekatima." },
+      "pairs": [
+        { "id": "fajr", "left": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" }, "right": { "en": "2", "de": "2", "bs": "2" } },
+        { "id": "dhuhr", "left": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" }, "right": { "en": "4", "de": "4", "bs": "4" } },
+        { "id": "maghrib", "left": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" }, "right": { "en": "3", "de": "3", "bs": "3" } },
+        { "id": "isha", "left": { "en": "Isha", "de": "Ischa", "bs": "Jacija" }, "right": { "en": "4", "de": "4", "bs": "4" } }
+      ],
+      "explanation": { "en": "Fajr 2, Dhuhr 4, Asr 4, Maghrib 3, Isha 4.", "de": "Fadschr 2, Dhuhr 4, Asr 4, Maghrib 3, Ischa 4.", "bs": "Sabah 2, podne 4, ikindija 4, akšam 3, jacija 4." }
+    },
+    {
+      "id": "salah-times-3",
+      "type": "categorize",
+      "areaId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "Sort the prayers by their obligatory rak'ahs.", "de": "Sortiere die Gebete nach ihren Pflicht-Rak'as.", "bs": "Razvrstaj namaze prema farz rekatima." },
+      "categories": [
+        { "id": "four", "label": { "en": "4 rak'ahs", "de": "4 Rak'as", "bs": "4 rekata" } },
+        { "id": "fewer", "label": { "en": "Fewer than 4", "de": "Weniger als 4", "bs": "Manje od 4" } }
+      ],
+      "items": [
+        { "id": "dhuhr", "text": { "en": "Dhuhr", "de": "Dhuhr", "bs": "Podne" }, "categoryId": "four" },
+        { "id": "asr", "text": { "en": "Asr", "de": "Asr", "bs": "Ikindija" }, "categoryId": "four" },
+        { "id": "isha", "text": { "en": "Isha", "de": "Ischa", "bs": "Jacija" }, "categoryId": "four" },
+        { "id": "fajr", "text": { "en": "Fajr", "de": "Fadschr", "bs": "Sabah" }, "categoryId": "fewer" },
+        { "id": "maghrib", "text": { "en": "Maghrib", "de": "Maghrib", "bs": "Akšam" }, "categoryId": "fewer" }
+      ],
+      "explanation": { "en": "Dhuhr, Asr and Isha have 4; Fajr has 2 and Maghrib 3.", "de": "Dhuhr, Asr und Ischa haben 4; Fadschr hat 2 und Maghrib 3.", "bs": "Podne, ikindija i jacija imaju 4; sabah 2, a akšam 3." }
+    },
+    {
+      "id": "salah-times-4",
+      "type": "fillBlank",
+      "areaId": "salah",
+      "topic": "salah-times",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Maghrib is prayed just after ___.", "de": "Maghrib wird kurz nach ___ gebetet.", "bs": "Akšam se klanja odmah nakon ___." },
+      "options": [
+        { "id": "a", "text": { "en": "sunset", "de": "Sonnenuntergang", "bs": "zalaska sunca" } },
+        { "id": "b", "text": { "en": "sunrise", "de": "Sonnenaufgang", "bs": "izlaska sunca" } },
+        { "id": "c", "text": { "en": "midnight", "de": "Mitternacht", "bs": "ponoći" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Maghrib means \"sunset\".", "de": "Maghrib bedeutet „Sonnenuntergang“.", "bs": "Magrib znači „zalazak“." }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "id": "ramadan-charity-eid",
+  "areaId": "ramadan",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Charity and Eid", "de": "Spenden und Eid", "bs": "Sadaka i Bajram" },
+  "description": { "en": "Generosity and the joy of Eid al-Fitr.", "de": "Großzügigkeit und die Freude des Eid al-Fitr.", "bs": "Darežljivost i radost Ramazanskog bajrama." },
+  "lesson": [
+    {
+      "body": {
+        "en": "The Prophet ﷺ was the most generous of people, and even more generous in Ramadan. Before the Eid prayer, Muslims give Zakat al-Fitr so that people in need can celebrate too. Eid al-Fitr is on the first day of Shawwal; fasting on that day is not allowed – it is a day of joy, prayer, takbir and visiting family.",
+        "de": "Der Prophet ﷺ war der großzügigste Mensch und im Ramadan noch großzügiger. Vor dem Eid-Gebet geben Muslime die Zakat al-Fitr, damit auch Bedürftige feiern können. Eid al-Fitr ist am ersten Tag des Schawwal; an diesem Tag zu fasten ist nicht erlaubt – es ist ein Tag der Freude, des Gebets, des Takbir und der Familienbesuche.",
+        "bs": "Poslanik ﷺ je bio najdarežljiviji čovjek, a u ramazanu još darežljiviji. Prije bajram-namaza muslimani daju sadekatul-fitr kako bi i potrebni mogli slaviti. Ramazanski bajram je prvog dana ševvala; tog dana nije dozvoljeno postiti – to je dan radosti, namaza, tekbira i posjeta porodici."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "Scholars differ on whether Zakat al-Fitr is given as food or may also be given as money.",
+    "de": "Gelehrte sind sich uneinig, ob die Zakat al-Fitr als Lebensmittel oder auch als Geld gegeben werden darf.",
+    "bs": "Učenjaci se razilaze daje li se sadekatul-fitr u hrani ili se može dati i u novcu."
+  },
+  "practiceId": "ramadan-charity-eid-p",
+  "testIds": ["ramadan-charity-eid-1", "ramadan-charity-eid-2", "ramadan-charity-eid-3", "ramadan-charity-eid-4"],
+  "explanation": {
+    "en": "Ramadan ends with sharing: charity before Eid makes sure the whole community can celebrate.",
+    "de": "Ramadan endet mit Teilen: Die Spende vor dem Eid sorgt dafür, dass die ganze Gemeinschaft feiern kann.",
+    "bs": "Ramazan završava dijeljenjem: sadaka prije Bajrama osigurava da cijela zajednica može slaviti."
+  },
+  "sources": [
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "6; 1503; 1990" },
+    { "sourceName": "Sahih Muslim", "sourceReference": "1137" }
+  ],
+  "questions": [
+    {
+      "id": "ramadan-charity-eid-p",
+      "type": "trueFalse",
+      "areaId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "Muslims fast on the day of Eid al-Fitr.", "de": "Muslime fasten am Tag des Eid al-Fitr.", "bs": "Muslimani poste na dan Ramazanskog bajrama." },
+      "correct": false,
+      "explanation": { "en": "Not quite – fasting on Eid is not allowed.", "de": "Nicht ganz – am Eid zu fasten ist nicht erlaubt.", "bs": "Nije tačno – na Bajram nije dozvoljeno postiti." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "1990" }]
+    },
+    {
+      "id": "ramadan-charity-eid-1",
+      "type": "multipleChoice",
+      "areaId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "When is Zakat al-Fitr given?", "de": "Wann wird die Zakat al-Fitr gegeben?", "bs": "Kada se daje sadekatul-fitr?" },
+      "options": [
+        { "id": "a", "text": { "en": "Before the Eid prayer", "de": "Vor dem Eid-Gebet", "bs": "Prije bajram-namaza" } },
+        { "id": "b", "text": { "en": "A year later", "de": "Ein Jahr später", "bs": "Godinu dana kasnije" } },
+        { "id": "c", "text": { "en": "Never", "de": "Nie", "bs": "Nikad" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Before the Eid prayer, so the needy can celebrate.", "de": "Vor dem Eid-Gebet, damit Bedürftige feiern können.", "bs": "Prije bajram-namaza, da i potrebni mogu slaviti." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "1503" }]
+    },
+    {
+      "id": "ramadan-charity-eid-2",
+      "type": "scenario",
+      "areaId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "Your family is preparing iftar and you think of a neighbour who lives alone. What could you do?", "de": "Deine Familie bereitet den Iftar vor und du denkst an einen Nachbarn, der allein lebt. Was könntest du tun?", "bs": "Porodica sprema iftar, a ti se sjetiš komšije koji živi sam. Šta bi mogao uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ask my parents if we can share iftar with him", "de": "Meine Eltern fragen, ob wir den Iftar mit ihm teilen können", "bs": "Pitati roditelje možemo li s njim podijeliti iftar" }, "feedback": { "en": "A great good deed.", "de": "Eine große gute Tat.", "bs": "Veliko dobro djelo." } },
+        { "id": "b", "text": { "en": "Nothing – not my business", "de": "Nichts – geht mich nichts an", "bs": "Ništa – nije moja briga" }, "feedback": { "en": "Ramadan is a month of caring.", "de": "Ramadan ist ein Monat der Fürsorge.", "bs": "Ramazan je mjesec brige." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Generosity in Ramadan follows the Sunnah.", "de": "Großzügigkeit im Ramadan folgt der Sunna.", "bs": "Darežljivost u ramazanu slijedi sunnet." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "6" }]
+    },
+    {
+      "id": "ramadan-charity-eid-3",
+      "type": "fillBlank",
+      "areaId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Eid al-Fitr is on the first day of ___.", "de": "Eid al-Fitr ist am ersten Tag des ___.", "bs": "Ramazanski bajram je prvog dana ___." },
+      "options": [
+        { "id": "a", "text": { "en": "Shawwal", "de": "Schawwal", "bs": "ševvala" } },
+        { "id": "b", "text": { "en": "Muharram", "de": "Muharram", "bs": "muharrema" } },
+        { "id": "c", "text": { "en": "Rajab", "de": "Radschab", "bs": "redžeba" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Shawwal is the month after Ramadan.", "de": "Schawwal ist der Monat nach Ramadan.", "bs": "Ševval je mjesec nakon ramazana." }
+    },
+    {
+      "id": "ramadan-charity-eid-4",
+      "type": "memory",
+      "areaId": "ramadan",
+      "topic": "charity-eid",
+      "prompt": { "en": "Find the Ramadan pairs.", "de": "Finde die Ramadan-Paare.", "bs": "Pronađi ramazanske parove." },
+      "pairs": [
+        { "id": "dates", "left": { "en": "Dates", "de": "Datteln", "bs": "Hurme" }, "right": { "en": "Breaking the fast", "de": "Fastenbrechen", "bs": "Iftar" } },
+        { "id": "qadr", "left": { "en": "Laylat al-Qadr", "de": "Laylat al-Qadr", "bs": "Lejletul-kadr" }, "right": { "en": "Better than 1000 months", "de": "Besser als 1000 Monate", "bs": "Bolja od 1000 mjeseci" } },
+        { "id": "eid", "left": { "en": "Eid al-Fitr", "de": "Eid al-Fitr", "bs": "Ramazanski bajram" }, "right": { "en": "1st of Shawwal", "de": "1. Schawwal", "bs": "1. ševval" } }
+      ],
+      "explanation": { "en": "Dates for iftar, Laylat al-Qadr, Eid on the 1st of Shawwal.", "de": "Datteln zum Iftar, Laylat al-Qadr, Eid am 1. Schawwal.", "bs": "Hurme za iftar, Lejletul-kadr, Bajram 1. ševvala." }
+    }
+  ]
+}

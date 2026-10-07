@@ -1,0 +1,106 @@
+{
+  "id": "history-caliphs",
+  "areaId": "history",
+  "order": 1,
+  "difficulty": 2,
+  "title": { "en": "The Rightly Guided Caliphs", "de": "Die rechtgeleiteten Kalifen", "bs": "Pravedne halife" },
+  "description": { "en": "Abu Bakr, Umar, Uthman and Ali.", "de": "Abu Bakr, Umar, Uthman und Ali.", "bs": "Ebu Bekr, Omer, Osman i Alija." },
+  "lesson": [
+    {
+      "body": {
+        "en": "After the Prophet ﷺ passed away in 632 CE, the Muslims were led by four caliphs known as the Rightly Guided Caliphs (al-Khulafa ar-Rashidun): Abu Bakr (632–634), Umar ibn al-Khattab (634–644), Uthman ibn Affan (644–656) and Ali ibn Abi Talib (656–661).",
+        "de": "Nachdem der Prophet ﷺ 632 n. Chr. gestorben war, wurden die Muslime von vier Kalifen geführt, den rechtgeleiteten Kalifen (al-Chulafa ar-Raschidun): Abu Bakr (632–634), Umar ibn al-Chattab (634–644), Uthman ibn Affan (644–656) und Ali ibn Abi Talib (656–661).",
+        "bs": "Nakon što je Poslanik ﷺ preselio 632. godine, muslimane su predvodile četiri halife poznate kao pravedne halife (el-hulefa er-rašidun): Ebu Bekr (632–634), Omer ibn el-Hattab (634–644), Osman ibn Affan (644–656) i Alija ibn Ebi Talib (656–661)."
+      }
+    },
+    {
+      "heading": { "en": "What they are remembered for", "de": "Wofür man sich an sie erinnert", "bs": "Po čemu ih pamtimo" },
+      "body": {
+        "en": "Under Abu Bakr the Quran was gathered into one collection. Under Umar the Hijri calendar was introduced, counting years from the Hijra. Under Uthman copies of the Quran were made and sent to different regions. Ali was the Prophet's ﷺ cousin and son-in-law.",
+        "de": "Unter Abu Bakr wurde der Koran in einer Sammlung zusammengetragen. Unter Umar wurde der Hidschri-Kalender eingeführt, der die Jahre ab der Hidschra zählt. Unter Uthman wurden Abschriften des Korans angefertigt und in verschiedene Regionen geschickt. Ali war der Cousin und Schwiegersohn des Propheten ﷺ.",
+        "bs": "Za vrijeme Ebu Bekra Kur'an je sakupljen u jednu zbirku. Za vrijeme Omera uveden je hidžretski kalendar, koji broji godine od Hidžre. Za vrijeme Osmana prepisani su primjerci Kur'ana i poslani u razne krajeve. Alija je bio Poslanikov ﷺ amidžić i zet."
+      }
+    }
+  ],
+  "practiceId": "history-caliphs-p",
+  "testIds": ["history-caliphs-1", "history-caliphs-2", "history-caliphs-3", "history-caliphs-4"],
+  "explanation": {
+    "en": "The Rightly Guided Caliphs preserved the Quran and the community after the Prophet ﷺ – much of what we have today goes back to their care.",
+    "de": "Die rechtgeleiteten Kalifen bewahrten nach dem Propheten ﷺ den Koran und die Gemeinschaft – vieles, was wir heute haben, geht auf ihre Sorgfalt zurück.",
+    "bs": "Pravedne halife sačuvale su Kur'an i zajednicu nakon Poslanika ﷺ – mnogo toga što danas imamo potiče iz njihove brige."
+  },
+  "sources": [
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "4986; 4987; 3934" },
+    { "sourceName": "Al-Tabari, Tarikh al-Rusul wa al-Muluk", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "history-caliphs-p",
+      "type": "trueFalse",
+      "areaId": "history",
+      "topic": "caliphs",
+      "prompt": { "en": "Abu Bakr was the first caliph after the Prophet ﷺ.", "de": "Abu Bakr war der erste Kalif nach dem Propheten ﷺ.", "bs": "Ebu Bekr je bio prvi halifa nakon Poslanika ﷺ." },
+      "correct": true,
+      "explanation": { "en": "Yes – Abu Bakr led the Muslims from 632 to 634 CE.", "de": "Ja – Abu Bakr führte die Muslime von 632 bis 634 n. Chr.", "bs": "Da – Ebu Bekr je predvodio muslimane od 632. do 634." }
+    },
+    {
+      "id": "history-caliphs-1",
+      "type": "ordering",
+      "areaId": "history",
+      "topic": "caliphs",
+      "prompt": { "en": "Put the four caliphs in order.", "de": "Bringe die vier Kalifen in die richtige Reihenfolge.", "bs": "Poredaj četiri halife." },
+      "items": [
+        { "id": "abubakr", "text": { "en": "Abu Bakr", "de": "Abu Bakr", "bs": "Ebu Bekr" } },
+        { "id": "umar", "text": { "en": "Umar", "de": "Umar", "bs": "Omer" } },
+        { "id": "uthman", "text": { "en": "Uthman", "de": "Uthman", "bs": "Osman" } },
+        { "id": "ali", "text": { "en": "Ali", "de": "Ali", "bs": "Alija" } }
+      ],
+      "explanation": { "en": "Abu Bakr, Umar, Uthman, Ali.", "de": "Abu Bakr, Umar, Uthman, Ali.", "bs": "Ebu Bekr, Omer, Osman, Alija." }
+    },
+    {
+      "id": "history-caliphs-2",
+      "type": "matching",
+      "areaId": "history",
+      "topic": "caliphs",
+      "prompt": { "en": "Match each caliph with what he is remembered for.", "de": "Ordne jedem Kalifen zu, wofür man sich an ihn erinnert.", "bs": "Spoji svakog halifu s onim po čemu ga pamtimo." },
+      "pairs": [
+        { "id": "abubakr", "left": { "en": "Abu Bakr", "de": "Abu Bakr", "bs": "Ebu Bekr" }, "right": { "en": "Quran gathered in one collection", "de": "Koran in einer Sammlung zusammengetragen", "bs": "Kur'an sakupljen u zbirku" } },
+        { "id": "umar", "left": { "en": "Umar", "de": "Umar", "bs": "Omer" }, "right": { "en": "Hijri calendar introduced", "de": "Hidschri-Kalender eingeführt", "bs": "Uveden hidžretski kalendar" } },
+        { "id": "uthman", "left": { "en": "Uthman", "de": "Uthman", "bs": "Osman" }, "right": { "en": "Copies of the Quran sent out", "de": "Koranabschriften verschickt", "bs": "Poslani primjerci Kur'ana" } },
+        { "id": "ali", "left": { "en": "Ali", "de": "Ali", "bs": "Alija" }, "right": { "en": "Cousin of the Prophet ﷺ", "de": "Cousin des Propheten ﷺ", "bs": "Poslanikov ﷺ amidžić" } }
+      ],
+      "explanation": { "en": "Each caliph served the community in his own way.", "de": "Jeder Kalif diente der Gemeinschaft auf seine Weise.", "bs": "Svaki halifa služio je zajednici na svoj način." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "4986; 4987" }]
+    },
+    {
+      "id": "history-caliphs-3",
+      "type": "multipleChoice",
+      "areaId": "history",
+      "topic": "caliphs",
+      "prompt": { "en": "Who was the second caliph?", "de": "Wer war der zweite Kalif?", "bs": "Ko je bio drugi halifa?" },
+      "options": [
+        { "id": "a", "text": { "en": "Umar ibn al-Khattab", "de": "Umar ibn al-Chattab", "bs": "Omer ibn el-Hattab" } },
+        { "id": "b", "text": { "en": "Uthman ibn Affan", "de": "Uthman ibn Affan", "bs": "Osman ibn Affan" } },
+        { "id": "c", "text": { "en": "Ali ibn Abi Talib", "de": "Ali ibn Abi Talib", "bs": "Alija ibn Ebi Talib" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Umar led the Muslims from 634 to 644 CE.", "de": "Umar führte die Muslime von 634 bis 644 n. Chr.", "bs": "Omer je predvodio muslimane od 634. do 644." }
+    },
+    {
+      "id": "history-caliphs-4",
+      "type": "fillBlank",
+      "areaId": "history",
+      "topic": "caliphs",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "The Hijri calendar counts years from the ___.", "de": "Der Hidschri-Kalender zählt die Jahre ab der ___.", "bs": "Hidžretski kalendar broji godine od ___." },
+      "options": [
+        { "id": "a", "text": { "en": "Hijra", "de": "Hidschra", "bs": "Hidžre" } },
+        { "id": "b", "text": { "en": "birth of the Prophet ﷺ", "de": "Geburt des Propheten ﷺ", "bs": "rođenja Poslanika ﷺ" } },
+        { "id": "c", "text": { "en": "first revelation", "de": "ersten Offenbarung", "bs": "prve objave" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The companions counted the calendar from the Prophet's ﷺ arrival in Madinah.", "de": "Die Gefährten zählten den Kalender ab der Ankunft des Propheten ﷺ in Medina.", "bs": "Ashabi su kalendar računali od Poslanikovog ﷺ dolaska u Medinu." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "3934" }]
+    }
+  ]
+}

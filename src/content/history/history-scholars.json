@@ -1,0 +1,113 @@
+{
+  "id": "history-scholars",
+  "areaId": "history",
+  "order": 2,
+  "difficulty": 3,
+  "title": { "en": "Preserving the Sunnah", "de": "Die Bewahrung der Sunna", "bs": "Čuvanje sunneta" },
+  "description": { "en": "Hadith collectors and the four imams.", "de": "Hadith-Sammler und die vier Imame.", "bs": "Sakupljači hadisa i četiri imama." },
+  "lesson": [
+    {
+      "heading": { "en": "Hadith collections", "de": "Hadith-Sammlungen", "bs": "Zbirke hadisa" },
+      "body": {
+        "en": "Scholars travelled far to collect and check the sayings of the Prophet ﷺ. Imam al-Bukhari (died 256 AH) compiled the Sahih al-Bukhari and Imam Muslim (died 261 AH) the Sahih Muslim – two of the most trusted hadith collections.",
+        "de": "Gelehrte reisten weit, um die Aussprüche des Propheten ﷺ zu sammeln und zu prüfen. Imam al-Buchari (gest. 256 n. H.) stellte den Sahih al-Buchari zusammen und Imam Muslim (gest. 261 n. H.) den Sahih Muslim – zwei der vertrauenswürdigsten Hadith-Sammlungen.",
+        "bs": "Učenjaci su daleko putovali da sakupe i provjere izreke Poslanika ﷺ. Imam el-Buhari (umro 256. h.) sastavio je Sahih el-Buhari, a imam Muslim (umro 261. h.) Sahih Muslim – dvije najpouzdanije zbirke hadisa."
+      }
+    },
+    {
+      "heading": { "en": "The four imams", "de": "Die vier Imame", "bs": "Četiri imama" },
+      "body": {
+        "en": "Four great scholars gave their names to the four Sunni schools of Islamic law (madhhabs): Abu Hanifa (died 150 AH), Malik (died 179 AH), al-Shafi'i (died 204 AH) and Ahmad ibn Hanbal (died 241 AH). They respected each other even where they reached different conclusions. Most Muslims in Bosnia and Herzegovina traditionally follow the Hanafi school.",
+        "de": "Vier große Gelehrte gaben den vier sunnitischen Rechtsschulen (Madhhabs) ihre Namen: Abu Hanifa (gest. 150 n. H.), Malik (gest. 179 n. H.), asch-Schafi'i (gest. 204 n. H.) und Ahmad ibn Hanbal (gest. 241 n. H.). Sie achteten einander, auch wo sie zu unterschiedlichen Ergebnissen kamen. Die meisten Muslime in Bosnien und Herzegowina folgen traditionell der hanafitischen Schule.",
+        "bs": "Četiri velika učenjaka dala su imena četirima sunnijskim pravnim školama (mezhebima): Ebu Hanifa (umro 150. h.), Malik (umro 179. h.), eš-Šafi'i (umro 204. h.) i Ahmed ibn Hanbel (umro 241. h.). Poštovali su jedni druge i tamo gdje su došli do različitih zaključaka. Većina muslimana u Bosni i Hercegovini tradicionalno slijedi hanefijski mezheb."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "The existence of several schools of law is why Muslims sometimes practise details differently – all four are respected Sunni traditions.",
+    "de": "Weil es mehrere Rechtsschulen gibt, praktizieren Muslime Details manchmal unterschiedlich – alle vier sind anerkannte sunnitische Traditionen.",
+    "bs": "Zbog više pravnih škola muslimani ponekad neke detalje prakticiraju različito – sve četiri su priznate sunnijske tradicije."
+  },
+  "practiceId": "history-scholars-p",
+  "testIds": ["history-scholars-1", "history-scholars-2", "history-scholars-3", "history-scholars-4"],
+  "explanation": {
+    "en": "Thanks to these scholars, the Sunnah and Islamic law were carefully preserved and explained for later generations.",
+    "de": "Dank dieser Gelehrten wurden Sunna und islamisches Recht für spätere Generationen sorgfältig bewahrt und erklärt.",
+    "bs": "Zahvaljujući ovim učenjacima, sunnet i islamsko pravo brižljivo su sačuvani i objašnjeni za buduće generacije."
+  },
+  "sources": [
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "—" },
+    { "sourceName": "Sahih Muslim", "sourceReference": "—" },
+    { "sourceName": "Al-Dhahabi, Siyar A'lam al-Nubala'", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "history-scholars-p",
+      "type": "multipleChoice",
+      "areaId": "history",
+      "topic": "scholars",
+      "prompt": { "en": "Who compiled the Sahih al-Bukhari?", "de": "Wer stellte den Sahih al-Buchari zusammen?", "bs": "Ko je sastavio Sahih el-Buhari?" },
+      "options": [
+        { "id": "a", "text": { "en": "Imam al-Bukhari", "de": "Imam al-Buchari", "bs": "Imam el-Buhari" } },
+        { "id": "b", "text": { "en": "Imam Malik", "de": "Imam Malik", "bs": "Imam Malik" } },
+        { "id": "c", "text": { "en": "Ibn Sina", "de": "Ibn Sina", "bs": "Ibn Sina" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Imam al-Bukhari, who died in 256 AH.", "de": "Imam al-Buchari, gestorben 256 n. H.", "bs": "Imam el-Buhari, umro 256. h." }
+    },
+    {
+      "id": "history-scholars-1",
+      "type": "categorize",
+      "areaId": "history",
+      "topic": "scholars",
+      "prompt": { "en": "Sort the scholars: hadith collector or founder of a school of law?", "de": "Sortiere die Gelehrten: Hadith-Sammler oder Begründer einer Rechtsschule?", "bs": "Razvrstaj učenjake: sakupljač hadisa ili osnivač mezheba?" },
+      "categories": [
+        { "id": "hadith", "label": { "en": "Hadith collector", "de": "Hadith-Sammler", "bs": "Sakupljač hadisa" } },
+        { "id": "madhhab", "label": { "en": "School of law", "de": "Rechtsschule", "bs": "Mezheb" } }
+      ],
+      "items": [
+        { "id": "bukhari", "text": { "en": "Al-Bukhari", "de": "Al-Buchari", "bs": "El-Buhari" }, "categoryId": "hadith" },
+        { "id": "muslim", "text": { "en": "Muslim", "de": "Muslim", "bs": "Muslim" }, "categoryId": "hadith" },
+        { "id": "abuhanifa", "text": { "en": "Abu Hanifa", "de": "Abu Hanifa", "bs": "Ebu Hanifa" }, "categoryId": "madhhab" },
+        { "id": "shafii", "text": { "en": "Al-Shafi'i", "de": "Asch-Schafi'i", "bs": "Eš-Šafi'i" }, "categoryId": "madhhab" }
+      ],
+      "explanation": { "en": "Al-Bukhari and Muslim compiled hadith; Abu Hanifa and al-Shafi'i gave their names to schools of law.", "de": "Al-Buchari und Muslim sammelten Hadithe; Abu Hanifa und asch-Schafi'i gaben Rechtsschulen ihre Namen.", "bs": "El-Buhari i Muslim sakupljali su hadise; Ebu Hanifa i eš-Šafi'i dali su imena mezhebima." }
+    },
+    {
+      "id": "history-scholars-2",
+      "type": "ordering",
+      "areaId": "history",
+      "topic": "scholars",
+      "prompt": { "en": "Order the four imams by when they lived (earliest first).", "de": "Ordne die vier Imame nach ihrer Lebenszeit (frühester zuerst).", "bs": "Poredaj četiri imama po vremenu života (najraniji prvi)." },
+      "items": [
+        { "id": "abuhanifa", "text": { "en": "Abu Hanifa", "de": "Abu Hanifa", "bs": "Ebu Hanifa" } },
+        { "id": "malik", "text": { "en": "Malik", "de": "Malik", "bs": "Malik" } },
+        { "id": "shafii", "text": { "en": "Al-Shafi'i", "de": "Asch-Schafi'i", "bs": "Eš-Šafi'i" } },
+        { "id": "ahmad", "text": { "en": "Ahmad ibn Hanbal", "de": "Ahmad ibn Hanbal", "bs": "Ahmed ibn Hanbel" } }
+      ],
+      "explanation": { "en": "Abu Hanifa (d. 150), Malik (d. 179), al-Shafi'i (d. 204), Ahmad (d. 241 AH).", "de": "Abu Hanifa (gest. 150), Malik (gest. 179), asch-Schafi'i (gest. 204), Ahmad (gest. 241 n. H.).", "bs": "Ebu Hanifa (u. 150), Malik (u. 179), eš-Šafi'i (u. 204), Ahmed (u. 241. h.)." }
+    },
+    {
+      "id": "history-scholars-3",
+      "type": "trueFalse",
+      "areaId": "history",
+      "topic": "scholars",
+      "prompt": { "en": "Most Muslims in Bosnia and Herzegovina traditionally follow the Hanafi school.", "de": "Die meisten Muslime in Bosnien und Herzegowina folgen traditionell der hanafitischen Schule.", "bs": "Većina muslimana u BiH tradicionalno slijedi hanefijski mezheb." },
+      "correct": true,
+      "explanation": { "en": "Yes – the Hanafi school came to the Balkans in the Ottoman period.", "de": "Ja – die hanafitische Schule kam in osmanischer Zeit auf den Balkan.", "bs": "Da – hanefijski mezheb došao je na Balkan u osmanskom periodu." }
+    },
+    {
+      "id": "history-scholars-4",
+      "type": "scenario",
+      "areaId": "history",
+      "topic": "scholars",
+      "prompt": { "en": "A friend prays with a small difference from how you learned it. What is a good reaction?", "de": "Ein Freund betet mit einem kleinen Unterschied zu dem, wie du es gelernt hast. Was ist eine gute Reaktion?", "bs": "Prijatelj klanja s malom razlikom od onoga kako si ti naučio. Kakva je dobra reakcija?" },
+      "options": [
+        { "id": "a", "text": { "en": "Ask respectfully – it may be another valid school", "de": "Respektvoll fragen – es könnte eine andere anerkannte Schule sein", "bs": "S poštovanjem pitati – možda je drugi priznati mezheb" }, "feedback": { "en": "Like the imams, we respect valid differences.", "de": "Wie die Imame achten wir anerkannte Unterschiede.", "bs": "Kao i imami, poštujemo priznate razlike." } },
+        { "id": "b", "text": { "en": "Tell everyone they are wrong", "de": "Allen sagen, dass er falsch liegt", "bs": "Svima reći da griješi" }, "feedback": { "en": "Many differences are legitimate.", "de": "Viele Unterschiede sind legitim.", "bs": "Mnoge razlike su legitimne." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The four schools respected one another; ask a qualified teacher when unsure.", "de": "Die vier Schulen achteten einander; frage im Zweifel eine qualifizierte Lehrkraft.", "bs": "Četiri mezheba su se međusobno poštovala; kad nisi siguran, pitaj kvalifikovanog učitelja." }
+    }
+  ]
+}

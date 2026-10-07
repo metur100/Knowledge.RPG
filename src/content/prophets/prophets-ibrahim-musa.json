@@ -1,0 +1,108 @@
+{
+  "id": "prophets-ibrahim-musa",
+  "areaId": "prophets",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Ibrahim and Musa", "de": "Ibrahim und Musa", "bs": "Ibrahim i Musa" },
+  "description": { "en": "Tawhid, courage and trust in Allah.", "de": "Tawhid, Mut und Vertrauen auf Allah.", "bs": "Tevhid, hrabrost i oslonac na Allaha." },
+  "lesson": [
+    {
+      "heading": { "en": "Ibrahim (peace be upon him)", "de": "Ibrahim (Friede sei mit ihm)", "bs": "Ibrahim, a.s." },
+      "body": {
+        "en": "Ibrahim showed his people that a star, the moon and the sun all set, so they cannot be God. He broke the idols, and when he was thrown into a fire, Allah commanded the fire to be cool and safe for him. Later, with his son Ismail, he raised the foundations of the Kaaba.",
+        "de": "Ibrahim zeigte seinem Volk, dass Stern, Mond und Sonne alle untergehen und daher nicht Gott sein können. Er zerbrach die Götzen, und als er ins Feuer geworfen wurde, befahl Allah dem Feuer, kühl und sicher für ihn zu sein. Später errichtete er mit seinem Sohn Ismail die Grundmauern der Kaaba.",
+        "bs": "Ibrahim je pokazao narodu da zvijezda, mjesec i sunce svi zalaze, pa ne mogu biti Bog. Razbio je kipove, a kada je bačen u vatru, Allah je naredio vatri da bude hladna i spasonosna za njega. Kasnije je sa sinom Ismailom podigao temelje Kabe."
+      }
+    },
+    {
+      "heading": { "en": "Musa (peace be upon him)", "de": "Musa (Friede sei mit ihm)", "bs": "Musa, a.s." },
+      "body": {
+        "en": "As a baby, Musa was placed in a chest on the river by his mother, who trusted Allah. Allah spoke to him at Mount Tur and made his brother Harun his helper. When Fir'awn's army chased the believers to the sea, Musa struck the sea with his staff by Allah's command and it parted.",
+        "de": "Als Baby wurde Musa von seiner Mutter, die Allah vertraute, in einer Kiste auf den Fluss gesetzt. Allah sprach am Berg Tur zu ihm und machte seinen Bruder Harun zu seinem Helfer. Als das Heer des Pharao die Gläubigen ans Meer verfolgte, schlug Musa auf Allahs Befehl mit seinem Stab auf das Meer, und es teilte sich.",
+        "bs": "Kao bebu, Musaa je majka, oslanjajući se na Allaha, stavila u sanduk na rijeku. Allah mu je govorio na brdu Tur i učinio mu brata Haruna pomagačem. Kada je faraonova vojska progonila vjernike do mora, Musa je po Allahovoj naredbi udario more štapom i ono se razdvojilo."
+      }
+    }
+  ],
+  "practiceId": "prophets-ibrahim-musa-p",
+  "testIds": ["prophets-ibrahim-musa-1", "prophets-ibrahim-musa-2", "prophets-ibrahim-musa-3", "prophets-ibrahim-musa-4"],
+  "explanation": {
+    "en": "Ibrahim teaches Tawhid and courage; Musa and his mother teach Tawakkul – trusting Allah when things look impossible.",
+    "de": "Ibrahim lehrt Tawhid und Mut; Musa und seine Mutter lehren Tawakkul – Vertrauen auf Allah, wenn etwas unmöglich scheint.",
+    "bs": "Ibrahim uči tevhidu i hrabrosti; Musa i njegova majka uče tevekkulu – oslanjanju na Allaha kad stvari izgledaju nemoguće."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "6:74–79; 21:51–70; 2:127" },
+    { "sourceName": "Quran", "sourceReference": "28:7–13; 20:9–36; 26:52–66" }
+  ],
+  "questions": [
+    {
+      "id": "prophets-ibrahim-musa-p",
+      "type": "trueFalse",
+      "areaId": "prophets",
+      "topic": "ibrahim",
+      "prompt": { "en": "The fire burned Ibrahim.", "de": "Das Feuer verbrannte Ibrahim.", "bs": "Vatra je opekla Ibrahima." },
+      "correct": false,
+      "explanation": { "en": "Not quite – Allah commanded the fire to be cool and safe for him (21:69).", "de": "Nicht ganz – Allah befahl dem Feuer, kühl und sicher für ihn zu sein (21:69).", "bs": "Nije tačno – Allah je naredio vatri da bude hladna i spasonosna za njega (21:69)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:69" }]
+    },
+    {
+      "id": "prophets-ibrahim-musa-1",
+      "type": "matching",
+      "areaId": "prophets",
+      "topic": "ibrahim",
+      "prompt": { "en": "Match each object with its story.", "de": "Ordne jeden Gegenstand seiner Geschichte zu.", "bs": "Spoji svaki predmet s kazivanjem." },
+      "pairs": [
+        { "id": "kaaba", "left": { "en": "The Kaaba", "de": "Die Kaaba", "bs": "Kaba" }, "right": { "en": "Ibrahim and Ismail", "de": "Ibrahim und Ismail", "bs": "Ibrahim i Ismail" } },
+        { "id": "staff", "left": { "en": "The staff and the sea", "de": "Der Stab und das Meer", "bs": "Štap i more" }, "right": { "en": "Musa", "de": "Musa", "bs": "Musa" } },
+        { "id": "ark", "left": { "en": "The ark", "de": "Die Arche", "bs": "Lađa" }, "right": { "en": "Nuh", "de": "Nuh", "bs": "Nuh" } }
+      ],
+      "explanation": { "en": "Kaaba – Ibrahim and Ismail, staff – Musa, ark – Nuh.", "de": "Kaaba – Ibrahim und Ismail, Stab – Musa, Arche – Nuh.", "bs": "Kaba – Ibrahim i Ismail, štap – Musa, lađa – Nuh." }
+    },
+    {
+      "id": "prophets-ibrahim-musa-2",
+      "type": "multipleChoice",
+      "areaId": "prophets",
+      "topic": "ibrahim",
+      "prompt": { "en": "What did Ibrahim show by pointing to the star, the moon and the sun?", "de": "Was zeigte Ibrahim, als er auf Stern, Mond und Sonne wies?", "bs": "Šta je Ibrahim pokazao ukazujući na zvijezdu, mjesec i sunce?" },
+      "options": [
+        { "id": "a", "text": { "en": "They all set, so they cannot be God", "de": "Sie alle gehen unter, also können sie nicht Gott sein", "bs": "Svi zalaze, pa ne mogu biti Bog" } },
+        { "id": "b", "text": { "en": "They should be worshipped", "de": "Man soll sie anbeten", "bs": "Treba im robovati" } },
+        { "id": "c", "text": { "en": "Nights are long", "de": "Nächte sind lang", "bs": "Noći su duge" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "He turned to the Creator of the heavens and the earth (6:79).", "de": "Er wandte sich dem Schöpfer der Himmel und der Erde zu (6:79).", "bs": "Okrenuo se Stvoritelju nebesa i Zemlje (6:79)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "6:76–79" }]
+    },
+    {
+      "id": "prophets-ibrahim-musa-3",
+      "type": "scenario",
+      "areaId": "prophets",
+      "topic": "musa",
+      "prompt": { "en": "You have an important exam tomorrow and feel nervous. What does the example of Musa teach?", "de": "Morgen hast du eine wichtige Prüfung und bist nervös. Was lehrt das Beispiel von Musa?", "bs": "Sutra imaš važan ispit i nervozan si. Čemu uči Musaov primjer?" },
+      "options": [
+        { "id": "a", "text": { "en": "Prepare well, make dua and trust Allah", "de": "Gut vorbereiten, Du'a machen und Allah vertrauen", "bs": "Dobro se pripremiti, uputiti dovu i osloniti se na Allaha" }, "feedback": { "en": "That is tawakkul: do your part and trust Allah.", "de": "Das ist Tawakkul: deinen Teil tun und Allah vertrauen.", "bs": "To je tevekkul: uradi svoj dio i osloni se na Allaha." } },
+        { "id": "b", "text": { "en": "Give up because it looks impossible", "de": "Aufgeben, weil es unmöglich scheint", "bs": "Odustati jer izgleda nemoguće" }, "feedback": { "en": "Musa did not give up at the sea.", "de": "Musa gab am Meer nicht auf.", "bs": "Musa nije odustao kod mora." } },
+        { "id": "c", "text": { "en": "Just make dua and not study", "de": "Nur Du'a machen und nicht lernen", "bs": "Samo uputiti dovu i ne učiti" }, "feedback": { "en": "Tawakkul includes doing what you can.", "de": "Zu Tawakkul gehört, das Mögliche zu tun.", "bs": "Tevekkul uključuje i ono što možeš uraditi." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Musa acted on Allah's command and trusted Him – and Allah made a way.", "de": "Musa handelte auf Allahs Befehl und vertraute Ihm – und Allah schuf einen Weg.", "bs": "Musa je postupio po Allahovoj naredbi i oslonio se na Njega – i Allah je otvorio put." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "26:61–63" }]
+    },
+    {
+      "id": "prophets-ibrahim-musa-4",
+      "type": "fillBlank",
+      "areaId": "prophets",
+      "topic": "musa",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Musa asked Allah to make his brother ___ his helper.", "de": "Musa bat Allah, seinen Bruder ___ zu seinem Helfer zu machen.", "bs": "Musa je zamolio Allaha da mu brat ___ bude pomagač." },
+      "options": [
+        { "id": "a", "text": { "en": "Harun", "de": "Harun", "bs": "Harun" } },
+        { "id": "b", "text": { "en": "Yusuf", "de": "Yusuf", "bs": "Jusuf" } },
+        { "id": "c", "text": { "en": "Yunus", "de": "Yunus", "bs": "Junus" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Quran 20:29–36 – Allah granted his request.", "de": "Koran 20:29–36 – Allah erfüllte seine Bitte.", "bs": "Kur'an 20:29–36 – Allah mu je ispunio molbu." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "20:29–36" }]
+    }
+  ]
+}

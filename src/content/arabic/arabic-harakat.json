@@ -1,0 +1,97 @@
+{
+  "id": "arabic-harakat",
+  "areaId": "arabic",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Harakat – Short Vowels", "de": "Harakat – kurze Vokale", "bs": "Harekati – kratki samoglasnici" },
+  "description": { "en": "Fatha, kasra, damma, sukun and shadda.", "de": "Fatha, Kasra, Damma, Sukun und Schadda.", "bs": "Fetha, kesra, damma, sukun i šedda." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Small marks above or below a letter show how to pronounce it: fatha (a line above) gives a short \"a\" – بَ ba; kasra (a line below) gives \"i\" – بِ bi; damma (a small waw above) gives \"u\" – بُ bu. Sukun (a small circle) means no vowel – بْ. Shadda (a small \"w\") doubles the letter – بّ.",
+        "de": "Kleine Zeichen über oder unter einem Buchstaben zeigen die Aussprache: Fatha (Strich oben) ergibt ein kurzes „a“ – بَ ba; Kasra (Strich unten) „i“ – بِ bi; Damma (kleines Waw oben) „u“ – بُ bu. Sukun (kleiner Kreis) bedeutet kein Vokal – بْ. Schadda (kleines „w“) verdoppelt den Buchstaben – بّ.",
+        "bs": "Mali znakovi iznad ili ispod harfa pokazuju izgovor: fetha (crtica iznad) daje kratko „e/a“ – بَ be; kesra (crtica ispod) „i“ – بِ bi; damma (mali vav iznad) „u“ – بُ bu. Sukun (kružić) znači bez samoglasnika – بْ. Šedda (malo „w“) udvostručuje harf – بّ."
+      },
+      "arabic": "بَ بِ بُ",
+      "transliteration": "ba, bi, bu"
+    }
+  ],
+  "practiceId": "arabic-harakat-p",
+  "testIds": ["arabic-harakat-1", "arabic-harakat-2", "arabic-harakat-3", "arabic-harakat-4"],
+  "explanation": {
+    "en": "Harakat turn letters into syllables – with them you can start reading words.",
+    "de": "Harakat machen aus Buchstaben Silben – damit kannst du anfangen, Wörter zu lesen.",
+    "bs": "Harekati pretvaraju harfove u slogove – uz njih možeš početi čitati riječi."
+  },
+  "sources": [{ "sourceName": "Quran", "sourceReference": "12:2" }],
+  "questions": [
+    {
+      "id": "arabic-harakat-p",
+      "type": "multipleChoice",
+      "areaId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "How do you read بَ ?", "de": "Wie liest man بَ ?", "bs": "Kako se čita بَ ?" },
+      "options": [
+        { "id": "a", "text": { "en": "ba", "de": "ba", "bs": "be" } },
+        { "id": "b", "text": { "en": "bi", "de": "bi", "bs": "bi" } },
+        { "id": "c", "text": { "en": "bu", "de": "bu", "bs": "bu" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The fatha gives a short \"a\".", "de": "Die Fatha ergibt ein kurzes „a“.", "bs": "Fetha daje kratko „e/a“." }
+    },
+    {
+      "id": "arabic-harakat-1",
+      "type": "matching",
+      "areaId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "Match each syllable with its sound.", "de": "Ordne jeder Silbe ihren Laut zu.", "bs": "Spoji svaki slog s njegovim glasom." },
+      "pairs": [
+        { "id": "fatha", "left": { "en": "بَ", "de": "بَ", "bs": "بَ" }, "right": { "en": "ba", "de": "ba", "bs": "be" } },
+        { "id": "kasra", "left": { "en": "بِ", "de": "بِ", "bs": "بِ" }, "right": { "en": "bi", "de": "bi", "bs": "bi" } },
+        { "id": "damma", "left": { "en": "بُ", "de": "بُ", "bs": "بُ" }, "right": { "en": "bu", "de": "bu", "bs": "bu" } }
+      ],
+      "explanation": { "en": "Fatha a, kasra i, damma u.", "de": "Fatha a, Kasra i, Damma u.", "bs": "Fetha e/a, kesra i, damma u." }
+    },
+    {
+      "id": "arabic-harakat-2",
+      "type": "trueFalse",
+      "areaId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "A shadda means the letter is doubled.", "de": "Eine Schadda bedeutet, dass der Buchstabe verdoppelt wird.", "bs": "Šedda znači da se harf udvostručuje." },
+      "correct": true,
+      "explanation": { "en": "For example in جَنَّة (jannah) the nun is doubled.", "de": "Zum Beispiel in جَنَّة (Dschanna) wird das Nun verdoppelt.", "bs": "Npr. u جَنَّة (džennet) nun je udvostručen." }
+    },
+    {
+      "id": "arabic-harakat-3",
+      "type": "categorize",
+      "areaId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "Where is the mark written?", "de": "Wo steht das Zeichen?", "bs": "Gdje se piše znak?" },
+      "categories": [
+        { "id": "above", "label": { "en": "Above the letter", "de": "Über dem Buchstaben", "bs": "Iznad harfa" } },
+        { "id": "below", "label": { "en": "Below the letter", "de": "Unter dem Buchstaben", "bs": "Ispod harfa" } }
+      ],
+      "items": [
+        { "id": "fatha", "text": { "en": "Fatha", "de": "Fatha", "bs": "Fetha" }, "categoryId": "above" },
+        { "id": "damma", "text": { "en": "Damma", "de": "Damma", "bs": "Damma" }, "categoryId": "above" },
+        { "id": "kasra", "text": { "en": "Kasra", "de": "Kasra", "bs": "Kesra" }, "categoryId": "below" }
+      ],
+      "explanation": { "en": "Fatha and damma are above, kasra is below.", "de": "Fatha und Damma stehen oben, Kasra unten.", "bs": "Fetha i damma su iznad, kesra ispod." }
+    },
+    {
+      "id": "arabic-harakat-4",
+      "type": "fillBlank",
+      "areaId": "arabic",
+      "topic": "harakat",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "A small circle above a letter (sukun) means ___.", "de": "Ein kleiner Kreis über einem Buchstaben (Sukun) bedeutet ___.", "bs": "Kružić iznad harfa (sukun) znači ___." },
+      "options": [
+        { "id": "a", "text": { "en": "no vowel", "de": "kein Vokal", "bs": "bez samoglasnika" } },
+        { "id": "b", "text": { "en": "a long a", "de": "ein langes a", "bs": "dugo a" } },
+        { "id": "c", "text": { "en": "double letter", "de": "doppelter Buchstabe", "bs": "dvostruki harf" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Sukun means the letter has no vowel.", "de": "Sukun bedeutet, dass der Buchstabe keinen Vokal hat.", "bs": "Sukun znači da harf nema samoglasnika." }
+    }
+  ]
+}

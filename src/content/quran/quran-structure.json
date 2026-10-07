@@ -1,0 +1,112 @@
+{
+  "id": "quran-structure",
+  "areaId": "quran",
+  "order": 2,
+  "difficulty": 2,
+  "title": { "en": "Surahs and Ayahs", "de": "Suren und Verse", "bs": "Sure i ajeti" },
+  "description": { "en": "How the Quran is organised.", "de": "Wie der Koran aufgebaut ist.", "bs": "Kako je Kur'an uređen." },
+  "lesson": [
+    {
+      "body": {
+        "en": "The Quran has 114 surahs (chapters). Each surah is made of ayahs (verses); the word ayah also means \"sign\". The first surah is Al-Fatiha, the longest is Al-Baqarah, and Al-Kawthar has only three ayahs. For reading, the Quran is also divided into 30 parts (juz').",
+        "de": "Der Koran hat 114 Suren (Kapitel). Jede Sure besteht aus Versen (Ayat); das Wort Aya bedeutet auch „Zeichen“. Die erste Sure ist Al-Fatiha, die längste Al-Baqara, und Al-Kauthar hat nur drei Verse. Zum Lesen ist der Koran außerdem in 30 Teile (Dschuz') geteilt.",
+        "bs": "Kur'an ima 114 sura (poglavlja). Svaka sura se sastoji od ajeta (stihova); riječ ajet znači i „znak“. Prva sura je El-Fatiha, najduža El-Bekare, a El-Kevser ima samo tri ajeta. Za učenje je Kur'an podijeljen i na 30 džuzova."
+      }
+    },
+    {
+      "heading": { "en": "Makki and Madani", "de": "Mekkanisch und medinensisch", "bs": "Mekanske i medinske" },
+      "body": {
+        "en": "Surahs revealed before the Hijra are called Makki; those revealed after it are called Madani. Makki surahs often focus on belief; Madani surahs often explain how the community lives together.",
+        "de": "Suren, die vor der Hidschra offenbart wurden, heißen mekkanisch, die danach medinensisch. Mekkanische Suren betonen oft den Glauben, medinensische erklären oft das Zusammenleben der Gemeinschaft.",
+        "bs": "Sure objavljene prije hidžre zovu se mekanske, a one poslije nje medinske. Mekanske često govore o vjerovanju, a medinske često objašnjavaju život zajednice."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "The total number of ayahs is often given as 6,236; other counting traditions give slightly different totals for the same text. For some surahs scholars differ whether they are Makki or Madani.",
+    "de": "Die Gesamtzahl der Verse wird oft mit 6.236 angegeben; andere Zähltraditionen kommen beim selben Text auf leicht andere Zahlen. Bei manchen Suren sind sich Gelehrte uneinig, ob sie mekkanisch oder medinensisch sind.",
+    "bs": "Ukupan broj ajeta često se navodi kao 6.236; druge tradicije brojanja daju malo drukčije zbirove za isti tekst. Za neke sure učenjaci se razilaze jesu li mekanske ili medinske."
+  },
+  "practiceId": "quran-structure-p",
+  "testIds": ["quran-structure-1", "quran-structure-2", "quran-structure-3", "quran-structure-4"],
+  "explanation": {
+    "en": "Knowing how the Quran is organised makes it easier to read, memorise and find passages.",
+    "de": "Zu wissen, wie der Koran aufgebaut ist, erleichtert das Lesen, Auswendiglernen und Finden von Stellen.",
+    "bs": "Poznavanje uređenja Kur'ana olakšava učenje, pamćenje i pronalaženje odlomaka."
+  },
+  "sources": [{ "sourceName": "Quran", "sourceReference": "1; 2; 108" }],
+  "questions": [
+    {
+      "id": "quran-structure-p",
+      "type": "multipleChoice",
+      "areaId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "How many surahs does the Quran have?", "de": "Wie viele Suren hat der Koran?", "bs": "Koliko sura ima Kur'an?" },
+      "options": [
+        { "id": "a", "text": { "en": "114", "de": "114", "bs": "114" } },
+        { "id": "b", "text": { "en": "99", "de": "99", "bs": "99" } },
+        { "id": "c", "text": { "en": "30", "de": "30", "bs": "30" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "114 surahs; 30 is the number of juz'.", "de": "114 Suren; 30 ist die Zahl der Dschuz'.", "bs": "114 sura; 30 je broj džuzova." }
+    },
+    {
+      "id": "quran-structure-1",
+      "type": "matching",
+      "areaId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "Match each word with its meaning.", "de": "Ordne jedem Wort seine Bedeutung zu.", "bs": "Spoji svaku riječ s njenim značenjem." },
+      "pairs": [
+        { "id": "surah", "left": { "en": "Surah", "de": "Sure", "bs": "Sura" }, "right": { "en": "Chapter", "de": "Kapitel", "bs": "Poglavlje" } },
+        { "id": "ayah", "left": { "en": "Ayah", "de": "Aya", "bs": "Ajet" }, "right": { "en": "Verse / sign", "de": "Vers / Zeichen", "bs": "Stih / znak" } },
+        { "id": "juz", "left": { "en": "Juz'", "de": "Dschuz'", "bs": "Džuz" }, "right": { "en": "One of 30 parts", "de": "Einer von 30 Teilen", "bs": "Jedan od 30 dijelova" } },
+        { "id": "mushaf", "left": { "en": "Mushaf", "de": "Mushaf", "bs": "Mushaf" }, "right": { "en": "The written copy", "de": "Die geschriebene Ausgabe", "bs": "Pisani primjerak" } }
+      ],
+      "explanation": { "en": "Surah = chapter, ayah = verse, juz' = part, mushaf = written copy.", "de": "Sure = Kapitel, Aya = Vers, Dschuz' = Teil, Mushaf = geschriebene Ausgabe.", "bs": "Sura = poglavlje, ajet = stih, džuz = dio, mushaf = pisani primjerak." }
+    },
+    {
+      "id": "quran-structure-2",
+      "type": "categorize",
+      "areaId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "Sort each description: Makki or Madani?", "de": "Ordne jede Beschreibung zu: mekkanisch oder medinensisch?", "bs": "Razvrstaj opise: mekanske ili medinske?" },
+      "categories": [
+        { "id": "makki", "label": { "en": "Makki", "de": "Mekkanisch", "bs": "Mekanske" } },
+        { "id": "madani", "label": { "en": "Madani", "de": "Medinensisch", "bs": "Medinske" } }
+      ],
+      "items": [
+        { "id": "before", "text": { "en": "Revealed before the Hijra", "de": "Vor der Hidschra offenbart", "bs": "Objavljene prije hidžre" }, "categoryId": "makki" },
+        { "id": "belief", "text": { "en": "Often focus on belief", "de": "Betonen oft den Glauben", "bs": "Često o vjerovanju" }, "categoryId": "makki" },
+        { "id": "after", "text": { "en": "Revealed after the Hijra", "de": "Nach der Hidschra offenbart", "bs": "Objavljene poslije hidžre" }, "categoryId": "madani" },
+        { "id": "community", "text": { "en": "Often about community life", "de": "Oft über das Gemeinschaftsleben", "bs": "Često o životu zajednice" }, "categoryId": "madani" }
+      ],
+      "explanation": { "en": "The Hijra is the dividing line between Makki and Madani surahs.", "de": "Die Hidschra ist die Trennlinie zwischen mekkanischen und medinensischen Suren.", "bs": "Hidžra je granica između mekanskih i medinskih sura." }
+    },
+    {
+      "id": "quran-structure-3",
+      "type": "fillBlank",
+      "areaId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "The first surah of the Quran is ___.", "de": "Die erste Sure des Korans ist ___.", "bs": "Prva sura Kur'ana je ___." },
+      "options": [
+        { "id": "a", "text": { "en": "Al-Fatiha", "de": "Al-Fatiha", "bs": "El-Fatiha" } },
+        { "id": "b", "text": { "en": "Al-Baqarah", "de": "Al-Baqara", "bs": "El-Bekare" } },
+        { "id": "c", "text": { "en": "An-Nas", "de": "An-Nas", "bs": "En-Nas" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Al-Fatiha, \"The Opening\", is the first surah and is recited in every rak'ah.", "de": "Al-Fatiha, „Die Eröffnende“, ist die erste Sure und wird in jeder Rak'a rezitiert.", "bs": "El-Fatiha, „Pristupnica“, prva je sura i uči se u svakom rekatu." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "756" }]
+    },
+    {
+      "id": "quran-structure-4",
+      "type": "trueFalse",
+      "areaId": "quran",
+      "topic": "quran-structure",
+      "prompt": { "en": "Al-Kawthar has only three ayahs.", "de": "Al-Kauthar hat nur drei Verse.", "bs": "El-Kevser ima samo tri ajeta." },
+      "correct": true,
+      "explanation": { "en": "Yes – it is one of the shortest surahs.", "de": "Ja – sie ist eine der kürzesten Suren.", "bs": "Da – to je jedna od najkraćih sura." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "108" }]
+    }
+  ]
+}

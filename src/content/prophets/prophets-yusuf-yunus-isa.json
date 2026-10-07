@@ -1,0 +1,121 @@
+{
+  "id": "prophets-yusuf-yunus-isa",
+  "areaId": "prophets",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Yusuf, Yunus and Isa", "de": "Yusuf, Yunus und Isa", "bs": "Jusuf, Junus i Isa" },
+  "description": { "en": "Patience, hope and the signs of Allah.", "de": "Geduld, Hoffnung und die Zeichen Allahs.", "bs": "Strpljenje, nada i Allahovi znakovi." },
+  "lesson": [
+    {
+      "heading": { "en": "Yusuf (peace be upon him)", "de": "Yusuf (Friede sei mit ihm)", "bs": "Jusuf, a.s." },
+      "body": {
+        "en": "Out of jealousy his brothers threw Yusuf into a well. He was taken to Egypt, stayed honest, was imprisoned unjustly and later explained the king's dream of seven good and seven hard years. When his brothers came to him, he forgave them.",
+        "de": "Aus Neid warfen seine Brüder Yusuf in einen Brunnen. Er wurde nach Ägypten gebracht, blieb ehrlich, kam ungerecht ins Gefängnis und deutete später den Traum des Königs von sieben guten und sieben harten Jahren. Als seine Brüder zu ihm kamen, vergab er ihnen.",
+        "bs": "Iz zavisti su braća bacila Jusufa u bunar. Odveden je u Egipat, ostao pošten, nepravedno zatvoren i kasnije protumačio kraljev san o sedam rodnih i sedam teških godina. Kada su mu braća došla, oprostio im je."
+      }
+    },
+    {
+      "heading": { "en": "Yunus (peace be upon him)", "de": "Yunus (Friede sei mit ihm)", "bs": "Junus, a.s." },
+      "body": {
+        "en": "Inside the big fish, in darkness, Yunus glorified Allah and admitted his mistake. Allah answered him and saved him, and later his people believed.",
+        "de": "Im großen Fisch, in der Dunkelheit, pries Yunus Allah und gab seinen Fehler zu. Allah erhörte und rettete ihn, und später glaubte sein Volk.",
+        "bs": "U velikoj ribi, u tami, Junus je veličao Allaha i priznao grešku. Allah mu se odazvao i spasio ga, a kasnije je njegov narod povjerovao."
+      }
+    },
+    {
+      "heading": { "en": "Isa (peace be upon him)", "de": "Isa (Friede sei mit ihm)", "bs": "Isa, a.s." },
+      "body": {
+        "en": "Isa was born to Maryam without a father by Allah's command and spoke as a baby in the cradle. Allah gave him the Injil, and his miracles happened by Allah's permission.",
+        "de": "Isa wurde auf Allahs Befehl ohne Vater von Maryam geboren und sprach als Baby in der Wiege. Allah gab ihm den Indschil, und seine Wunder geschahen mit Allahs Erlaubnis.",
+        "bs": "Isa je po Allahovoj naredbi rođen od Merjeme bez oca i progovorio je kao beba u kolijevci. Allah mu je dao Indžil, a njegova čuda dešavala su se Allahovom dozvolom."
+      }
+    }
+  ],
+  "practiceId": "prophets-yusuf-yunus-isa-p",
+  "testIds": ["prophets-yusuf-yunus-isa-1", "prophets-yusuf-yunus-isa-2", "prophets-yusuf-yunus-isa-3", "prophets-yusuf-yunus-isa-4"],
+  "explanation": {
+    "en": "Yusuf teaches patience and forgiveness, Yunus teaches hope through dua, and Isa reminds us that every miracle is by Allah's permission.",
+    "de": "Yusuf lehrt Geduld und Vergebung, Yunus Hoffnung durch Du'a, und Isa erinnert daran, dass jedes Wunder mit Allahs Erlaubnis geschieht.",
+    "bs": "Jusuf uči strpljenju i oprostu, Junus nadi kroz dovu, a Isa podsjeća da je svako čudo Allahovom dozvolom."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "Surah Yusuf (12)" },
+    { "sourceName": "Quran", "sourceReference": "21:87–88; 37:139–148" },
+    { "sourceName": "Quran", "sourceReference": "19:16–33; 3:49; 5:46" }
+  ],
+  "questions": [
+    {
+      "id": "prophets-yusuf-yunus-isa-p",
+      "type": "memory",
+      "areaId": "prophets",
+      "topic": "prophets-objects",
+      "prompt": { "en": "Practice: match each prophet with an object from his story.", "de": "Übung: Ordne jedem Propheten einen Gegenstand aus seiner Geschichte zu.", "bs": "Vježba: spoji poslanika s predmetom iz njegovog kazivanja." },
+      "pairs": [
+        { "id": "yusuf", "left": { "en": "Yusuf", "de": "Yusuf", "bs": "Jusuf" }, "right": { "en": "Well", "de": "Brunnen", "bs": "Bunar" } },
+        { "id": "yunus", "left": { "en": "Yunus", "de": "Yunus", "bs": "Junus" }, "right": { "en": "Big fish", "de": "Großer Fisch", "bs": "Velika riba" } },
+        { "id": "isa", "left": { "en": "Isa", "de": "Isa", "bs": "Isa" }, "right": { "en": "Cradle", "de": "Wiege", "bs": "Kolijevka" } }
+      ],
+      "explanation": { "en": "Yusuf – the well, Yunus – the big fish, Isa – the cradle.", "de": "Yusuf – Brunnen, Yunus – großer Fisch, Isa – Wiege.", "bs": "Jusuf – bunar, Junus – velika riba, Isa – kolijevka." }
+    },
+    {
+      "id": "prophets-yusuf-yunus-isa-1",
+      "type": "trueFalse",
+      "areaId": "prophets",
+      "topic": "yusuf",
+      "prompt": { "en": "When Yusuf became powerful, he took revenge on his brothers.", "de": "Als Yusuf mächtig wurde, rächte er sich an seinen Brüdern.", "bs": "Kada je Jusuf postao moćan, osvetio se braći." },
+      "correct": false,
+      "explanation": { "en": "Not quite – he forgave them (12:92).", "de": "Nicht ganz – er vergab ihnen (12:92).", "bs": "Nije tačno – oprostio im je (12:92)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:92" }]
+    },
+    {
+      "id": "prophets-yusuf-yunus-isa-2",
+      "type": "multipleChoice",
+      "areaId": "prophets",
+      "topic": "yusuf",
+      "prompt": { "en": "What did the king's dream mean?", "de": "Was bedeutete der Traum des Königs?", "bs": "Šta je značio kraljev san?" },
+      "options": [
+        { "id": "a", "text": { "en": "Seven good years, then seven years of drought", "de": "Sieben gute Jahre, dann sieben Jahre Dürre", "bs": "Sedam rodnih, pa sedam sušnih godina" } },
+        { "id": "b", "text": { "en": "A war", "de": "Einen Krieg", "bs": "Rat" } },
+        { "id": "c", "text": { "en": "A long journey", "de": "Eine lange Reise", "bs": "Dugo putovanje" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Yusuf advised storing grain for the hard years (12:47–49).", "de": "Yusuf riet, Getreide für die harten Jahre zu lagern (12:47–49).", "bs": "Jusuf je savjetovao čuvanje žita za teške godine (12:47–49)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "12:43–49" }]
+    },
+    {
+      "id": "prophets-yusuf-yunus-isa-3",
+      "type": "categorize",
+      "areaId": "prophets",
+      "topic": "prophets-objects",
+      "prompt": { "en": "Which story does each event belong to?", "de": "Zu welcher Geschichte gehört jedes Ereignis?", "bs": "Kojem kazivanju pripada svaki događaj?" },
+      "categories": [
+        { "id": "yunus", "label": { "en": "Yunus", "de": "Yunus", "bs": "Junus" } },
+        { "id": "isa", "label": { "en": "Isa", "de": "Isa", "bs": "Isa" } }
+      ],
+      "items": [
+        { "id": "fish", "text": { "en": "Swallowed by a big fish", "de": "Von einem großen Fisch verschluckt", "bs": "Progutala ga velika riba" }, "categoryId": "yunus" },
+        { "id": "plant", "text": { "en": "A gourd plant on the shore", "de": "Eine Kürbispflanze am Ufer", "bs": "Tikva na obali" }, "categoryId": "yunus" },
+        { "id": "cradle", "text": { "en": "Spoke in the cradle", "de": "Sprach in der Wiege", "bs": "Govorio u kolijevci" }, "categoryId": "isa" },
+        { "id": "injil", "text": { "en": "Given the Injil", "de": "Erhielt den Indschil", "bs": "Dobio Indžil" }, "categoryId": "isa" }
+      ],
+      "explanation": { "en": "The fish and the gourd plant belong to Yunus; the cradle and the Injil to Isa.", "de": "Fisch und Kürbispflanze gehören zu Yunus; Wiege und Indschil zu Isa.", "bs": "Riba i tikva pripadaju Junusu; kolijevka i Indžil Isau." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "37:142–146; 19:29–30; 5:46" }]
+    },
+    {
+      "id": "prophets-yusuf-yunus-isa-4",
+      "type": "fillBlank",
+      "areaId": "prophets",
+      "topic": "isa",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Isa performed his miracles by Allah's ___.", "de": "Isa vollbrachte seine Wunder mit Allahs ___.", "bs": "Isa je činio čuda Allahovom ___." },
+      "options": [
+        { "id": "a", "text": { "en": "permission", "de": "Erlaubnis", "bs": "dozvolom" } },
+        { "id": "b", "text": { "en": "absence", "de": "Abwesenheit", "bs": "odsutnošću" } },
+        { "id": "c", "text": { "en": "anger", "de": "Zorn", "bs": "srdžbom" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The Quran repeats \"by Allah's permission\" (3:49).", "de": "Der Koran wiederholt „mit Allahs Erlaubnis“ (3:49).", "bs": "Kur'an ponavlja „Allahovom dozvolom“ (3:49)." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "3:49; 5:110" }]
+    }
+  ]
+}

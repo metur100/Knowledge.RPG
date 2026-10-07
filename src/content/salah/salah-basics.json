@@ -1,0 +1,120 @@
+{
+  "id": "salah-basics",
+  "areaId": "salah",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "What is Salah?", "de": "Was ist das Gebet?", "bs": "Šta je namaz?" },
+  "description": { "en": "The pillar of prayer and why Muslims pray.", "de": "Die Säule des Gebets und warum Muslime beten.", "bs": "Temelj namaza i zašto muslimani klanjaju." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Salah is the prayer Muslims perform at set times every day: standing, bowing, prostrating and sitting while remembering Allah and reciting from the Quran. The Prophet ﷺ taught that Islam is built on five pillars – Salah is the second, after the Shahada.",
+        "de": "Salah ist das Gebet, das Muslime jeden Tag zu festen Zeiten verrichten: Stehen, Verbeugen, Niederwerfen und Sitzen, während sie Allahs gedenken und aus dem Koran rezitieren. Der Prophet ﷺ lehrte, dass der Islam auf fünf Säulen gebaut ist – das Gebet ist die zweite, nach der Schahada.",
+        "bs": "Namaz je molitva koju muslimani obavljaju svaki dan u određeno vrijeme: stajanje, ruku', sedžda i sjedenje, uz sjećanje na Allaha i učenje Kur'ana. Poslanik ﷺ je poučio da je islam izgrađen na pet temelja – namaz je drugi, nakon šehadeta."
+      },
+      "arabic": "صَلَاة",
+      "transliteration": "ṣalāh"
+    },
+    {
+      "heading": { "en": "Why do Muslims pray?", "de": "Warum beten Muslime?", "bs": "Zašto muslimani klanjaju?" },
+      "body": {
+        "en": "Allah commands the prayer many times in the Quran. He says the prayer is for His remembrance, and that prayer keeps a person away from shameful and evil deeds.",
+        "de": "Allah gebietet das Gebet viele Male im Koran. Er sagt, das Gebet diene Seinem Gedenken und halte den Menschen von schändlichen und bösen Taten ab.",
+        "bs": "Allah mnogo puta naređuje namaz u Kur'anu. Kaže da je namaz radi sjećanja na Njega i da namaz odvraća čovjeka od ružnih i loših djela."
+      }
+    },
+    {
+      "heading": { "en": "Like a river", "de": "Wie ein Fluss", "bs": "Kao rijeka" },
+      "body": {
+        "en": "The Prophet ﷺ compared the five prayers to a river at your door in which you bathe five times a day – no dirt would remain. In the same way, Allah wipes away small sins through the prayers.",
+        "de": "Der Prophet ﷺ verglich die fünf Gebete mit einem Fluss vor der Tür, in dem man sich fünfmal am Tag wäscht – kein Schmutz bliebe übrig. So löscht Allah durch die Gebete kleine Sünden.",
+        "bs": "Poslanik ﷺ je pet namaza uporedio s rijekom ispred vrata u kojoj se kupaš pet puta dnevno – ne bi ostalo prljavštine. Tako Allah namazima briše male grijehe."
+      }
+    }
+  ],
+  "practiceId": "salah-basics-p",
+  "testIds": ["salah-basics-1", "salah-basics-2", "salah-basics-3", "salah-basics-4"],
+  "explanation": {
+    "en": "Salah connects a Muslim to Allah five times a day – it is a pillar of Islam, a command of Allah and a means of remembrance and purification.",
+    "de": "Das Gebet verbindet einen Muslim fünfmal am Tag mit Allah – es ist eine Säule des Islam, ein Gebot Allahs und ein Mittel des Gedenkens und der Reinigung.",
+    "bs": "Namaz povezuje muslimana s Allahom pet puta dnevno – on je temelj islama, Allahova naredba i način sjećanja i čišćenja."
+  },
+  "sources": [
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "8" },
+    { "sourceName": "Sahih Muslim", "sourceReference": "16" },
+    { "sourceName": "Quran", "sourceReference": "20:14; 29:45" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "528" }
+  ],
+  "questions": [
+    {
+      "id": "salah-basics-p",
+      "type": "trueFalse",
+      "areaId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "There are five obligatory prayers every day.", "de": "Es gibt jeden Tag fünf Pflichtgebete.", "bs": "Svaki dan ima pet obaveznih namaza." },
+      "correct": true,
+      "explanation": { "en": "Yes – Fajr, Dhuhr, Asr, Maghrib and Isha.", "de": "Ja – Fadschr, Dhuhr, Asr, Maghrib und Ischa.", "bs": "Da – sabah, podne, ikindija, akšam i jacija." }
+    },
+    {
+      "id": "salah-basics-1",
+      "type": "multipleChoice",
+      "areaId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "Salah is which pillar of Islam?", "de": "Die wievielte Säule des Islam ist das Gebet?", "bs": "Koji je namaz temelj islama po redu?" },
+      "options": [
+        { "id": "a", "text": { "en": "The first", "de": "Die erste", "bs": "Prvi" } },
+        { "id": "b", "text": { "en": "The second", "de": "Die zweite", "bs": "Drugi" } },
+        { "id": "c", "text": { "en": "The fifth", "de": "Die fünfte", "bs": "Peti" } }
+      ],
+      "correctOptionId": "b",
+      "explanation": { "en": "The Shahada is first, Salah is second.", "de": "Die Schahada ist die erste, das Gebet die zweite.", "bs": "Šehadet je prvi, namaz drugi." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "8" }]
+    },
+    {
+      "id": "salah-basics-2",
+      "type": "fillBlank",
+      "areaId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "Complete the meaning of the verse.", "de": "Vervollständige die Bedeutung des Verses.", "bs": "Dopuni značenje ajeta." },
+      "sentence": { "en": "Allah says: establish prayer for My ___.", "de": "Allah sagt: Verrichte das Gebet zu Meinem ___.", "bs": "Allah kaže: obavljaj namaz radi ___ na Mene." },
+      "options": [
+        { "id": "a", "text": { "en": "remembrance", "de": "Gedenken", "bs": "sjećanja" } },
+        { "id": "b", "text": { "en": "entertainment", "de": "Vergnügen", "bs": "zabave" } },
+        { "id": "c", "text": { "en": "fame", "de": "Ruhm", "bs": "slave" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Taha 20:14 – the prayer is for the remembrance of Allah.", "de": "Sure Ta-Ha 20:14 – das Gebet dient dem Gedenken Allahs.", "bs": "Sura Ta-Ha 20:14 – namaz je radi sjećanja na Allaha." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "20:14" }]
+    },
+    {
+      "id": "salah-basics-3",
+      "type": "multipleChoice",
+      "areaId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "What does the prayer keep a person away from, according to the Quran?", "de": "Wovon hält das Gebet laut Koran den Menschen ab?", "bs": "Od čega namaz, prema Kur'anu, odvraća čovjeka?" },
+      "options": [
+        { "id": "a", "text": { "en": "Shameful and evil deeds", "de": "Schändlichen und bösen Taten", "bs": "Od ružnih i loših djela" } },
+        { "id": "b", "text": { "en": "Going to school", "de": "Vom Schulbesuch", "bs": "Od odlaska u školu" } },
+        { "id": "c", "text": { "en": "Eating", "de": "Vom Essen", "bs": "Od jela" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Al-Ankabut 29:45: prayer keeps away from shameful and evil deeds.", "de": "Sure Al-Ankabut 29:45: Das Gebet hält von Schändlichem und Bösem ab.", "bs": "Sura El-Ankebut 29:45: namaz odvraća od razvrata i zla." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "29:45" }]
+    },
+    {
+      "id": "salah-basics-4",
+      "type": "imageChoice",
+      "areaId": "salah",
+      "topic": "salah-basics",
+      "prompt": { "en": "Where do Muslims gather to pray together?", "de": "Wo versammeln sich Muslime zum gemeinsamen Gebet?", "bs": "Gdje se muslimani okupljaju da zajedno klanjaju?" },
+      "options": [
+        { "id": "mosque", "element": "mosque", "label": { "en": "Masjid", "de": "Moschee", "bs": "Džamija" } },
+        { "id": "ark", "element": "ark", "label": { "en": "Ship", "de": "Schiff", "bs": "Lađa" } },
+        { "id": "well", "element": "well", "label": { "en": "Well", "de": "Brunnen", "bs": "Bunar" } },
+        { "id": "cave", "element": "cave", "label": { "en": "Cave", "de": "Höhle", "bs": "Pećina" } }
+      ],
+      "correctOptionId": "mosque",
+      "explanation": { "en": "The masjid is the house of prayer where the congregation prays together.", "de": "Die Moschee ist das Haus des Gebets, in dem die Gemeinschaft zusammen betet.", "bs": "Džamija je kuća namaza u kojoj džemat zajedno klanja." }
+    }
+  ]
+}

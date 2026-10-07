@@ -1,0 +1,117 @@
+{
+  "id": "akhlaq-mercy-family",
+  "areaId": "akhlaq",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Mercy, Parents and Forgiveness", "de": "Barmherzigkeit, Eltern und Vergebung", "bs": "Milost, roditelji i oprost" },
+  "description": { "en": "How we treat family, others and animals.", "de": "Wie wir Familie, andere und Tiere behandeln.", "bs": "Kako se odnosimo prema porodici, drugima i životinjama." },
+  "lesson": [
+    {
+      "heading": { "en": "Rahmah – mercy", "de": "Rahma – Barmherzigkeit", "bs": "Rahma – milost" },
+      "body": {
+        "en": "Allah sent the Prophet ﷺ as a mercy to the worlds. He taught that those who are merciful will be shown mercy by the Most Merciful – mercy includes people and animals.",
+        "de": "Allah sandte den Propheten ﷺ als Barmherzigkeit für die Welten. Er lehrte, dass sich der Allerbarmer der Barmherzigen erbarmt – Barmherzigkeit gilt Menschen und Tieren.",
+        "bs": "Allah je poslao Poslanika ﷺ kao milost svjetovima. On je poučio da se Milostivi smiluje milostivima – milost obuhvata ljude i životinje."
+      }
+    },
+    {
+      "heading": { "en": "Honouring parents", "de": "Die Eltern ehren", "bs": "Poštovanje roditelja" },
+      "body": {
+        "en": "Right after commanding us to worship Him alone, Allah commands kindness to parents: not even saying \"uff\" to them, speaking gently and praying for them.",
+        "de": "Direkt nach dem Gebot, Ihn allein anzubeten, gebietet Allah Güte zu den Eltern: nicht einmal „uff“ zu ihnen sagen, sanft sprechen und für sie beten.",
+        "bs": "Odmah nakon naredbe da samo Njemu robujemo, Allah naređuje dobročinstvo prema roditeljima: ne reći im ni „uf“, blago im se obraćati i moliti za njih."
+      }
+    },
+    {
+      "heading": { "en": "Forgiveness", "de": "Vergebung", "bs": "Oprost" },
+      "body": {
+        "en": "The Quran asks: would you not love for Allah to forgive you? So we pardon others, as we hope Allah will pardon us.",
+        "de": "Der Koran fragt: Möchtet ihr nicht, dass Allah euch vergibt? Darum verzeihen wir anderen, wie wir hoffen, dass Allah uns verzeiht.",
+        "bs": "Kur'an pita: zar ne želite da vam Allah oprosti? Zato opraštamo drugima, kao što se nadamo da će Allah oprostiti nama."
+      }
+    }
+  ],
+  "practiceId": "akhlaq-mercy-family-p",
+  "testIds": ["akhlaq-mercy-family-1", "akhlaq-mercy-family-2", "akhlaq-mercy-family-3", "akhlaq-mercy-family-4"],
+  "explanation": {
+    "en": "Good character shows most at home and with the weak: mercy, kindness to parents and forgiving others.",
+    "de": "Guter Charakter zeigt sich am meisten zu Hause und gegenüber Schwachen: Barmherzigkeit, Güte zu den Eltern und Vergebung.",
+    "bs": "Lijep ahlak najviše se vidi kod kuće i prema slabima: milost, dobročinstvo prema roditeljima i opraštanje."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "21:107; 17:23–24; 24:22" },
+    { "sourceName": "Sunan Abi Dawud", "sourceReference": "4941" },
+    { "sourceName": "Jami' at-Tirmidhi", "sourceReference": "1924" }
+  ],
+  "questions": [
+    {
+      "id": "akhlaq-mercy-family-p",
+      "type": "trueFalse",
+      "areaId": "akhlaq",
+      "topic": "parents",
+      "prompt": { "en": "The Quran tells us not even to say \"uff\" to our parents.", "de": "Der Koran sagt uns, nicht einmal „uff“ zu den Eltern zu sagen.", "bs": "Kur'an nam kaže da roditeljima ne kažemo ni „uf“." },
+      "correct": true,
+      "explanation": { "en": "Quran 17:23.", "de": "Koran 17:23.", "bs": "Kur'an 17:23." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "17:23" }]
+    },
+    {
+      "id": "akhlaq-mercy-family-1",
+      "type": "scenario",
+      "areaId": "akhlaq",
+      "topic": "rahmah",
+      "prompt": { "en": "Some kids are throwing stones at a stray cat. What do you do?", "de": "Ein paar Kinder werfen Steine nach einer streunenden Katze. Was tust du?", "bs": "Neka djeca bacaju kamenje na mačku lutalicu. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Join in", "de": "Mitmachen", "bs": "Pridružiti se" }, "feedback": { "en": "Hurting animals is cruel.", "de": "Tieren wehzutun ist grausam.", "bs": "Povređivanje životinja je okrutno." } },
+        { "id": "b", "text": { "en": "Ask them to stop and get an adult if needed", "de": "Sie bitten aufzuhören und notfalls einen Erwachsenen holen", "bs": "Zamoliti ih da prestanu i pozvati odraslu osobu ako treba" }, "feedback": { "en": "That is mercy in action.", "de": "Das ist gelebte Barmherzigkeit.", "bs": "To je milost na djelu." } },
+        { "id": "c", "text": { "en": "Laugh and walk away", "de": "Lachen und weggehen", "bs": "Nasmijati se i otići" }, "feedback": { "en": "The cat needs help.", "de": "Die Katze braucht Hilfe.", "bs": "Mački treba pomoć." } }
+      ],
+      "correctOptionId": "b",
+      "explanation": { "en": "Those who are merciful will be shown mercy by the Most Merciful.", "de": "Der Allerbarmer erbarmt sich der Barmherzigen.", "bs": "Milostivi se smiluje milostivima." },
+      "sources": [{ "sourceName": "Sunan Abi Dawud", "sourceReference": "4941" }]
+    },
+    {
+      "id": "akhlaq-mercy-family-2",
+      "type": "multipleChoice",
+      "areaId": "akhlaq",
+      "topic": "rahmah",
+      "prompt": { "en": "The Quran says Allah sent the Prophet ﷺ as…", "de": "Der Koran sagt, Allah sandte den Propheten ﷺ als…", "bs": "Kur'an kaže da je Allah poslao Poslanika ﷺ kao…" },
+      "options": [
+        { "id": "a", "text": { "en": "a mercy to the worlds", "de": "Barmherzigkeit für die Welten", "bs": "milost svjetovima" } },
+        { "id": "b", "text": { "en": "a king", "de": "einen König", "bs": "kralja" } },
+        { "id": "c", "text": { "en": "a soldier", "de": "einen Soldaten", "bs": "vojnika" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Surah Al-Anbiya 21:107.", "de": "Sure Al-Anbiya 21:107.", "bs": "Sura El-Enbija 21:107." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "21:107" }]
+    },
+    {
+      "id": "akhlaq-mercy-family-3",
+      "type": "scenario",
+      "areaId": "akhlaq",
+      "topic": "forgiveness",
+      "prompt": { "en": "A friend said something mean yesterday and says sorry today. What do you do?", "de": "Ein Freund hat gestern etwas Gemeines gesagt und entschuldigt sich heute. Was tust du?", "bs": "Prijatelj je jučer rekao nešto ružno i danas se izvinjava. Šta ćeš uraditi?" },
+      "options": [
+        { "id": "a", "text": { "en": "Forgive and move on", "de": "Vergeben und weitermachen", "bs": "Oprostiti i ići dalje" }, "feedback": { "en": "Beautiful forgiveness.", "de": "Schöne Vergebung.", "bs": "Lijep oprost." } },
+        { "id": "b", "text": { "en": "Say something mean back", "de": "Etwas Gemeines zurücksagen", "bs": "Uzvratiti ružnim" }, "feedback": { "en": "Revenge keeps the hurt going.", "de": "Rache hält den Schmerz am Leben.", "bs": "Osveta produžava bol." } },
+        { "id": "c", "text": { "en": "Never speak to them again", "de": "Nie wieder mit ihm sprechen", "bs": "Nikad više ne pričati s njim" }, "feedback": { "en": "Islam encourages reconciliation.", "de": "Der Islam ermutigt zur Versöhnung.", "bs": "Islam podstiče pomirenje." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "\"Would you not love for Allah to forgive you?\" – 24:22.", "de": "„Möchtet ihr nicht, dass Allah euch vergibt?“ – 24:22.", "bs": "„Zar ne želite da vam Allah oprosti?“ – 24:22." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "24:22" }]
+    },
+    {
+      "id": "akhlaq-mercy-family-4",
+      "type": "matching",
+      "areaId": "akhlaq",
+      "topic": "values",
+      "prompt": { "en": "Match each value with its meaning.", "de": "Ordne jedem Wert seine Bedeutung zu.", "bs": "Spoji svaku vrijednost s njenim značenjem." },
+      "pairs": [
+        { "id": "sabr", "left": { "en": "Sabr", "de": "Sabr", "bs": "Sabur" }, "right": { "en": "Patience", "de": "Geduld", "bs": "Strpljenje" } },
+        { "id": "shukr", "left": { "en": "Shukr", "de": "Schukr", "bs": "Šukr" }, "right": { "en": "Gratitude", "de": "Dankbarkeit", "bs": "Zahvalnost" } },
+        { "id": "sidq", "left": { "en": "Sidq", "de": "Sidq", "bs": "Sidk" }, "right": { "en": "Truthfulness", "de": "Wahrhaftigkeit", "bs": "Iskrenost" } },
+        { "id": "rahmah", "left": { "en": "Rahmah", "de": "Rahma", "bs": "Rahma" }, "right": { "en": "Mercy", "de": "Barmherzigkeit", "bs": "Milost" } }
+      ],
+      "explanation": { "en": "Sabr = patience, Shukr = gratitude, Sidq = truthfulness, Rahmah = mercy.", "de": "Sabr = Geduld, Schukr = Dankbarkeit, Sidq = Wahrhaftigkeit, Rahma = Barmherzigkeit.", "bs": "Sabur = strpljenje, šukr = zahvalnost, sidk = iskrenost, rahma = milost." }
+    }
+  ]
+}

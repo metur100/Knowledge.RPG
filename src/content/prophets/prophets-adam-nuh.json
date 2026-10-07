@@ -1,0 +1,110 @@
+{
+  "id": "prophets-adam-nuh",
+  "areaId": "prophets",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "Adam and Nuh", "de": "Adam und Nuh", "bs": "Adem i Nuh" },
+  "description": { "en": "The first human and the great ark.", "de": "Der erste Mensch und die große Arche.", "bs": "Prvi čovjek i velika lađa." },
+  "lesson": [
+    {
+      "heading": { "en": "Adam (peace be upon him)", "de": "Adam (Friede sei mit ihm)", "bs": "Adem, a.s." },
+      "body": {
+        "en": "Allah created Adam from clay and taught him the names of all things. The angels prostrated to him by Allah's command, but Iblis refused out of arrogance. Adam and his wife ate from the forbidden tree, then admitted their mistake and asked for forgiveness – and Allah accepted their repentance.",
+        "de": "Allah erschuf Adam aus Lehm und lehrte ihn die Namen aller Dinge. Die Engel warfen sich auf Allahs Befehl vor ihm nieder, doch Iblis weigerte sich aus Hochmut. Adam und seine Frau aßen vom verbotenen Baum, gaben dann ihren Fehler zu und baten um Vergebung – und Allah nahm ihre Reue an.",
+        "bs": "Allah je stvorio Adema od ilovače i poučio ga imenima svih stvari. Meleki su mu se po Allahovoj naredbi poklonili, ali je Iblis odbio iz oholosti. Adem i njegova žena jeli su sa zabranjenog drveta, zatim priznali grešku i tražili oprost – i Allah je primio njihovo pokajanje."
+      }
+    },
+    {
+      "heading": { "en": "Nuh (peace be upon him)", "de": "Nuh (Friede sei mit ihm)", "bs": "Nuh, a.s." },
+      "body": {
+        "en": "Nuh called his people to worship Allah alone for 950 years, but only a few believed. Allah commanded him to build an ark while people mocked him. The believers and pairs of animals were saved from the flood, and the ark came to rest on Mount Judi.",
+        "de": "Nuh rief sein Volk 950 Jahre lang auf, Allah allein anzubeten, doch nur wenige glaubten. Allah befahl ihm, eine Arche zu bauen, während die Leute spotteten. Die Gläubigen und Tierpaare wurden vor der Flut gerettet, und die Arche kam auf dem Berg Dschudi zur Ruhe.",
+        "bs": "Nuh je 950 godina pozivao svoj narod da robuje samo Allahu, ali je malo njih povjerovalo. Allah mu je naredio da gradi lađu dok su mu se ljudi rugali. Vjernici i parovi životinja spašeni su od potopa, a lađa se zaustavila na brdu Džudi."
+      }
+    }
+  ],
+  "practiceId": "prophets-adam-nuh-p",
+  "testIds": ["prophets-adam-nuh-1", "prophets-adam-nuh-2", "prophets-adam-nuh-3", "prophets-adam-nuh-4"],
+  "explanation": {
+    "en": "Adam teaches repentance and humility; Nuh teaches patience and obedience when others mock.",
+    "de": "Adam lehrt Reue und Demut; Nuh lehrt Geduld und Gehorsam, wenn andere spotten.",
+    "bs": "Adem uči pokajanju i skromnosti; Nuh uči strpljenju i pokornosti kada se drugi rugaju."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "2:30–38; 7:11–25" },
+    { "sourceName": "Quran", "sourceReference": "11:25–44; 29:14" }
+  ],
+  "questions": [
+    {
+      "id": "prophets-adam-nuh-p",
+      "type": "imageChoice",
+      "areaId": "prophets",
+      "topic": "nuh",
+      "prompt": { "en": "What did Nuh build by Allah's command?", "de": "Was baute Nuh auf Allahs Befehl?", "bs": "Šta je Nuh napravio po Allahovoj naredbi?" },
+      "options": [
+        { "id": "ark", "element": "ark", "label": { "en": "An ark", "de": "Eine Arche", "bs": "Lađu" } },
+        { "id": "mosque", "element": "mosque", "label": { "en": "A mosque", "de": "Eine Moschee", "bs": "Džamiju" } },
+        { "id": "well", "element": "well", "label": { "en": "A well", "de": "Einen Brunnen", "bs": "Bunar" } }
+      ],
+      "correctOptionId": "ark",
+      "explanation": { "en": "Quran 11:37 – build the ark under Our eyes.", "de": "Koran 11:37 – baue die Arche unter Unseren Augen.", "bs": "Kur'an 11:37 – gradi lađu pred Našim očima." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:37" }]
+    },
+    {
+      "id": "prophets-adam-nuh-1",
+      "type": "multipleChoice",
+      "areaId": "prophets",
+      "topic": "adam",
+      "prompt": { "en": "Why did Iblis refuse to prostrate to Adam?", "de": "Warum weigerte sich Iblis, sich vor Adam niederzuwerfen?", "bs": "Zašto je Iblis odbio pokloniti se Ademu?" },
+      "options": [
+        { "id": "a", "text": { "en": "Out of arrogance – he thought he was better", "de": "Aus Hochmut – er hielt sich für besser", "bs": "Iz oholosti – mislio je da je bolji" } },
+        { "id": "b", "text": { "en": "He did not hear the command", "de": "Er hörte den Befehl nicht", "bs": "Nije čuo naredbu" } },
+        { "id": "c", "text": { "en": "He was asleep", "de": "Er schlief", "bs": "Spavao je" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "Iblis said he was better than Adam – arrogance was his downfall.", "de": "Iblis sagte, er sei besser als Adam – Hochmut war sein Verderben.", "bs": "Iblis je rekao da je bolji od Adema – oholost ga je upropastila." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "7:12" }]
+    },
+    {
+      "id": "prophets-adam-nuh-2",
+      "type": "trueFalse",
+      "areaId": "prophets",
+      "topic": "adam",
+      "prompt": { "en": "Allah accepted the repentance of Adam.", "de": "Allah nahm die Reue Adams an.", "bs": "Allah je primio Ademovo pokajanje." },
+      "correct": true,
+      "explanation": { "en": "Quran 2:37 – He is the Accepter of repentance, the Most Merciful.", "de": "Koran 2:37 – Er ist der Reue-Annehmende, der Barmherzige.", "bs": "Kur'an 2:37 – On prima pokajanje i Milostiv je." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:37" }]
+    },
+    {
+      "id": "prophets-adam-nuh-3",
+      "type": "fillBlank",
+      "areaId": "prophets",
+      "topic": "nuh",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Nuh stayed among his people for ___ years.", "de": "Nuh blieb ___ Jahre unter seinem Volk.", "bs": "Nuh je u svom narodu boravio ___ godina." },
+      "options": [
+        { "id": "a", "text": { "en": "950", "de": "950", "bs": "950" } },
+        { "id": "b", "text": { "en": "40", "de": "40", "bs": "40" } },
+        { "id": "c", "text": { "en": "10", "de": "10", "bs": "10" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "\"A thousand years minus fifty\" – Quran 29:14.", "de": "„Tausend Jahre weniger fünfzig“ – Koran 29:14.", "bs": "„Hiljadu godina manje pedeset“ – Kur'an 29:14." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "29:14" }]
+    },
+    {
+      "id": "prophets-adam-nuh-4",
+      "type": "ordering",
+      "areaId": "prophets",
+      "topic": "nuh",
+      "prompt": { "en": "Put the story of Nuh in order.", "de": "Bringe die Geschichte Nuhs in die richtige Reihenfolge.", "bs": "Poredaj kazivanje o Nuhu." },
+      "items": [
+        { "id": "call", "text": { "en": "Nuh calls his people", "de": "Nuh ruft sein Volk auf", "bs": "Nuh poziva svoj narod" } },
+        { "id": "build", "text": { "en": "He builds the ark", "de": "Er baut die Arche", "bs": "Gradi lađu" } },
+        { "id": "flood", "text": { "en": "The flood comes", "de": "Die Flut kommt", "bs": "Dolazi potop" } },
+        { "id": "judi", "text": { "en": "The ark rests on Mount Judi", "de": "Die Arche ruht auf dem Dschudi", "bs": "Lađa se zaustavlja na Džudiju" } }
+      ],
+      "explanation": { "en": "Calling, building, flood, Judi.", "de": "Aufruf, Bau, Flut, Dschudi.", "bs": "Pozivanje, gradnja, potop, Džudi." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "11:25–44" }]
+    }
+  ]
+}

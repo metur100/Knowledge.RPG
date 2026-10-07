@@ -1,0 +1,119 @@
+{
+  "id": "salah-wudu",
+  "areaId": "salah",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "Wudu and the Qibla", "de": "Wudu und die Qibla", "bs": "Abdest i kibla" },
+  "description": { "en": "Getting ready for prayer and facing the Kaaba.", "de": "Sich auf das Gebet vorbereiten und sich zur Kaaba wenden.", "bs": "Priprema za namaz i okretanje prema Kabi." },
+  "lesson": [
+    {
+      "heading": { "en": "Wudu", "de": "Wudu", "bs": "Abdest" },
+      "body": {
+        "en": "Before Salah we make wudu. The Quran (5:6) names washing the face, washing the arms to the elbows, wiping the head and washing the feet to the ankles. From the Sunnah we also wash the hands at the start and rinse the mouth and nose.",
+        "de": "Vor dem Gebet machen wir Wudu. Der Koran (5:6) nennt das Waschen des Gesichts, das Waschen der Arme bis zu den Ellenbogen, das Bestreichen des Kopfes und das Waschen der Füße bis zu den Knöcheln. Aus der Sunna waschen wir außerdem zu Beginn die Hände und spülen Mund und Nase.",
+        "bs": "Prije namaza uzimamo abdest. Kur'an (5:6) spominje pranje lica, pranje ruku do iza laktova, potiranje glave i pranje nogu do iza članaka. Iz sunneta također na početku peremo šake i ispiramo usta i nos."
+      },
+      "arabic": "وُضُوء",
+      "transliteration": "wuḍūʾ"
+    },
+    {
+      "heading": { "en": "The Qibla", "de": "Die Qibla", "bs": "Kibla" },
+      "body": {
+        "en": "Muslims face the Kaaba in Makkah when they pray. In the early years in Madinah they faced Bayt al-Maqdis in Jerusalem, until Allah changed the Qibla to the Kaaba.",
+        "de": "Muslime richten sich beim Gebet zur Kaaba in Mekka aus. In den ersten Jahren in Medina wandten sie sich nach Bait al-Maqdis in Jerusalem, bis Allah die Qibla zur Kaaba änderte.",
+        "bs": "Muslimani se u namazu okreću prema Kabi u Mekki. U prvim godinama u Medini okretali su se prema Bejtul-Makdisu u Jerusalemu, dok Allah nije promijenio kiblu prema Kabi."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "The schools of Islamic law agree on the parts named in the Quran but differ on some details of wudu (for example which steps are obligatory). Learn the details from a trusted teacher.",
+    "de": "Die Rechtsschulen sind sich über die im Koran genannten Teile einig, unterscheiden sich aber in manchen Details des Wudu (zum Beispiel, welche Schritte Pflicht sind). Lerne die Details von einer vertrauten Lehrperson.",
+    "bs": "Pravne škole se slažu oko dijelova spomenutih u Kur'anu, ali se razlikuju u nekim detaljima abdesta (npr. koji su koraci farz). Detalje nauči od učitelja kojem vjeruješ."
+  },
+  "practiceId": "salah-wudu-p",
+  "testIds": ["salah-wudu-1", "salah-wudu-2", "salah-wudu-3", "salah-wudu-4"],
+  "explanation": {
+    "en": "Wudu prepares body and heart for prayer, and the Qibla unites Muslims everywhere in one direction.",
+    "de": "Wudu bereitet Körper und Herz auf das Gebet vor, und die Qibla vereint Muslime überall in einer Richtung.",
+    "bs": "Abdest priprema tijelo i srce za namaz, a kibla ujedinjuje muslimane svugdje u jednom smjeru."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "5:6" },
+    { "sourceName": "Quran", "sourceReference": "2:142–144" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "40" }
+  ],
+  "questions": [
+    {
+      "id": "salah-wudu-p",
+      "type": "trueFalse",
+      "areaId": "salah",
+      "topic": "wudu",
+      "prompt": { "en": "In wudu, the feet are washed up to the ankles.", "de": "Beim Wudu werden die Füße bis zu den Knöcheln gewaschen.", "bs": "U abdestu se noge peru do članaka." },
+      "correct": true,
+      "explanation": { "en": "Yes – as mentioned in Quran 5:6.", "de": "Ja – wie in Koran 5:6 erwähnt.", "bs": "Da – kako se spominje u Kur'anu 5:6." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-wudu-1",
+      "type": "ordering",
+      "areaId": "salah",
+      "topic": "wudu",
+      "prompt": { "en": "Put these wudu steps in a common order.", "de": "Bringe diese Wudu-Schritte in eine übliche Reihenfolge.", "bs": "Poredaj ove korake abdesta uobičajenim redom." },
+      "items": [
+        { "id": "hands", "text": { "en": "Wash the hands", "de": "Hände waschen", "bs": "Oprati šake" } },
+        { "id": "mouth", "text": { "en": "Rinse the mouth", "de": "Mund ausspülen", "bs": "Isprati usta" } },
+        { "id": "face", "text": { "en": "Wash the face", "de": "Gesicht waschen", "bs": "Oprati lice" } },
+        { "id": "arms", "text": { "en": "Wash the arms", "de": "Arme waschen", "bs": "Oprati ruke" } },
+        { "id": "head", "text": { "en": "Wipe the head", "de": "Kopf bestreichen", "bs": "Potrti glavu" } },
+        { "id": "feet", "text": { "en": "Wash the feet", "de": "Füße waschen", "bs": "Oprati noge" } }
+      ],
+      "explanation": { "en": "Hands, mouth, face, arms, head, feet.", "de": "Hände, Mund, Gesicht, Arme, Kopf, Füße.", "bs": "Šake, usta, lice, ruke, glava, noge." }
+    },
+    {
+      "id": "salah-wudu-2",
+      "type": "categorize",
+      "areaId": "salah",
+      "topic": "wudu",
+      "prompt": { "en": "Which wudu steps are named in Quran 5:6, and which come from the Sunnah?", "de": "Welche Wudu-Schritte nennt Koran 5:6, welche stammen aus der Sunna?", "bs": "Koji su koraci abdesta spomenuti u Kur'anu 5:6, a koji su iz sunneta?" },
+      "categories": [
+        { "id": "quran", "label": { "en": "Named in 5:6", "de": "In 5:6 genannt", "bs": "Spomenuto u 5:6" } },
+        { "id": "sunnah", "label": { "en": "From the Sunnah", "de": "Aus der Sunna", "bs": "Iz sunneta" } }
+      ],
+      "items": [
+        { "id": "face", "text": { "en": "Washing the face", "de": "Gesicht waschen", "bs": "Pranje lica" }, "categoryId": "quran" },
+        { "id": "arms", "text": { "en": "Arms to the elbows", "de": "Arme bis zu den Ellenbogen", "bs": "Ruke do laktova" }, "categoryId": "quran" },
+        { "id": "head", "text": { "en": "Wiping the head", "de": "Kopf bestreichen", "bs": "Potiranje glave" }, "categoryId": "quran" },
+        { "id": "mouth", "text": { "en": "Rinsing the mouth", "de": "Mund ausspülen", "bs": "Ispiranje usta" }, "categoryId": "sunnah" },
+        { "id": "nose", "text": { "en": "Rinsing the nose", "de": "Nase ausspülen", "bs": "Ispiranje nosa" }, "categoryId": "sunnah" }
+      ],
+      "explanation": { "en": "Quran 5:6 names the face, arms, head and feet; rinsing the mouth and nose is taught in the Sunnah.", "de": "Koran 5:6 nennt Gesicht, Arme, Kopf und Füße; Mund- und Nasenspülen lehrt die Sunna.", "bs": "Kur'an 5:6 spominje lice, ruke, glavu i noge; ispiranje usta i nosa uči sunnet." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "5:6" }]
+    },
+    {
+      "id": "salah-wudu-3",
+      "type": "imageChoice",
+      "areaId": "salah",
+      "topic": "qibla",
+      "prompt": { "en": "Which building do Muslims face in prayer?", "de": "Zu welchem Bauwerk wenden sich Muslime im Gebet?", "bs": "Prema kojoj se građevini muslimani okreću u namazu?" },
+      "options": [
+        { "id": "kaaba", "element": "kaaba", "label": { "en": "The Kaaba", "de": "Die Kaaba", "bs": "Kaba" } },
+        { "id": "ark", "element": "ark", "label": { "en": "A ship", "de": "Ein Schiff", "bs": "Lađa" } },
+        { "id": "well", "element": "well", "label": { "en": "A well", "de": "Ein Brunnen", "bs": "Bunar" } },
+        { "id": "city", "element": "city", "label": { "en": "A town", "de": "Eine Stadt", "bs": "Grad" } }
+      ],
+      "correctOptionId": "kaaba",
+      "explanation": { "en": "The Qibla is the direction of the Kaaba in Makkah.", "de": "Die Qibla ist die Richtung der Kaaba in Mekka.", "bs": "Kibla je smjer Kabe u Mekki." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "2:144" }]
+    },
+    {
+      "id": "salah-wudu-4",
+      "type": "trueFalse",
+      "areaId": "salah",
+      "topic": "qibla",
+      "prompt": { "en": "Before the Kaaba, Muslims prayed towards Bayt al-Maqdis in Jerusalem.", "de": "Vor der Kaaba beteten Muslime in Richtung Bait al-Maqdis in Jerusalem.", "bs": "Prije Kabe muslimani su klanjali prema Bejtul-Makdisu u Jerusalemu." },
+      "correct": true,
+      "explanation": { "en": "True – then the Qibla was changed to the Kaaba.", "de": "Richtig – dann wurde die Qibla zur Kaaba geändert.", "bs": "Tačno – zatim je kibla promijenjena prema Kabi." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "40" }]
+    }
+  ]
+}

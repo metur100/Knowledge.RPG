@@ -1,0 +1,115 @@
+{
+  "id": "seerah-madinah",
+  "areaId": "seerah",
+  "order": 3,
+  "difficulty": 2,
+  "title": { "en": "The Hijra and Madinah", "de": "Die Hidschra und Medina", "bs": "Hidžra i Medina" },
+  "description": { "en": "A new home, a new community and the final years.", "de": "Eine neue Heimat, eine neue Gemeinschaft und die letzten Jahre.", "bs": "Novi dom, nova zajednica i posljednje godine." },
+  "lesson": [
+    {
+      "heading": { "en": "The Hijra", "de": "Die Hidschra", "bs": "Hidžra" },
+      "body": {
+        "en": "In 622 CE the Prophet ﷺ migrated from Makkah to Madinah with Abu Bakr. Hiding in a cave on the way, he told his companion not to grieve, for Allah was with them. The Islamic (Hijri) calendar counts its years from this migration.",
+        "de": "Im Jahr 622 n. Chr. wanderte der Prophet ﷺ mit Abu Bakr von Mekka nach Medina aus. Als sie sich unterwegs in einer Höhle versteckten, sagte er zu seinem Gefährten, er solle nicht traurig sein, denn Allah sei mit ihnen. Der islamische (Hidschri-)Kalender zählt seine Jahre ab dieser Auswanderung.",
+        "bs": "Godine 622. Poslanik ﷺ je s Ebu Bekrom preselio iz Mekke u Medinu. Dok su se na putu skrivali u pećini, rekao je svom drugu da ne tuguje, jer je Allah s njima. Islamski (hidžretski) kalendar broji godine od tog preseljenja."
+      }
+    },
+    {
+      "heading": { "en": "A new community", "de": "Eine neue Gemeinschaft", "bs": "Nova zajednica" },
+      "body": {
+        "en": "Near Madinah the mosque of Quba was built, and in Madinah the Prophet's Mosque. The emigrants from Makkah (Muhajirun) and the people of Madinah who welcomed them (Ansar) became like brothers and sisters.",
+        "de": "Bei Medina wurde die Moschee von Quba gebaut und in Medina die Moschee des Propheten. Die Auswanderer aus Mekka (Muhadschirun) und die Bewohner Medinas, die sie aufnahmen (Ansar), wurden wie Geschwister.",
+        "bs": "Kod Medine je sagrađena džamija u Kubau, a u Medini Poslanikova džamija. Muhadžiri iz Mekke i stanovnici Medine koji su ih dočekali (ensarije) postali su kao braća i sestre."
+      }
+    },
+    {
+      "heading": { "en": "The final years", "de": "Die letzten Jahre", "bs": "Posljednje godine" },
+      "body": {
+        "en": "In 10 AH the Prophet ﷺ performed the Farewell Pilgrimage. He passed away in Madinah in 11 AH (632 CE). The Quran calls him the Seal of the Prophets.",
+        "de": "Im Jahr 10 n. H. vollzog der Prophet ﷺ die Abschiedspilgerfahrt. Er starb im Jahr 11 n. H. (632 n. Chr.) in Medina. Der Koran nennt ihn das Siegel der Propheten.",
+        "bs": "Godine 10. po Hidžri Poslanik ﷺ je obavio Oprosni hadždž. Preselio je na ahiret u Medini 11. godine po Hidžri (632.). Kur'an ga naziva pečatom vjerovjesnika."
+      }
+    }
+  ],
+  "practiceId": "seerah-madinah-p",
+  "testIds": ["seerah-madinah-1", "seerah-madinah-2", "seerah-madinah-3", "seerah-madinah-4"],
+  "explanation": {
+    "en": "The Hijra was the turning point that created the first Muslim community – built on faith, brotherhood and trust in Allah.",
+    "de": "Die Hidschra war der Wendepunkt, der die erste muslimische Gemeinschaft schuf – gebaut auf Glauben, Brüderlichkeit und Vertrauen auf Allah.",
+    "bs": "Hidžra je bila prekretnica koja je stvorila prvu muslimansku zajednicu – izgrađenu na vjeri, bratstvu i oslanjanju na Allaha."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "9:40; 33:40" },
+    { "sourceName": "Sahih al-Bukhari", "sourceReference": "3934" },
+    { "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "seerah-madinah-p",
+      "type": "trueFalse",
+      "areaId": "seerah",
+      "topic": "seerah-madinah",
+      "prompt": { "en": "The Islamic calendar counts its years from the Hijra.", "de": "Der islamische Kalender zählt seine Jahre ab der Hidschra.", "bs": "Islamski kalendar broji godine od Hidžre." },
+      "correct": true,
+      "explanation": { "en": "Yes – the companions chose the Hijra as the start of the calendar.", "de": "Ja – die Gefährten wählten die Hidschra als Beginn des Kalenders.", "bs": "Da – ashabi su Hidžru odabrali kao početak kalendara." },
+      "sources": [{ "sourceName": "Sahih al-Bukhari", "sourceReference": "3934" }]
+    },
+    {
+      "id": "seerah-madinah-1",
+      "type": "matching",
+      "areaId": "seerah",
+      "topic": "seerah-madinah",
+      "prompt": { "en": "Match each term with its meaning.", "de": "Ordne jedem Begriff seine Bedeutung zu.", "bs": "Spoji svaki pojam s njegovim značenjem." },
+      "pairs": [
+        { "id": "muhajirun", "left": { "en": "Muhajirun", "de": "Muhadschirun", "bs": "Muhadžiri" }, "right": { "en": "Emigrants from Makkah", "de": "Auswanderer aus Mekka", "bs": "Iseljenici iz Mekke" } },
+        { "id": "ansar", "left": { "en": "Ansar", "de": "Ansar", "bs": "Ensarije" }, "right": { "en": "Helpers of Madinah", "de": "Helfer aus Medina", "bs": "Pomagači iz Medine" } },
+        { "id": "hijra", "left": { "en": "Hijra", "de": "Hidschra", "bs": "Hidžra" }, "right": { "en": "The migration", "de": "Die Auswanderung", "bs": "Preseljenje" } },
+        { "id": "quba", "left": { "en": "Quba", "de": "Quba", "bs": "Kuba" }, "right": { "en": "Mosque near Madinah", "de": "Moschee bei Medina", "bs": "Džamija kod Medine" } }
+      ],
+      "explanation": { "en": "Muhajirun emigrated, Ansar helped, Hijra is the migration and Quba is the mosque near Madinah.", "de": "Muhadschirun wanderten aus, Ansar halfen, Hidschra ist die Auswanderung und Quba die Moschee bei Medina.", "bs": "Muhadžiri su iselili, ensarije pomogli, hidžra je preseljenje, a Kuba džamija kod Medine." }
+    },
+    {
+      "id": "seerah-madinah-2",
+      "type": "multipleChoice",
+      "areaId": "seerah",
+      "topic": "seerah-madinah",
+      "prompt": { "en": "In which year CE did the Hijra take place?", "de": "In welchem Jahr n. Chr. fand die Hidschra statt?", "bs": "Koje godine se dogodila Hidžra?" },
+      "options": [
+        { "id": "a", "text": { "en": "622", "de": "622", "bs": "622." } },
+        { "id": "b", "text": { "en": "570", "de": "570", "bs": "570." } },
+        { "id": "c", "text": { "en": "700", "de": "700", "bs": "700." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The Hijra took place in 622 CE – year 1 of the Hijri calendar.", "de": "Die Hidschra fand 622 n. Chr. statt – Jahr 1 des Hidschri-Kalenders.", "bs": "Hidžra je bila 622. godine – prva godina hidžretskog kalendara." }
+    },
+    {
+      "id": "seerah-madinah-3",
+      "type": "ordering",
+      "areaId": "seerah",
+      "topic": "seerah-madinah",
+      "prompt": { "en": "Put these events in order.", "de": "Bringe diese Ereignisse in die richtige Reihenfolge.", "bs": "Poredaj ove događaje." },
+      "items": [
+        { "id": "hira", "text": { "en": "First revelation in Hira", "de": "Erste Offenbarung in Hira", "bs": "Prva objava u Hiri" } },
+        { "id": "hijra", "text": { "en": "Hijra to Madinah", "de": "Hidschra nach Medina", "bs": "Hidžra u Medinu" } },
+        { "id": "masjid", "text": { "en": "The Prophet's Mosque is built", "de": "Die Prophetenmoschee wird gebaut", "bs": "Gradi se Poslanikova džamija" } },
+        { "id": "farewell", "text": { "en": "The Farewell Pilgrimage", "de": "Die Abschiedspilgerfahrt", "bs": "Oprosni hadždž" } }
+      ],
+      "explanation": { "en": "Revelation, Hijra, the mosque in Madinah, then the Farewell Pilgrimage.", "de": "Offenbarung, Hidschra, die Moschee in Medina, dann die Abschiedspilgerfahrt.", "bs": "Objava, Hidžra, džamija u Medini, zatim Oprosni hadždž." }
+    },
+    {
+      "id": "seerah-madinah-4",
+      "type": "scenario",
+      "areaId": "seerah",
+      "topic": "seerah-madinah",
+      "prompt": { "en": "A new family moves into your street from another country. What would the example of the Ansar teach you?", "de": "Eine neue Familie aus einem anderen Land zieht in deine Straße. Was lehrt dich das Beispiel der Ansar?", "bs": "Nova porodica iz druge zemlje doseli se u tvoju ulicu. Čemu te uči primjer ensarija?" },
+      "options": [
+        { "id": "a", "text": { "en": "Welcome them and offer help", "de": "Sie willkommen heißen und Hilfe anbieten", "bs": "Dočekati ih i ponuditi pomoć" }, "feedback": { "en": "That is the spirit of the Ansar.", "de": "Das ist der Geist der Ansar.", "bs": "To je duh ensarija." } },
+        { "id": "b", "text": { "en": "Ignore them", "de": "Sie ignorieren", "bs": "Ignorisati ih" }, "feedback": { "en": "The Ansar did the opposite.", "de": "Die Ansar taten das Gegenteil.", "bs": "Ensarije su uradile suprotno." } },
+        { "id": "c", "text": { "en": "Make fun of their language", "de": "Sich über ihre Sprache lustig machen", "bs": "Rugati se njihovom jeziku" }, "feedback": { "en": "Mocking others is forbidden.", "de": "Spott ist verboten.", "bs": "Ruganje je zabranjeno." } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "The Ansar shared their homes and lives with the emigrants – a model of generosity.", "de": "Die Ansar teilten ihr Zuhause und Leben mit den Auswanderern – ein Vorbild an Großzügigkeit.", "bs": "Ensarije su s muhadžirima dijelile domove i život – uzor darežljivosti." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "59:9" }]
+    }
+  ]
+}

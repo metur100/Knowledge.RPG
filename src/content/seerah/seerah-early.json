@@ -1,0 +1,111 @@
+{
+  "id": "seerah-early",
+  "areaId": "seerah",
+  "order": 1,
+  "difficulty": 1,
+  "title": { "en": "Early Life in Makkah", "de": "Frühes Leben in Mekka", "bs": "Rani život u Mekki" },
+  "description": { "en": "An orphan who became known as Al-Amin.", "de": "Ein Waisenkind, das als Al-Amin bekannt wurde.", "bs": "Siroče koje je postalo poznato kao El-Emin." },
+  "lesson": [
+    {
+      "body": {
+        "en": "Muhammad ﷺ was born in Makkah in the \"Year of the Elephant\". His father Abdullah died before he was born, and his mother Aminah died when he was about six. His grandfather Abd al-Muttalib cared for him, and after his death his uncle Abu Talib. The Quran says: \"Did He not find you an orphan and give you shelter?\"",
+        "de": "Muhammad ﷺ wurde im „Jahr des Elefanten“ in Mekka geboren. Sein Vater Abdullah starb vor seiner Geburt, seine Mutter Amina, als er etwa sechs Jahre alt war. Sein Großvater Abd al-Muttalib sorgte für ihn und nach dessen Tod sein Onkel Abu Talib. Der Koran sagt: „Hat Er dich nicht als Waise gefunden und dir Zuflucht gegeben?“",
+        "bs": "Muhammed ﷺ rođen je u Mekki u „Godini slona“. Otac Abdullah umro mu je prije rođenja, a majka Amina kada je imao oko šest godina. O njemu se brinuo djed Abdul-Muttalib, a nakon njegove smrti amidža Ebu Talib. Kur'an kaže: „Zar te nije siročetom našao, pa ti utočište dao?“"
+      }
+    },
+    {
+      "heading": { "en": "Al-Amin", "de": "Al-Amin", "bs": "El-Emin" },
+      "body": {
+        "en": "As a young man he worked as a shepherd and later as a trader. He was so honest that the people of Makkah called him Al-Amin – the trustworthy one. He married Khadijah, a respected businesswoman of Makkah.",
+        "de": "Als junger Mann arbeitete er als Hirte und später als Händler. Er war so ehrlich, dass die Menschen in Mekka ihn Al-Amin nannten – den Vertrauenswürdigen. Er heiratete Khadidscha, eine angesehene Geschäftsfrau aus Mekka.",
+        "bs": "Kao mladić radio je kao pastir, a kasnije kao trgovac. Bio je toliko pošten da su ga stanovnici Mekke zvali El-Emin – povjerljivi. Oženio se Hadidžom, uglednom poslovnom ženom iz Mekke."
+      }
+    }
+  ],
+  "differenceNote": {
+    "en": "The Year of the Elephant is commonly dated to around 570 CE; historians give slightly different years.",
+    "de": "Das Jahr des Elefanten wird meist auf etwa 570 n. Chr. datiert; Historiker nennen leicht unterschiedliche Jahre.",
+    "bs": "Godina slona najčešće se datira oko 570. godine; historičari navode malo drukčije godine."
+  },
+  "practiceId": "seerah-early-p",
+  "testIds": ["seerah-early-1", "seerah-early-2", "seerah-early-3", "seerah-early-4"],
+  "explanation": {
+    "en": "The Prophet ﷺ grew up facing loss, yet became known for honesty long before revelation – character matters.",
+    "de": "Der Prophet ﷺ wuchs mit Verlusten auf und wurde doch lange vor der Offenbarung für seine Ehrlichkeit bekannt – Charakter zählt.",
+    "bs": "Poslanik ﷺ je odrastao uz gubitke, a ipak je davno prije objave bio poznat po poštenju – karakter je važan."
+  },
+  "sources": [
+    { "sourceName": "Quran", "sourceReference": "93:6" },
+    { "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }
+  ],
+  "questions": [
+    {
+      "id": "seerah-early-p",
+      "type": "trueFalse",
+      "areaId": "seerah",
+      "topic": "seerah-early",
+      "prompt": { "en": "The Prophet ﷺ grew up as an orphan.", "de": "Der Prophet ﷺ wuchs als Waise auf.", "bs": "Poslanik ﷺ je odrastao kao siroče." },
+      "correct": true,
+      "explanation": { "en": "Yes – Quran 93:6 mentions that Allah found him an orphan and gave him shelter.", "de": "Ja – Koran 93:6 erwähnt, dass Allah ihn als Waise fand und ihm Zuflucht gab.", "bs": "Da – Kur'an 93:6 spominje da ga je Allah našao siročetom i dao mu utočište." },
+      "sources": [{ "sourceName": "Quran", "sourceReference": "93:6" }]
+    },
+    {
+      "id": "seerah-early-1",
+      "type": "multipleChoice",
+      "areaId": "seerah",
+      "topic": "seerah-early",
+      "prompt": { "en": "Who cared for him after his grandfather died?", "de": "Wer sorgte für ihn nach dem Tod seines Großvaters?", "bs": "Ko se brinuo o njemu nakon djedove smrti?" },
+      "options": [
+        { "id": "a", "text": { "en": "His uncle Abu Talib", "de": "Sein Onkel Abu Talib", "bs": "Amidža Ebu Talib" } },
+        { "id": "b", "text": { "en": "Abu Lahab", "de": "Abu Lahab", "bs": "Ebu Leheb" } },
+        { "id": "c", "text": { "en": "Nobody", "de": "Niemand", "bs": "Niko" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "His uncle Abu Talib raised and protected him.", "de": "Sein Onkel Abu Talib zog ihn auf und beschützte ihn.", "bs": "Amidža Ebu Talib ga je odgojio i štitio." },
+      "sources": [{ "sourceName": "Ibn Hisham, As-Sirah an-Nabawiyyah", "sourceReference": "—" }]
+    },
+    {
+      "id": "seerah-early-2",
+      "type": "matching",
+      "areaId": "seerah",
+      "topic": "seerah-early",
+      "prompt": { "en": "Match each person with their relationship to the Prophet ﷺ.", "de": "Ordne jeder Person ihre Beziehung zum Propheten ﷺ zu.", "bs": "Spoji svaku osobu s njenim odnosom prema Poslaniku ﷺ." },
+      "pairs": [
+        { "id": "aminah", "left": { "en": "Aminah", "de": "Amina", "bs": "Amina" }, "right": { "en": "His mother", "de": "Seine Mutter", "bs": "Majka" } },
+        { "id": "abdmuttalib", "left": { "en": "Abd al-Muttalib", "de": "Abd al-Muttalib", "bs": "Abdul-Muttalib" }, "right": { "en": "His grandfather", "de": "Sein Großvater", "bs": "Djed" } },
+        { "id": "abutalib", "left": { "en": "Abu Talib", "de": "Abu Talib", "bs": "Ebu Talib" }, "right": { "en": "His uncle", "de": "Sein Onkel", "bs": "Amidža" } },
+        { "id": "khadijah", "left": { "en": "Khadijah", "de": "Khadidscha", "bs": "Hadidža" }, "right": { "en": "His wife", "de": "Seine Frau", "bs": "Supruga" } }
+      ],
+      "explanation": { "en": "Aminah – mother, Abd al-Muttalib – grandfather, Abu Talib – uncle, Khadijah – wife.", "de": "Amina – Mutter, Abd al-Muttalib – Großvater, Abu Talib – Onkel, Khadidscha – Ehefrau.", "bs": "Amina – majka, Abdul-Muttalib – djed, Ebu Talib – amidža, Hadidža – supruga." }
+    },
+    {
+      "id": "seerah-early-3",
+      "type": "fillBlank",
+      "areaId": "seerah",
+      "topic": "seerah-early",
+      "prompt": { "en": "Fill in the blank.", "de": "Fülle die Lücke.", "bs": "Popuni prazninu." },
+      "sentence": { "en": "Al-Amin means \"the ___ one\".", "de": "Al-Amin bedeutet „der ___“.", "bs": "El-Emin znači „___“." },
+      "options": [
+        { "id": "a", "text": { "en": "trustworthy", "de": "Vertrauenswürdige", "bs": "povjerljivi" } },
+        { "id": "b", "text": { "en": "rich", "de": "Reiche", "bs": "bogati" } },
+        { "id": "c", "text": { "en": "strongest", "de": "Stärkste", "bs": "najjači" } }
+      ],
+      "correctOptionId": "a",
+      "explanation": { "en": "His people trusted him completely because of his honesty.", "de": "Sein Volk vertraute ihm wegen seiner Ehrlichkeit vollkommen.", "bs": "Njegov narod mu je potpuno vjerovao zbog njegovog poštenja." }
+    },
+    {
+      "id": "seerah-early-4",
+      "type": "ordering",
+      "areaId": "seerah",
+      "topic": "seerah-early",
+      "prompt": { "en": "Put these events in order.", "de": "Bringe diese Ereignisse in die richtige Reihenfolge.", "bs": "Poredaj ove događaje." },
+      "items": [
+        { "id": "born", "text": { "en": "Born in Makkah", "de": "Geboren in Mekka", "bs": "Rođen u Mekki" } },
+        { "id": "mother", "text": { "en": "His mother Aminah dies", "de": "Seine Mutter Amina stirbt", "bs": "Umire majka Amina" } },
+        { "id": "uncle", "text": { "en": "Raised by his uncle Abu Talib", "de": "Bei seinem Onkel Abu Talib aufgewachsen", "bs": "Odgaja ga amidža Ebu Talib" } },
+        { "id": "khadijah", "text": { "en": "Marries Khadijah", "de": "Heiratet Khadidscha", "bs": "Ženi se Hadidžom" } }
+      ],
+      "explanation": { "en": "Birth, the loss of his mother, life with his uncle, then marriage to Khadijah.", "de": "Geburt, der Verlust der Mutter, das Leben beim Onkel, dann die Ehe mit Khadidscha.", "bs": "Rođenje, gubitak majke, život kod amidže, zatim brak s Hadidžom." }
+    }
+  ]
+}

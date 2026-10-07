@@ -1,0 +1,82 @@
+[
+  {
+    "id": "salah",
+    "order": 1,
+    "name": { "en": "Salah Valley", "de": "Tal des Gebets", "bs": "Dolina namaza" },
+    "statName": { "en": "Salah", "de": "Gebet", "bs": "Namaz" },
+    "description": { "en": "The five daily prayers, wudu and the Qibla.", "de": "Die fünf täglichen Gebete, Wudu und die Qibla.", "bs": "Pet dnevnih namaza, abdest i kibla." },
+    "scene": { "sky": "dawn", "elements": ["stars", "crescent", "hills", "mosque"] },
+    "map": { "x": 18, "y": 80 },
+    "unlock": null
+  },
+  {
+    "id": "quran",
+    "order": 2,
+    "name": { "en": "Quran Library", "de": "Koran-Bibliothek", "bs": "Biblioteka Kur'ana" },
+    "statName": { "en": "Quran", "de": "Koran", "bs": "Kur'an" },
+    "description": { "en": "Revelation, surahs, ayahs and how we honour the Book.", "de": "Offenbarung, Suren, Verse und wie wir das Buch ehren.", "bs": "Objava, sure, ajeti i kako poštujemo Knjigu." },
+    "scene": { "sky": "night", "elements": ["stars", "crescent", "book", "lanterns"] },
+    "map": { "x": 44, "y": 70 },
+    "unlock": { "areaId": "salah", "unitsCompleted": 2 }
+  },
+  {
+    "id": "seerah",
+    "order": 3,
+    "name": { "en": "Seerah City", "de": "Stadt der Sira", "bs": "Grad sire" },
+    "statName": { "en": "Seerah", "de": "Sira", "bs": "Sira" },
+    "description": { "en": "The life of Prophet Muhammad ﷺ from Makkah to Madinah.", "de": "Das Leben des Propheten Muhammad ﷺ von Mekka bis Medina.", "bs": "Život Poslanika Muhammeda ﷺ od Mekke do Medine." },
+    "scene": { "sky": "sunset", "elements": ["mountains", "city", "palms", "mosque"] },
+    "map": { "x": 72, "y": 78 },
+    "unlock": { "areaId": "quran", "unitsCompleted": 2 }
+  },
+  {
+    "id": "prophets",
+    "order": 4,
+    "name": { "en": "Prophet Mountains", "de": "Berge der Propheten", "bs": "Planine poslanika" },
+    "statName": { "en": "Prophets", "de": "Propheten", "bs": "Poslanici" },
+    "description": { "en": "Stories of the prophets from the Quran.", "de": "Geschichten der Propheten aus dem Koran.", "bs": "Kazivanja o poslanicima iz Kur'ana." },
+    "scene": { "sky": "dusk", "elements": ["stars", "mountains", "ark"] },
+    "map": { "x": 82, "y": 50 },
+    "unlock": { "areaId": "seerah", "unitsCompleted": 2 }
+  },
+  {
+    "id": "akhlaq",
+    "order": 5,
+    "name": { "en": "Akhlaq Garden", "de": "Garten des Charakters", "bs": "Bašča ahlaka" },
+    "statName": { "en": "Akhlaq", "de": "Charakter", "bs": "Ahlak" },
+    "description": { "en": "Patience, honesty, mercy and good manners.", "de": "Geduld, Ehrlichkeit, Barmherzigkeit und gutes Benehmen.", "bs": "Strpljenje, iskrenost, milost i lijepo ponašanje." },
+    "scene": { "sky": "day", "elements": ["sun", "garden", "tree", "river"] },
+    "map": { "x": 55, "y": 42 },
+    "unlock": { "areaId": "prophets", "unitsCompleted": 2 }
+  },
+  {
+    "id": "ramadan",
+    "order": 6,
+    "name": { "en": "Ramadan Desert", "de": "Ramadan-Wüste", "bs": "Ramazanska pustinja" },
+    "statName": { "en": "Ramadan", "de": "Ramadan", "bs": "Ramazan" },
+    "description": { "en": "Fasting, the nights of Ramadan, charity and Eid.", "de": "Fasten, die Nächte des Ramadan, Spenden und Eid.", "bs": "Post, ramazanske noći, sadaka i Bajram." },
+    "scene": { "sky": "dusk", "elements": ["stars", "crescent", "dunes", "lanterns"] },
+    "map": { "x": 26, "y": 45 },
+    "unlock": { "areaId": "akhlaq", "unitsCompleted": 2 }
+  },
+  {
+    "id": "history",
+    "order": 7,
+    "name": { "en": "History Kingdom", "de": "Königreich der Geschichte", "bs": "Kraljevstvo historije" },
+    "statName": { "en": "Islamic History", "de": "Islamische Geschichte", "bs": "Islamska historija" },
+    "description": { "en": "The caliphs, the preservation of knowledge and a golden age of learning.", "de": "Die Kalifen, die Bewahrung des Wissens und ein goldenes Zeitalter des Lernens.", "bs": "Halife, čuvanje znanja i zlatno doba učenja." },
+    "scene": { "sky": "day", "elements": ["clouds", "city", "pattern"] },
+    "map": { "x": 38, "y": 18 },
+    "unlock": { "areaId": "ramadan", "unitsCompleted": 2 }
+  },
+  {
+    "id": "arabic",
+    "order": 8,
+    "name": { "en": "Arabic Academy", "de": "Arabisch-Akademie", "bs": "Akademija arapskog" },
+    "statName": { "en": "Arabic", "de": "Arabisch", "bs": "Arapski" },
+    "description": { "en": "Letters, harakat and words for Islamic learning.", "de": "Buchstaben, Harakat und Wörter für das islamische Lernen.", "bs": "Harfovi, harekati i riječi za islamsko učenje." },
+    "scene": { "sky": "sunset", "elements": ["sun", "city", "book"] },
+    "map": { "x": 70, "y": 16 },
+    "unlock": { "areaId": "history", "unitsCompleted": 2 }
+  }
+]
