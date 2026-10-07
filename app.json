@@ -10,7 +10,10 @@
     "backgroundColor": "#14173A",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.certidevelopment.knowledgerpg"
+      "bundleIdentifier": "com.certidevelopment.knowledgerpg",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "package": "com.certidevelopment.knowledgerpg",
@@ -42,7 +45,8 @@
         "expo-audio",
         {
           "recordAudioAndroid": false,
-          "enableBackgroundPlayback": false
+          "enableBackgroundPlayback": false,
+          "microphonePermission": false
         }
       ],
       [
